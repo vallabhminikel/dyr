@@ -1,0 +1,6 @@
+cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
+PBS	11	VOE2	11	220.6	40.91	221	0	1
+ASO 6 100 µg	12	VOE2	11	249.5	43.84	271	0.23	0.0496
+ASO 6 300 µg	12	VOE2	12	258.2	78.19	272	0.23	0.0112
+ASO 6 500 µg	12	VOE2	11	302.8	34.43	314.5	0.42	2.26e-5
+PrP KO	12	VOE2	2	235.5	10.61	>413		1.72e-5

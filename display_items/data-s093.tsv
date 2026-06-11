@@ -1,0 +1,58 @@
+expt	animal	species	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+HH	HHA1	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-06-16	TRUE	TRUE	prion endpoint	included in all-cause	uninoculated (all genotypes)	233
+HH	HHA2	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-01-14	FALSE	TRUE	found dead	included in all-cause	uninoculated (all genotypes)	80
+HH	HHA3	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHA4	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHA5	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHB1	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHB2	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHB3	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHB4	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHC1	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-06-18	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	235
+HH	HHC2	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-06-11	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	228
+HH	HHC3	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-05-28	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	214
+HH	HHC4	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-06-18	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	235
+HH	HHD1	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-05-31	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	217
+HH	HHD2	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-06-02	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	219
+HH	HHD3	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-05-26	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	212
+HH	HHD4	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2020-10-26	FALSE	FALSE	found dead	within 24h of surgery	Tg26372 het (10 copies)	0
+HH	HHE1	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHE2	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHE3	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHE4	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHE5	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHF1	mouse	Tg26372 hom		none	2020-08-18	RES-03	2020-10-26	2021-07-21	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	268
+HH	HHF2	mouse	Tg26372 hom		none	2020-08-18	RES-03	2020-10-26	2021-05-03	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	189
+HH	HHF3	mouse	Tg26372 hom		none	2020-08-18	RES-03	2020-10-26	2021-05-17	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	203
+HH	HHF4	mouse	Tg26372 hom		none	2020-08-18	RES-03	2020-10-26	2021-05-12	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	198
+HH	HHG1	mouse	Tg26372 hom		none	2020-08-19	RES-03	2020-10-26	2021-05-03	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	189
+HH	HHG2	mouse	Tg26372 hom		none	2020-08-19	RES-03	2020-10-26	2021-05-19	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	205
+HH	HHG3	mouse	Tg26372 hom		none	2020-08-19	RES-03	2020-10-26	2021-05-19	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	205
+HH	HHG4	mouse	Tg26372 hom		none	2020-08-19	RES-03	2020-10-26	2021-05-11	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	197
+HH	HHH1	mouse	Tg26372 hom		none	2020-08-19	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHH2	mouse	Tg26372 hom		none	2020-08-19	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHH3	mouse	Tg26372 hom		none	2020-08-19	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHI1	mouse	Tg25109 het		none	2020-09-01	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHI2	mouse	Tg25109 het		none	2020-09-01	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHI3	mouse	Tg25109 het		none	2020-09-01	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHJ2	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-23	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	301
+HH	HHJ3	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-20	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	298
+HH	HHJ4	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-30	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	308
+HH	HHJ5	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-30	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	308
+HH	HHK1	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-09-28	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	337
+HH	HHK2	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-09	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	287
+HH	HHK4	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-09-06	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	315
+HH	HHL1	mouse	Tg25109 het		none	2020-08-13	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHL2	mouse	Tg25109 het		none	2020-08-13	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHL3	mouse	Tg25109 het		none	2020-08-13	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHM1	mouse	Tg25109 het		none	2020-08-08	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHM3	mouse	Tg25109 het		none	2020-08-08	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HH	HHM4	mouse	Tg25109 het		none	2020-08-08	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
+HG	HGA1	mouse	ZH3 hom		none	2020-12-18	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
+HG	HGA3	mouse	ZH3 hom		none	2020-12-18	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
+HG	HGA4	mouse	ZH3 hom		none	2020-12-18	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
+HG	HGB1	mouse	ZH3 hom		none	2020-12-15	RES-03	2021-02-04	2022-02-23	FALSE	TRUE	dermatitis	included in all-cause	PrP KO	384
+HG	HGB2	mouse	ZH3 hom		none	2020-12-18	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
+HG	HGB3	mouse	ZH3 hom		none	2020-12-24	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
+HG	HGB6	mouse	ZH3 hom		none	2020-12-28	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
+HG	HGC1	mouse	ZH3 hom		none	2020-12-28	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400

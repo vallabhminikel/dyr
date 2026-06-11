@@ -1,0 +1,5 @@
+cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
+Untreated WT 263K	8	SH	7	83.4	9.9	80	0	1
+WT uninoculated	8	SH	3	131.7	8.08	>170		5.39e-5
+Hom KO 263K	8	SH	5	128.4	19.42	144.5	0.81	5.39e-5
+Het KO 263K	6	SG	6	133.3	17.57	128.5	0.61	3.71e-4

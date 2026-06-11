@@ -1,0 +1,6 @@
+cohort_disp	experiments	n	mean_peak_weight	mean_peak_pct	mean_peak_dpi	delta_dpi
+PBS	VOE2	11	23.79	33.16	166.09	0
+ASO 6 100 µg	VOE2	12	24.34	31.1	188.67	0.14
+ASO 6 300 µg	VOE2	11	23.49	32.58	225.18	0.36
+ASO 6 500 µg	VOE2	12	24.08	36.67	241.17	0.45
+PrP KO	VOE2	12	23.87	38.55	307.67	0.85

@@ -1,0 +1,4 @@
+cohort_disp	experiments	n	mean_peak_weight	mean_peak_pct	mean_peak_dpi	delta_dpi
+uninoculated	HU2	6	35.94	48.13	495.17	0
+E200K MV	HU2	24	31.65	30.7	425	-0.14
+sCJD VV2 isolate 1	HU2	30	34.16	41.3	344.5	-0.3

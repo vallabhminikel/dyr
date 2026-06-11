@@ -1,0 +1,4 @@
+comparison	p_value
+73dpi none vs. 43dpinone	0.13960205625264738
+73dpi ASO 1 vs 43dpi none	0.17778603903469892
+73dpi ASO 1 vs 73dpi none	0.8039659966512805

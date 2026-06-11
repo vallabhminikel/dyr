@@ -1,0 +1,4 @@
+expt	animal	cohort_disp	genotype	dpi	treatment	prion_endpoint	endpoint_comments	titer	se
+HK	HKF1	MM1 sCJD isolate 2	TacKI/TacKI	335	none	FALSE	dermatitis	10.948970004336019	0.38188130791298663
+HK	HKG4	VV2 sCJD isolate 1	TacKI/TacKI	326	none	FALSE	found dead	11.198970004336019	0.408248290463863
+HK	HKG5	VV2 sCJD isolate 1	TacKI/TacKI	326	none	FALSE	found dead	10.948970004336019	0.38188130791298663

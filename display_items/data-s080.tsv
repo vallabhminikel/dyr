@@ -1,0 +1,60 @@
+expt	sex	animal	txdpi	treatment	dob	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+VOE2	M	793		none	2022-12-23		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	413
+VOE2	M	794		none	2022-12-23		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	413
+VOE2	M	795		none	2022-12-23		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	413
+VOE2	M	805		none	2022-12-23		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	413
+VOE2	M	809		none	2022-12-24		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	412
+VOE2	M	810		none	2022-12-24		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	412
+VOE2	F	785		none	2022-12-23		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	413
+VOE2	F	787		none	2022-12-23		2023-08-23		TRUE	prion endpoint	counted in all-cause	PrP KO	243
+VOE2	F	797		none	2022-12-23		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	413
+VOE2	F	803		none	2022-12-23		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	413
+VOE2	F	824		none	2022-12-24		2023-08-09		TRUE	found dead	counted in all-cause	PrP KO	228
+VOE2	F	842		none	2022-12-24		2024-02-09		FALSE	end of study	scheduled euthanasia	PrP KO	412
+VOE2	M	857		PBS	2022-12-25		2023-10-02		TRUE	prion endpoint	counted in all-cause	PBS	281
+VOE2	M	859		PBS	2022-12-25		2023-09-28		TRUE	prion endpoint	counted in all-cause	PBS	277
+VOE2	M	851		PBS	2022-12-26		2023-06-19		TRUE	prion endpoint	counted in all-cause	PBS	175
+VOE2	M	852		PBS	2022-12-26		2023-08-04		TRUE	prion endpoint	counted in all-cause	PBS	221
+VOE2	M	815		PBS	2022-12-27		2023-09-11		TRUE	prion endpoint	counted in all-cause	PBS	258
+VOE2	M	816		PBS	2022-12-27		2023-06-26		TRUE	found dead	counted in all-cause	PBS	181
+VOE2	F	835		PBS	2022-12-25		2023-07-10		TRUE	prion endpoint	counted in all-cause	PBS	197
+VOE2	F	856		PBS	2022-12-25		2023-08-23		TRUE	prion endpoint	counted in all-cause	PBS	241
+VOE2	F	855		PBS	2022-12-25		2023-06-22		TRUE	found dead	counted in all-cause	PBS	179
+VOE2	F	848		PBS	2022-12-26		2023-08-22		TRUE	prion endpoint	counted in all-cause	PBS	239
+VOE2	F	849		PBS	2022-12-26		2023-06-22		TRUE	prion endpoint	counted in all-cause	PBS	178
+VOE2	M	861		ASO 6	2022-12-21		2023-06-23		TRUE	other	counted in all-cause	ASO 6 100 µg	184
+VOE2	M	862		ASO 6	2022-12-21		2023-10-16		TRUE	prion endpoint	counted in all-cause	ASO 6 100 µg	299
+VOE2	M	863		ASO 6	2022-12-21		2023-07-22		TRUE	prion endpoint	counted in all-cause	ASO 6 100 µg	213
+VOE2	M	786		ASO 6	2022-12-23		2023-08-20		TRUE	prion endpoint	counted in all-cause	ASO 6 100 µg	240
+VOE2	M	788		ASO 6	2022-12-23		2024-02-09		FALSE	end of study	scheduled euthanasia	ASO 6 100 µg	413
+VOE2	M	806		ASO 6	2022-12-23		2023-10-25		TRUE	prion endpoint	counted in all-cause	ASO 6 100 µg	306
+VOE2	F	866		ASO 6	2022-12-22		2023-08-25		TRUE	prion endpoint	counted in all-cause	ASO 6 100 µg	246
+VOE2	F	784		ASO 6	2022-12-23		2023-06-13		TRUE	prion endpoint	counted in all-cause	ASO 6 100 µg	172
+VOE2	F	789		ASO 6	2022-12-23		2023-09-20		TRUE	prion endpoint	counted in all-cause	ASO 6 100 µg	271
+VOE2	F	790		ASO 6	2022-12-23		2023-09-20		TRUE	prion endpoint	counted in all-cause	ASO 6 100 µg	271
+VOE2	F	791		ASO 6	2022-12-23		2023-09-20		TRUE	found dead	counted in all-cause	ASO 6 100 µg	271
+VOE2	F	792		ASO 6	2022-12-23		2023-09-20		TRUE	prion endpoint	counted in all-cause	ASO 6 100 µg	271
+VOE2	M	807		ASO 6	2022-12-23		2023-08-30		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	250
+VOE2	M	811		ASO 6	2022-12-24		2023-10-14		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	294
+VOE2	M	812		ASO 6	2022-12-24		2023-11-15		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	326
+VOE2	M	822		ASO 6	2022-12-24		2023-02-07		TRUE	other	counted in all-cause	ASO 6 300 µg	45
+VOE2	M	819		ASO 6	2022-12-25		2023-10-27		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	306
+VOE2	M	821		ASO 6	2022-12-25		2023-11-13		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	323
+VOE2	F	796		ASO 6	2022-12-23		2023-09-24		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	275
+VOE2	F	798		ASO 6	2022-12-23		2023-09-13		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	264
+VOE2	F	799		ASO 6	2022-12-23		2023-11-06		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	318
+VOE2	F	800		ASO 6	2022-12-23		2023-08-21		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	241
+VOE2	F	801		ASO 6	2022-12-23		2023-06-28		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	187
+VOE2	F	802		ASO 6	2022-12-23		2023-09-18		TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	269
+VOE2	M	846		ASO 6	2022-12-25		2023-10-30		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	309
+VOE2	M	829		ASO 6	2022-12-25		2023-12-07		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	347
+VOE2	M	832		ASO 6	2022-12-25		2023-11-27		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	337
+VOE2	M	836		ASO 6	2022-12-25		2023-11-11		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	321
+VOE2	M	838		ASO 6	2022-12-25		2024-01-12		FALSE	excluded	excluded	ASO 6 500 µg	383
+VOE2	M	840		ASO 6	2022-12-25		2023-11-10		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	320
+VOE2	F	804		ASO 6	2022-12-23		2023-08-21		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	241
+VOE2	F	808		ASO 6	2022-12-24		2023-10-23		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	303
+VOE2	F	823		ASO 6	2022-12-24		2023-10-13		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	293
+VOE2	F	825		ASO 6	2022-12-24		2023-09-15		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	265
+VOE2	F	841		ASO 6	2022-12-24		2023-09-11		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	261
+VOE2	F	826		ASO 6	2022-12-25		2023-11-24		TRUE	prion endpoint	counted in all-cause	ASO 6 500 µg	334

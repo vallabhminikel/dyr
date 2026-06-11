@@ -1,0 +1,3 @@
+cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
+NBH	7	RR	0			>241		1
+RRML	8	RR	8	193.2	23.7	182		1.02e-4

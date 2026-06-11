@@ -1,0 +1,90 @@
+expt	cohort	cohort_disp	color	species	genotype	inoculum	treatment	dose_ug	treatment_start_dpi
+HA	HA-RES-03	MM1 sCJD isolate 1	#DC4941	mouse	Tg26372 hom; ZH3 hom	RES-03	none	0	NA
+HA	HA-RES-04	MM1 sCJD isolate 2	#FB9A99	mouse	Tg26372 hom; ZH3 hom	RES-04	none	0	NA
+HA	HA-RES-05	VV2 sCJD isolate 1	#33A02C	mouse	Tg26372 hom; ZH3 hom	RES-05	none	0	NA
+HA	HA-RES-06	VV2 sCJD isolate 2	#B2DF8A	mouse	Tg26372 hom; ZH3 hom	RES-06	none	0	NA
+HA	HA-RES-07	E200K MM	#7570B3	mouse	Tg26372 hom; ZH3 hom	RES-07	none	0	NA
+HA	HA-RES-09	E200K MV	#824796	mouse	Tg26372 hom; ZH3 hom	RES-09	none	0	NA
+HA	HA-uninoculated	uninoculated	#A9A9A9	mouse	Tg26372 hom; ZH3 hom	uninoculated	none	0	NA
+HB	HB-RES-03-HET	MM1 sCJD isolate 1	#DC4941	mouse	Tg25109 het; ZH3 hom	RES-03	none	0	NA
+HB	HB-RES-04-HET	MM1 sCJD isolate 2	#FB9A99	mouse	Tg25109 het; ZH3 hom	RES-04	none	0	NA
+HB	HB-RES-05-HET	VV2 sCJD isolate 1	#33A02C	mouse	Tg25109 het; ZH3 hom	RES-05	none	0	NA
+HB	HB-RES-06-HET	VV2 sCJD isolate 2	#B2DF8A	mouse	Tg25109 het; ZH3 hom	RES-06	none	0	NA
+HB	HB-RES-07-HET	E200K MM	#7570B3	mouse	Tg25109 het; ZH3 hom	RES-07	none	0	NA
+HB	HB-RES-09-HET	E200K MV	#824796	mouse	Tg25109 het; ZH3 hom	RES-09	none	0	NA
+HB	HB-RES-09-HOM	exclude	#501378	mouse	Tg25109 hom; ZH3 hom	RES-09	none	0	NA
+HB	HB-uninoc-HET	uninoculated	#A9A9A9	mouse	Tg25109 het; ZH3 hom	uninoculated	none	0	NA
+HB	HB-uninoc-HET-unblinded	uninoculated	#A9A9A9	mouse	Tg25109 het; ZH3 hom	uninoculated	none	0	NA
+HG	HG-HOM-RES-03	PrP KO	#fe7f2d	mouse	ZH3 hom	RES-03	none	0	NA
+HH	HH-26372het-none	uninoculated (all genotypes)	#A9A9A9	mouse	Tg26372 het	none	none	0	NA
+HH	HH-26372het-RES-03	Tg26372 het (10 copies)	#3a6ea5	mouse	Tg26372 het	RES-03	none	0	NA
+HH	HH-26372hom-none	uninoculated (all genotypes)	#A9A9A9	mouse	Tg26372 hom	none	none	0	NA
+HH	HH-26372hom-RES-03	Tg26372 hom (20 copies)	#80b918	mouse	Tg26372 hom	RES-03	none	0	NA
+HH	HH-25109het-none	uninoculated (all genotypes)	#A9A9A9	mouse	Tg25109 het	none	none	0	NA
+HH	HH-25109het-RES-03	Tg25109 het (3 copies)	#eb4d4b	mouse	Tg25109 het	RES-03	none	0	NA
+HJ	HJ-TacKIhom-none	uninoculated (all genotypes)	#A9A9A9	mouse	TacKI/TacKI	none	none	0	NA
+HJ	HJ-TacKI/ZH3-none	uninoculated (all genotypes)	#A9A9A9	mouse	TacKI/ZH3	none	none	0	NA
+HJ	HJ-TacKI/ZH3-RES05	Ki817 / KO VV2 sCJD	#3a6ea5	mouse	TacKI/ZH3	RES-05	none	0	NA
+HJ	HJ-TacKIhom-RES05	Ki817 / Ki817 VV2 sCJD	#c9184a	mouse	TacKI/TacKI	RES-05	none	0	NA
+HK	HK-uninoculated-males	uninoculated	#A9A9A9	mouse	TacKI/TacKI	uninoculated	none	0	NA
+HK	HK-RES-03	MM1 sCJD isolate 1	#DC4941	mouse	TacKI/TacKI	RES-03	none	0	NA
+HK	HK-RES-05	MM1 sCJD isolate 2	#FB9A99	mouse	TacKI/TacKI	RES-05	none	0	NA
+HK	HK-RES-06	VV2 sCJD isolate 1	#33A02C	mouse	TacKI/TacKI	RES-06	none	0	NA
+HK	HK-RES-04	VV2 sCJD isolate 2	#B2DF8A	mouse	TacKI/TacKI	RES-04	none	0	NA
+HK	HK-RES-07	E200K MM	#7570B3	mouse	TacKI/TacKI	RES-07	none	0	NA
+HK	HK-RES-09	E200K MV	#824796	mouse	TacKI/TacKI	RES-09	none	0	NA
+HK	HK-uninoculated-females	uninoculated	#501378	mouse	TacKI/TacKI	uninoculated	none	0	NA
+RD	RD-WT-uninoculated-ASO6-1000ug	RD-WT-uninoculated-ASO6-1000ug	#41B6C4	rat	WT	uninoculated	ASO 6	1000	NA
+RD	RD-WT-uninoculated-PBS	RD-WT-uninoculated-PBS	#686de0	rat	WT	uninoculated	PBS	0	NA
+RE	RE-WT-RRML-saline	Saline	#A9A9A9	rat	WT	RRML	saline	0	NA
+RE	RE-WT-RRML-ASO6-1000ug	ASO 6 1000ug	#30336b	rat	WT	RRML	ASO 6	1000	119
+RE	RE-died	died	#22a6b3	rat	WT	RRML	NA	NA	NA
+RE	RE-died	died	#22a6b3	rat	WT	RRML	ASO 6	1000	119
+RG	RG-HO-RRML	Hom KO	#A02422	rat	KO	RRML	none	0	NA
+RG	RG-WT-RRML	WT	#0001CD	rat	WT	RRML	none	0	NA
+RG	RG-HE-RRML	Het KO	#501378	rat	HE	RRML	none	0	NA
+RG	RG-WT-uninoc	Uninoculated	#A9A9A9	rat	WT	RRML	none	0	NA
+RP	RP-WT-RRML-vehicle	Vehicle	#A9A9A9	rat	WT	RRML	vehicle	0	127
+RP	RP-died	died	#ae9f45	rat	WT	RRML	NA	NA	NA
+RP	RP-WT-RRML-ASO6-300ug	ASO 6 300ug	#57f781	rat	WT	RRML	ASO 6	300	127
+RP	RP-WT-RRML-ASO6-600ug	ASO 6 600ug	#1ac589	rat	WT	RRML	ASO 6	600	127
+RP	RP-WT-RRML-ASO6-1000ug	ASO 6 1000ug	#007a75	rat	WT	RRML	ASO 6	1000	127
+RR	RR-RRML	RRML	#fb8500	rat	WT	RRML	none	0	NA
+RR	RR-died	died	#e056fd	rat	WT	none	none	0	NA
+RR	RR-NBH	NBH	#A9A9A9	rat	WT	NBH	none	0	NA
+RZ	RZ-spare	RZ-spare	#ae9f45	rat	WT	RRML	NA	NA	NA
+RZ	RZ-WT-RRML-ASO6-600ug	RZ-WT-RRML-ASO6-600ug	#51a875	rat	WT	RRML	ASO 6	600	127
+RZ	RZ-WT-RRML-ASO6-300ug	RZ-WT-RRML-ASO6-300ug	#501378	rat	WT	RRML	ASO 6	300	127
+RZ	RZ-WT-RRML-ASO6-1000ug	RZ-WT-RRML-ASO6-1000ug	#30336b	rat	WT	RRML	ASO 6	1000	127
+RZ	RZ-WT-RRML-vehicle	RZ-WT-RRML-vehicle	#5b5b5b	rat	WT	RRML	vehicle	0	127
+SB	SB-WT-263K-NoTx	Untreated WT 263K	#0001CD	hamster	WT	263K	none	0	NA
+SB	SB-KO-263K-NoTx	Hom KO 263K	#A02422	hamster	KO	263K	none	0	NA
+SC	SC-HE-D15	Het KO 263K	#501378	hamster	HE	263K	none	0	NA
+SC	SC-HE-D60	Het KO 263K	#501378	hamster	HE	263K	none	0	NA
+SC	SC-HE-D120	Het KO 263K	#501378	hamster	HE	263K	none	0	NA
+SC	SC-HE-D30	Het KO 263K	#501378	hamster	HE	263K	none	0	NA
+SC	SC-HE-D100	Het KO 263K	#501378	hamster	HE	263K	none	0	NA
+SC	SC-HE-D45	Het KO 263K	#501378	hamster	HE	263K	none	0	NA
+SC	SC-HE-D80	Het KO 263K	#501378	hamster	HE	263K	none	0	NA
+SD	SD-HO-D15	Hom KO 263K	#A02422	hamster	KO	263K	none	0	NA
+SD	Hamster-HE-Untreated	Het KO 263K	#501378	hamster	HE	263K	none	0	NA
+SD	SD-HO-D45	Hom KO 263K	#A02422	hamster	KO	263K	none	0	NA
+SD	SD-HO-D120	Hom KO 263K	#A02422	hamster	KO	263K	none	0	NA
+SD	SD-HO-D170	Hom KO 263K	#A02422	hamster	KO	263K	none	0	NA
+SE	Hamster-WT-Untreated	Untreated WT 263K	#0001CD	hamster	WT	263K	none	0	NA
+SE	Hamster-WT-ASO1-300ug-64dpi	WT 263K ASO 1 at 64 dpi	#1fa902	hamster	WT	263K	ASO 1	300	64
+SE	Hamster-WT-ASO1-300ug-43dpi	WT 263K ASO 1 at 43 dpi	#93c47d	hamster	WT	263K	ASO 1	300	43
+SG	Hamster-Pilot-HE-263K-Untreated	Het KO 263K	#501378	hamster	HE	263K	none	0	NA
+SH	Hamster-Pilot-WT-Uninoc-Untreated	WT uninoculated	#A9A9A9	hamster	WT	none	none	0	NA
+SH	Hamster-Pilot-WT-263K-Untreated	Untreated WT 263K	#0001CD	hamster	WT	263K	none	0	NA
+SH	Hamster-Pilot-HO-263K-Untreated	Hom KO 263K	#A02422	hamster	KO	263K	none	0	NA
+SK	SK-WT-D30	Untreated WT 263K	#0001CD	hamster	WT	263K	none	0	NA
+SK	Hamster-WT-ASO1-300ug-64dpi	WT 263K ASO 1 at 64 dpi	#1fa902	hamster	WT	263K	ASO 1	300	64
+SK	Hamster-WT-ASO1-300ug-43dpi	WT 263K ASO 1 at 43 dpi	#93c47d	hamster	WT	263K	ASO 1	300	43
+SK	SK-WT-D45	Untreated WT 263K	#0001CD	hamster	WT	263K	none	0	NA
+SK	Hamster-WT-Untreated	Untreated WT 263K	#0001CD	hamster	WT	263K	none	0	NA
+SK	excluded	excluded	#eb4d4b	hamster	NA	263K	excluded	NA	NA
+SZ	SZ-WT-NoTx	WT-NoTx	#ffbe76	hamster	WT	263K	none	0	NA
+SZ	SZ-WT-43dpi-ASO1	WT-ASO1-43dpi	#eb4d4b	hamster	WT	263K	ASO 1	300	43
+CMR-2187	CMR2187-WT-uninoculated-NoTx	CMR2187-WT-uninoculated-NoTx	#51a875	hamster	WT	uninoculated	none	0	NA
+CMR-2187	CMR2187-WT-uninoculated-ASO1-300ug	CMR2187-WT-uninoculated-ASO1-300ug	#ffbe76	hamster	WT	uninoculated	ASO 1	300	NA

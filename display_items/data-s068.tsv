@@ -1,0 +1,3 @@
+sex	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
+F	30	VOAG	30	194.4	39.86	207	0	1
+M	38	VOAG	37	233.4	83.44	232	0.12	8.21e-4

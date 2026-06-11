@@ -1,0 +1,5 @@
+cohort_disp	experiments	n	mean_peak_weight	mean_peak_pct	mean_peak_dpi	delta_dpi
+WT	RG	11	483.59	359.43	133	0
+Het KO	RG	11	517.82	379.66	169.45	0.27
+Hom KO	RG	13	513.5	383.51	336.54	1.53
+Uninoculated	RG	1	435	351.71	458	2.44

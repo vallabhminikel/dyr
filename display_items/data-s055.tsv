@@ -1,0 +1,15 @@
+ella_plate	exclude	animal	species	expt	tissue	sample_date	sample_dpi	kit_id	inlet	sample_type	sample_name	dilution_factor	analyte_name	known_conc	capture_name	capture_conc	detect_name	detect_conc	gn_rs	mean_rfu	rfu_percent_cv	mean_conc	conc_percent_cv	comments	cohort	treatment	group
+92		124692	hamster	SZ	plasma		43	371692	48	Unknown	SZ-124692	2	NFL						3	0.93	3.08	128	3		SZ-WT-NoTx	none	43dpi none
+92		124694	hamster	SZ	plasma		73	371692	49	Unknown	SZ-124694	2	NFL						3	1.33	0.77	180	0.74		SZ-WT-43dpi-ASO1	ASO 1	73dpi ASO 1
+92		124695	hamster	SZ	plasma		43	371692	50	Unknown	SZ-124695	2	NFL						3	0.86	0.41	118	0.4		SZ-WT-NoTx	none	43dpi none
+92		124696	hamster	SZ	plasma		73	371692	51	Unknown	SZ-124696	2	NFL						3	0.73	1.8	101	1.77		SZ-WT-43dpi-ASO1	ASO 1	73dpi ASO 1
+92		124697	hamster	SZ	plasma		43	371692	52	Unknown	SZ-124697	2	NFL						3	1.21	2.27	165	2.17		SZ-WT-NoTx	none	43dpi none
+92		124698	hamster	SZ	plasma		73	371692	53	Unknown	SZ-124698	2	NFL						3	19.07	3.02	2223	2.87		SZ-WT-NoTx	none	73dpi none
+92		124699	hamster	SZ	plasma		73	371692	54	Unknown	SZ-124699	2	NFL						3	3.31	4.49	428	4.22		SZ-WT-43dpi-ASO1	ASO 1	73dpi ASO 1
+92		124700	hamster	SZ	plasma		73	371692	55	Unknown	SZ-124700	3	NFL						3	5.15	0.68	973	0.64		SZ-WT-NoTx	none	73dpi none
+92		124701	hamster	SZ	plasma		43	371692	56	Unknown	SZ-124701	2	NFL						3	0.28	2.14	37.9	2.34		SZ-WT-NoTx	none	43dpi none
+92		124702	hamster	SZ	plasma		73	371692	57	Unknown	SZ-124702	2	NFL						3	4.54	0.67	576	0.63		SZ-WT-43dpi-ASO1	ASO 1	73dpi ASO 1
+92		124703	hamster	SZ	plasma		73	371692	58	Unknown	SZ-124703	2	NFL						3	18.05	2.58	2111	2.45		SZ-WT-NoTx	none	73dpi none
+92		124704	hamster	SZ	plasma		43	371692	59	Unknown	SZ-124704	2	NFL						3	0.88	2.88	121	2.81		SZ-WT-NoTx	none	43dpi none
+92		124705	hamster	SZ	plasma		73	371692	60	Unknown	SZ-124705	2	NFL						3	4.22	0.98	537	0.92		SZ-WT-43dpi-ASO1	ASO 1	73dpi ASO 1
+92		124706	hamster	SZ	plasma		73	371692	61	Unknown	SZ-124706	2	NFL						3	19.5	4.16	2271	3.95		SZ-WT-NoTx	none	73dpi none

@@ -1,0 +1,28 @@
+expt	animal	species	cohort	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+HA	HAA1	mouse	HA-RES-03	Tg26372 hom; ZH3 hom		none		RES-03	2019-12-02	2020-06-25	FALSE	TRUE	found dead	included in all-cause	MM1 sCJD isolate 1	206
+HA	HAA2	mouse	HA-RES-03	Tg26372 hom; ZH3 hom		none		RES-03	2019-12-02	2020-08-03	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 1	245
+HA	HAA3	mouse	HA-RES-04	Tg26372 hom; ZH3 hom		none		RES-04	2019-12-02	2020-08-05	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 2	247
+HA	HAB1	mouse	HA-RES-04	Tg26372 hom; ZH3 hom		none		RES-04	2019-12-02	2020-07-13	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 2	224
+HA	HAB2	mouse	HA-RES-05	Tg26372 hom; ZH3 hom		none		RES-05	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	VV2 sCJD isolate 1	500
+HA	HAB3	mouse	HA-RES-05	Tg26372 hom; ZH3 hom		none		RES-05	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	VV2 sCJD isolate 1	500
+HA	HAC1	mouse	HA-RES-06	Tg26372 hom; ZH3 hom		none		RES-06	2019-12-02	2021-04-08	FALSE	TRUE	dermatitis	included in all-cause	VV2 sCJD isolate 2	493
+HA	HAC2	mouse	HA-RES-06	Tg26372 hom; ZH3 hom		none		RES-06	2019-12-02	2019-12-02	FALSE	FALSE	found dead	included in all-cause	VV2 sCJD isolate 2	0
+HA	HAC3	mouse	HA-RES-07	Tg26372 hom; ZH3 hom		none		RES-07	2019-12-02	2020-08-18	TRUE	TRUE	prion endpoint	included in all-cause	E200K MM	260
+HA	HAD1	mouse	HA-RES-06	Tg26372 hom; ZH3 hom		none		RES-06	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	VV2 sCJD isolate 2	500
+HA	HAE1	mouse	HA-RES-03	Tg26372 hom; ZH3 hom		none		RES-03	2019-12-02	2020-06-26	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 1	207
+HA	HAE2	mouse	HA-RES-03	Tg26372 hom; ZH3 hom		none		RES-03	2019-12-02	2020-07-10	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 1	221
+HA	HAF1	mouse	HA-RES-04	Tg26372 hom; ZH3 hom		none		RES-04	2019-12-02	2020-06-04	FALSE	TRUE	intercurrent/other	included in all-cause	MM1 sCJD isolate 2	185
+HA	HAF2	mouse	HA-RES-04	Tg26372 hom; ZH3 hom		none		RES-04	2019-12-02	2020-08-03	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 2	245
+HA	HAF3	mouse	HA-RES-05	Tg26372 hom; ZH3 hom		none		RES-05	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	VV2 sCJD isolate 1	500
+HA	HAF4	mouse	HA-RES-05	Tg26372 hom; ZH3 hom		none		RES-05	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	VV2 sCJD isolate 1	500
+HA	HAF5	mouse	HA-RES-06	Tg26372 hom; ZH3 hom		none		RES-06	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	VV2 sCJD isolate 2	500
+HA	HAG1	mouse	HA-RES-07	Tg26372 hom; ZH3 hom		none		RES-07	2019-12-02	2020-07-02	TRUE	TRUE	prion endpoint	included in all-cause	E200K MM	213
+HA	HAG2	mouse	HA-RES-07	Tg26372 hom; ZH3 hom		none		RES-07	2019-12-02	2020-08-05	TRUE	TRUE	prion endpoint	included in all-cause	E200K MM	247
+HA	HAG3	mouse	HA-RES-09	Tg26372 hom; ZH3 hom		none		RES-09	2019-12-02	2020-04-24	FALSE	TRUE	intercurrent/other	included in all-cause	E200K MV	144
+HA	HAG4	mouse	HA-RES-09	Tg26372 hom; ZH3 hom		none		RES-09	2019-12-02	2021-02-12	TRUE	TRUE	prion endpoint	included in all-cause	E200K MV	438
+HA	HAH1	mouse	HA-RES-07	Tg26372 hom; ZH3 hom		none		RES-07	2019-12-02	2020-06-26	TRUE	TRUE	prion endpoint	included in all-cause	E200K MM	207
+HA	HAH2	mouse	HA-RES-09	Tg26372 hom; ZH3 hom		none		RES-09	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	E200K MV	500
+HA	HAH3	mouse	HA-RES-09	Tg26372 hom; ZH3 hom		none		RES-09	2019-12-02	2021-03-04	FALSE	TRUE	dermatitis	included in all-cause	E200K MV	458
+HA	HAI1	mouse	HA-uninoculated	Tg26372 hom; ZH3 hom		none		uninoculated	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	500
+HA	HAI2	mouse	HA-uninoculated	Tg26372 hom; ZH3 hom		none		uninoculated	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	500
+HA	HAI3	mouse	HA-uninoculated	Tg26372 hom; ZH3 hom		none		uninoculated	2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	500

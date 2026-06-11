@@ -1,0 +1,5 @@
+cohort_disp	experiments	n	mean_peak_weight	mean_peak_pct	mean_peak_dpi	delta_dpi
+Het KO 263K	SD	12	178.68	216.8	101.5	0.43
+Untreated WT 263K	SE, SK	14	120.31	71.1	71	0
+WT 263K ASO 1 at 43 dpi	SE, SK	13	132.28	107.68	101.69	0.43
+WT 263K ASO 1 at 64 dpi	SE, SK	11	129.5	97.85	75.82	0.07

@@ -1,0 +1,15 @@
+expt	animal	species	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+RE	88543L	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-26	TRUE	TRUE	prion endpoint	included in all-cause	Saline	190
+RE	88543R	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-26	TRUE	TRUE	prion endpoint	included in all-cause	Saline	190
+RE	88544L	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-02-01	TRUE	TRUE	prion endpoint	included in all-cause	Saline	196
+RE	88544R	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-26	FALSE	TRUE	other	included in all-cause	Saline	190
+RE	88545L	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-04-20	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	274
+RE	88545R	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-05-25	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	309
+RE	88546L	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2021-12-02	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	135
+RE	88546R	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2021-11-25	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	128
+RE	88547L	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-13	TRUE	TRUE	prion endpoint	included in all-cause	Saline	177
+RE	88547R	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-03	FALSE	TRUE	other	included in all-cause	Saline	167
+RE	88548L	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-02-08	TRUE	TRUE	prion endpoint	included in all-cause	Saline	203
+RE	88549R	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-06-03	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	318
+RE	88550L	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-05-20	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	304
+RE	88550R	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-05-20	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	304

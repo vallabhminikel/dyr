@@ -1,0 +1,26 @@
+name: mouseweight
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.3.*
+  - r-tidyverse=2.0.*
+  - r-kableextra
+  - r-readr
+  - r-dplyr
+  - r-tidyr
+  - r-stringr
+  - r-ggplot2
+  # For mixed models and variance estimation
+  - r-lme4
+  - r-nlme
+  - r-mgcv
+  # For variance component analysis
+  - r-lmertest
+  - r-emmeans
+  # For robust variance estimation
+  - r-sandwich
+  # General utilities
+  - r-irkernel  # For Jupyter notebook support
+  - r-devtools

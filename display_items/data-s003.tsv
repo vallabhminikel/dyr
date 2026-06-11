@@ -1,0 +1,16 @@
+expt	animal	species	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+RR	74616L	rat	WT		none	2020-08-19	RRML	2020-09-18	2021-03-31	TRUE	TRUE	prion endpoint	included in all-cause	RRML	194
+RR	74616R	rat	WT		none	2020-08-19	RRML	2020-09-18	2021-03-09	TRUE	TRUE	prion endpoint	included in all-cause	RRML	172
+RR	74617R	rat	WT		none	2020-08-19	NBH	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	NBH	241
+RR	74618L	rat	WT		none	2020-08-19	RRML	2020-09-18	2021-03-16	TRUE	TRUE	prion endpoint	included in all-cause	RRML	179
+RR	74618R	rat	WT		none	2020-08-19	RRML	2020-09-18	2021-05-14	TRUE	TRUE	prion endpoint	included in all-cause	RRML	238
+RR	74619L	rat	WT		none	2020-08-19	NBH	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	NBH	241
+RR	74619R	rat	WT		none	2020-08-19	NBH	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	NBH	241
+RR	74620L	rat	WT		none	2020-08-19	RRML	2020-09-18	2021-04-27	TRUE	TRUE	prion endpoint	included in all-cause	RRML	221
+RR	74620R	rat	WT		none	2020-08-19	RRML	2020-09-18	2021-03-16	TRUE	TRUE	prion endpoint	included in all-cause	RRML	179
+RR	74621L	rat	WT		none	2020-08-19	NBH	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	NBH	241
+RR	74621R	rat	WT		none	2020-08-19	NBH	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	NBH	241
+RR	74622L	rat	WT		none	2020-08-19	RRML	2020-09-18	2021-03-22	TRUE	TRUE	prion endpoint	included in all-cause	RRML	185
+RR	74622R	rat	WT		none	2020-08-19	RRML	2020-09-18	2021-03-15	TRUE	TRUE	prion endpoint	included in all-cause	RRML	178
+RR	74623L	rat	WT		none	2020-08-19	NBH	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	NBH	241
+RR	74623R	rat	WT		none	2020-08-19	NBH	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	NBH	241

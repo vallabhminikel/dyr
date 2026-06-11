@@ -1,0 +1,520 @@
+expt	cohort	animal	species	genotype	cage	inoculum	treatment	dose_ug	treatment_start_dpi	color
+HA	HA-RES-03	HAA1	mouse	Tg26372 hom; ZH3 hom	HAA	RES-03	none	0		#eb4d4b
+HA	HA-RES-03	HAA2	mouse	Tg26372 hom; ZH3 hom	HAA	RES-03	none	0		#eb4d4b
+HA	HA-RES-04	HAA3	mouse	Tg26372 hom; ZH3 hom	HAA	RES-04	none	0		#686de0
+HA	HA-RES-04	HAB1	mouse	Tg26372 hom; ZH3 hom	HAB	RES-04	none	0		#686de0
+HA	HA-RES-05	HAB2	mouse	Tg26372 hom; ZH3 hom	HAB	RES-05	none	0		#95afc0
+HA	HA-RES-05	HAB3	mouse	Tg26372 hom; ZH3 hom	HAB	RES-05	none	0		#95afc0
+HA	HA-RES-06	HAC1	mouse	Tg26372 hom; ZH3 hom	HAC	RES-06	none	0		#e056fd
+HA	HA-RES-06	HAC2	mouse	Tg26372 hom; ZH3 hom	HAC	RES-06	none	0		#e056fd
+HA	HA-RES-07	HAC3	mouse	Tg26372 hom; ZH3 hom	HAC	RES-07	none	0		#ae9f45
+HA	HA-RES-06	HAD1	mouse	Tg26372 hom; ZH3 hom	HAD	RES-06	none	0		#e056fd
+HA	HA-RES-03	HAE1	mouse	Tg26372 hom; ZH3 hom	HAE	RES-03	none	0		#eb4d4b
+HA	HA-RES-03	HAE2	mouse	Tg26372 hom; ZH3 hom	HAE	RES-03	none	0		#eb4d4b
+HA	HA-RES-04	HAF1	mouse	Tg26372 hom; ZH3 hom	HAF	RES-04	none	0		#686de0
+HA	HA-RES-04	HAF2	mouse	Tg26372 hom; ZH3 hom	HAF	RES-04	none	0		#686de0
+HA	HA-RES-05	HAF3	mouse	Tg26372 hom; ZH3 hom	HAF	RES-05	none	0		#95afc0
+HA	HA-RES-05	HAF4	mouse	Tg26372 hom; ZH3 hom	HAF	RES-05	none	0		#95afc0
+HA	HA-RES-06	HAF5	mouse	Tg26372 hom; ZH3 hom	HAF	RES-06	none	0		#e056fd
+HA	HA-RES-07	HAG1	mouse	Tg26372 hom; ZH3 hom	HAG	RES-07	none	0		#ae9f45
+HA	HA-RES-07	HAG2	mouse	Tg26372 hom; ZH3 hom	HAG	RES-07	none	0		#ae9f45
+HA	HA-RES-09	HAG3	mouse	Tg26372 hom; ZH3 hom	HAG	RES-09	none	0		#51a875
+HA	HA-RES-09	HAG4	mouse	Tg26372 hom; ZH3 hom	HAG	RES-09	none	0		#51a875
+HA	HA-RES-07	HAH1	mouse	Tg26372 hom; ZH3 hom	HAH	RES-07	none	0		#ae9f45
+HA	HA-RES-09	HAH2	mouse	Tg26372 hom; ZH3 hom	HAH	RES-09	none	0		#51a875
+HA	HA-RES-09	HAH3	mouse	Tg26372 hom; ZH3 hom	HAH	RES-09	none	0		#51a875
+HA	HA-uninoculated	HAI1	mouse	Tg26372 hom; ZH3 hom	HAI	uninoculated	none	0		#501378
+HA	HA-uninoculated	HAI2	mouse	Tg26372 hom; ZH3 hom	HAI	uninoculated	none	0		#501378
+HA	HA-uninoculated	HAI3	mouse	Tg26372 hom; ZH3 hom	HAI	uninoculated	none	0		#501378
+HB	HB-RES-03-HET	HBA81	mouse	Tg25109 het; ZH3 hom	HBA	RES-03	none	0		#e056fd
+HB	HB-RES-04-HET	HBB88	mouse	Tg25109 het; ZH3 hom	HBB	RES-04	none	0		#51a875
+HB	HB-RES-03-HET	HBC1	mouse	Tg25109 het; ZH3 hom	HBC	RES-03	none	0		#e056fd
+HB	HB-RES-03-HET	HBC5	mouse	Tg25109 het; ZH3 hom	HBC	RES-03	none	0		#e056fd
+HB	HB-RES-03-HET	HBC6	mouse	Tg25109 het; ZH3 hom	HBC	RES-03	none	0		#e056fd
+HB	HB-RES-05-HET	HBD50	mouse	Tg25109 het; ZH3 hom	HBD	RES-05	none	0		#501378
+HB	HB-RES-05-HET	HBD53	mouse	Tg25109 het; ZH3 hom	HBD	RES-05	none	0		#501378
+HB	HB-RES-05-HET	HBD61	mouse	Tg25109 het; ZH3 hom	HBD	RES-05	none	0		#501378
+HB	HB-RES-06-HET	HBE62	mouse	Tg25109 het; ZH3 hom	HBE	RES-06	none	0		#30336b
+HB	HB-RES-06-HET	HBE44	mouse	Tg25109 het; ZH3 hom	HBE	RES-06	none	0		#30336b
+HB	HB-RES-06-HET	HBE47	mouse	Tg25109 het; ZH3 hom	HBE	RES-06	none	0		#30336b
+HB	HB-RES-06-HET	HBE74	mouse	Tg25109 het; ZH3 hom	HBE	RES-06	none	0		#30336b
+HB	HB-RES-07-HET	HBF3	mouse	Tg25109 het; ZH3 hom	HBF	RES-07	none	0		#5b5b5b
+HB	HB-RES-07-HET	HBG1	mouse	Tg25109 het; ZH3 hom	HBG	RES-07	none	0		#5b5b5b
+HB	HB-RES-05-HET	HBH2	mouse	Tg25109 het; ZH3 hom	HBH	RES-05	none	0		#501378
+HB	HB-RES-09-HET	HBI1	mouse	Tg25109 het; ZH3 hom	HBI	RES-09	none	0		#6ab04c
+HB	HB-RES-09-HET	HBI2	mouse	Tg25109 het; ZH3 hom	HBI	RES-09	none	0		#6ab04c
+HB	HB-RES-06-HET	HBK2	mouse	Tg25109 het; ZH3 hom	HBK	RES-06	none	0		#30336b
+HB	HB-RES-09-HET	HBL1	mouse	Tg25109 het; ZH3 hom	HBL	RES-09	none	0		#6ab04c
+HB	HB-RES-07-HET	HBM1	mouse	Tg25109 het; ZH3 hom	HBM	RES-07	none	0		#5b5b5b
+HB	HB-RES-09-HOM	HBM2	mouse	Tg25109 hom; ZH3 hom	HBM	RES-09	none	0		#ae9f45
+HB	HB-uninoc-HET	HBN2	mouse	Tg25109 het; ZH3 hom	HBN	uninoculated	none	0		#686de0
+HB	HB-uninoc-HET	HBN3	mouse	Tg25109 het; ZH3 hom	HBN	uninoculated	none	0		#686de0
+HB	HB-RES-04-HET	HBO69	mouse	Tg25109 het; ZH3 hom	HBO	RES-04	none	0		#51a875
+HB	HB-RES-04-HET	HBO7	mouse	Tg25109 het; ZH3 hom	HBO	RES-04	none	0		#51a875
+HB	HB-uninoc-HET-unblinded	HBP1	mouse	Tg25109 het; ZH3 hom	HBP	uninoculated	none	0		#95afc0
+HB	HB-uninoc-HET-unblinded	HBP2	mouse	Tg25109 het; ZH3 hom	HBP	uninoculated	none	0		#95afc0
+HB	HB-uninoc-HET-unblinded	HBP3	mouse	Tg25109 het; ZH3 hom	HBP	uninoculated	none	0		#95afc0
+HG	HG-HOM-RES-03	HGA1	mouse	ZH3 hom	HGA	RES-03	none	0		#e056fd
+HG	HG-HOM-RES-03	HGA3	mouse	ZH3 hom	HGA	RES-03	none	0		#e056fd
+HG	HG-HOM-RES-03	HGA4	mouse	ZH3 hom	HGA	RES-03	none	0		#e056fd
+HG	HG-HOM-RES-03	HGB1	mouse	ZH3 hom	HGB	RES-03	none	0		#e056fd
+HG	HG-HOM-RES-03	HGB2	mouse	ZH3 hom	HGB	RES-03	none	0		#e056fd
+HG	HG-HOM-RES-03	HGB3	mouse	ZH3 hom	HGB	RES-03	none	0		#e056fd
+HG	HG-HOM-RES-03	HGB6	mouse	ZH3 hom	HGB	RES-03	none	0		#e056fd
+HG	HG-HOM-RES-03	HGC1	mouse	ZH3 hom	HGC	RES-03	none	0		#e056fd
+HH	HH-26372het-none	HHA1	mouse	Tg26372 het	HHA	none	none	0		#5b5b5b
+HH	HH-26372het-none	HHA2	mouse	Tg26372 het	HHA	none	none	0		#5b5b5b
+HH	HH-26372het-none	HHA3	mouse	Tg26372 het	HHA	none	none	0		#5b5b5b
+HH	HH-26372het-none	HHA4	mouse	Tg26372 het	HHA	none	none	0		#5b5b5b
+HH	HH-26372het-none	HHA5	mouse	Tg26372 het	HHA	none	none	0		#5b5b5b
+HH	HH-26372het-none	HHB1	mouse	Tg26372 het	HHB	none	none	0		#5b5b5b
+HH	HH-26372het-none	HHB2	mouse	Tg26372 het	HHB	none	none	0		#5b5b5b
+HH	HH-26372het-none	HHB3	mouse	Tg26372 het	HHB	none	none	0		#5b5b5b
+HH	HH-26372het-none	HHB4	mouse	Tg26372 het	HHB	none	none	0		#5b5b5b
+HH	HH-26372het-RES-03	HHC1	mouse	Tg26372 het	HHC	RES-03	none	0		#0001CD
+HH	HH-26372het-RES-03	HHC2	mouse	Tg26372 het	HHC	RES-03	none	0		#0001CD
+HH	HH-26372het-RES-03	HHC3	mouse	Tg26372 het	HHC	RES-03	none	0		#0001CD
+HH	HH-26372het-RES-03	HHC4	mouse	Tg26372 het	HHC	RES-03	none	0		#0001CD
+HH	HH-26372het-RES-03	HHD1	mouse	Tg26372 het	HHD	RES-03	none	0		#0001CD
+HH	HH-26372het-RES-03	HHD2	mouse	Tg26372 het	HHD	RES-03	none	0		#0001CD
+HH	HH-26372het-RES-03	HHD3	mouse	Tg26372 het	HHD	RES-03	none	0		#0001CD
+HH	HH-26372het-RES-03	HHD4	mouse	Tg26372 het	HHD	RES-03	none	0		#0001CD
+HH	HH-26372hom-none	HHE1	mouse	Tg26372 hom	HHE	none	none	0		#501378
+HH	HH-26372hom-none	HHE2	mouse	Tg26372 hom	HHE	none	none	0		#501378
+HH	HH-26372hom-none	HHE3	mouse	Tg26372 hom	HHE	none	none	0		#501378
+HH	HH-26372hom-none	HHE4	mouse	Tg26372 hom	HHE	none	none	0		#501378
+HH	HH-26372hom-none	HHE5	mouse	Tg26372 hom	HHE	none	none	0		#501378
+HH	HH-26372hom-RES-03	HHF1	mouse	Tg26372 hom	HHF	RES-03	none	0		#badc58
+HH	HH-26372hom-RES-03	HHF2	mouse	Tg26372 hom	HHF	RES-03	none	0		#badc58
+HH	HH-26372hom-RES-03	HHF3	mouse	Tg26372 hom	HHF	RES-03	none	0		#badc58
+HH	HH-26372hom-RES-03	HHF4	mouse	Tg26372 hom	HHF	RES-03	none	0		#badc58
+HH	HH-26372hom-RES-03	HHG1	mouse	Tg26372 hom	HHG	RES-03	none	0		#badc58
+HH	HH-26372hom-RES-03	HHG2	mouse	Tg26372 hom	HHG	RES-03	none	0		#badc58
+HH	HH-26372hom-RES-03	HHG3	mouse	Tg26372 hom	HHG	RES-03	none	0		#badc58
+HH	HH-26372hom-RES-03	HHG4	mouse	Tg26372 hom	HHG	RES-03	none	0		#badc58
+HH	HH-26372hom-none	HHH1	mouse	Tg26372 hom	HHH	none	none	0		#501378
+HH	HH-26372hom-none	HHH2	mouse	Tg26372 hom	HHH	none	none	0		#501378
+HH	HH-26372hom-none	HHH3	mouse	Tg26372 hom	HHH	none	none	0		#501378
+HH	HH-25109het-none	HHI1	mouse	Tg25109 het	HHI	none	none	0		#ae9f45
+HH	HH-25109het-none	HHI2	mouse	Tg25109 het	HHI	none	none	0		#ae9f45
+HH	HH-25109het-none	HHI3	mouse	Tg25109 het	HHI	none	none	0		#ae9f45
+HH	HH-25109het-RES-03	HHJ2	mouse	Tg25109 het	HHJ	RES-03	none	0		#51a875
+HH	HH-25109het-RES-03	HHJ3	mouse	Tg25109 het	HHJ	RES-03	none	0		#51a875
+HH	HH-25109het-RES-03	HHJ4	mouse	Tg25109 het	HHJ	RES-03	none	0		#51a875
+HH	HH-25109het-RES-03	HHJ5	mouse	Tg25109 het	HHJ	RES-03	none	0		#51a875
+HH	HH-25109het-RES-03	HHK1	mouse	Tg25109 het	HHK	RES-03	none	0		#51a875
+HH	HH-25109het-RES-03	HHK2	mouse	Tg25109 het	HHK	RES-03	none	0		#51a875
+HH	HH-25109het-RES-03	HHK4	mouse	Tg25109 het	HHK	RES-03	none	0		#51a875
+HH	HH-25109het-none	HHL1	mouse	Tg25109 het	HHL	none	none	0		#ae9f45
+HH	HH-25109het-none	HHL2	mouse	Tg25109 het	HHL	none	none	0		#ae9f45
+HH	HH-25109het-none	HHL3	mouse	Tg25109 het	HHL	none	none	0		#ae9f45
+HH	HH-25109het-none	HHM1	mouse	Tg25109 het	HHM	none	none	0		#ae9f45
+HH	HH-25109het-none	HHM3	mouse	Tg25109 het	HHM	none	none	0		#ae9f45
+HH	HH-25109het-none	HHM4	mouse	Tg25109 het	HHM	none	none	0		#ae9f45
+HJ	HJ-TacKIhom-none	HJA1	mouse	TacKI/TacKI	HJA	none	none	0		#eeb45b
+HJ	HJ-TacKIhom-none	HJA2	mouse	TacKI/TacKI	HJA	none	none	0		#eeb45b
+HJ	HJ-TacKIhom-none	HJA3	mouse	TacKI/TacKI	HJA	none	none	0		#eeb45b
+HJ	HJ-TacKIhom-none	HJA4	mouse	TacKI/TacKI	HJA	none	none	0		#eeb45b
+HJ	HJ-TacKIhom-none	HJB1	mouse	TacKI/TacKI	HJB	none	none	0		#eeb45b
+HJ	HJ-TacKIhom-none	HJB2	mouse	TacKI/TacKI	HJB	none	none	0		#eeb45b
+HJ	HJ-TacKIhom-none	HJB3	mouse	TacKI/TacKI	HJB	none	none	0		#eeb45b
+HJ	HJ-TacKI/ZH3-none	HJC1	mouse	TacKI/ZH3	HJC	none	none	0		#eb9941
+HJ	HJ-TacKI/ZH3-none	HJC2	mouse	TacKI/ZH3	HJC	none	none	0		#eb9941
+HJ	HJ-TacKI/ZH3-none	HJC3	mouse	TacKI/ZH3	HJC	none	none	0		#eb9941
+HJ	HJ-TacKI/ZH3-none	HJD1	mouse	TacKI/ZH3	HJD	none	none	0		#eb9941
+HJ	HJ-TacKI/ZH3-none	HJD2	mouse	TacKI/ZH3	HJD	none	none	0		#eb9941
+HJ	HJ-TacKI/ZH3-none	HJD3	mouse	TacKI/ZH3	HJD	none	none	0		#eb9941
+HJ	HJ-TacKI/ZH3-none	HJD4	mouse	TacKI/ZH3	HJD	none	none	0		#eb9941
+HJ	HJ-TacKI/ZH3-none	HJD5	mouse	TacKI/ZH3	HJD	none	none	0		#eb9941
+HJ	HJ-TacKI/ZH3-RES05	HJE1	mouse	TacKI/ZH3	HJE	RES-05	none	0		#ae9f45
+HJ	HJ-TacKI/ZH3-RES05	HJE2	mouse	TacKI/ZH3	HJE	RES-05	none	0		#ae9f45
+HJ	HJ-TacKI/ZH3-RES05	HJE3	mouse	TacKI/ZH3	HJE	RES-05	none	0		#ae9f45
+HJ	HJ-TacKI/ZH3-RES05	HJE4	mouse	TacKI/ZH3	HJE	RES-05	none	0		#ae9f45
+HJ	HJ-TacKI/ZH3-RES05	HJF1	mouse	TacKI/ZH3	HJF	RES-05	none	0		#ae9f45
+HJ	HJ-TacKI/ZH3-RES05	HJF2	mouse	TacKI/ZH3	HJF	RES-05	none	0		#ae9f45
+HJ	HJ-TacKI/ZH3-RES05	HJF3	mouse	TacKI/ZH3	HJF	RES-05	none	0		#ae9f45
+HJ	HJ-TacKI/ZH3-RES05	HJF4	mouse	TacKI/ZH3	HJF	RES-05	none	0		#ae9f45
+HJ	HJ-TacKIhom-RES05	HJG1	mouse	TacKI/TacKI	HJG	RES-05	none	0		#51a875
+HJ	HJ-TacKIhom-RES05	HJH1	mouse	TacKI/TacKI	HJH	RES-05	none	0		#51a875
+HJ	HJ-TacKIhom-RES05	HJH2	mouse	TacKI/TacKI	HJH	RES-05	none	0		#51a875
+HJ	HJ-TacKIhom-RES05	HJH3	mouse	TacKI/TacKI	HJH	RES-05	none	0		#51a875
+HJ	HJ-TacKIhom-RES05	HJH4	mouse	TacKI/TacKI	HJH	RES-05	none	0		#51a875
+HJ	HJ-TacKIhom-RES05	HJI1	mouse	TacKI/TacKI	HJI	RES-05	none	0		#51a875
+HJ	HJ-TacKIhom-RES05	HJI2	mouse	TacKI/TacKI	HJI	RES-05	none	0		#51a875
+HJ	HJ-TacKIhom-RES05	HJI3	mouse	TacKI/TacKI	HJI	RES-05	none	0		#51a875
+HK	HK-uninoculated-males	HKA2	mouse	TacKI/TacKI	HKA	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKA3	mouse	TacKI/TacKI	HKA	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKA4	mouse	TacKI/TacKI	HKA	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKA7	mouse	TacKI/TacKI	HKA	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKB9	mouse	TacKI/TacKI	HKB	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKB5	mouse	TacKI/TacKI	HKB	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKB6	mouse	TacKI/TacKI	HKB	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKB1	mouse	TacKI/TacKI	HKB	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKC3	mouse	TacKI/TacKI	HKC	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKC1	mouse	TacKI/TacKI	HKC	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKC2	mouse	TacKI/TacKI	HKC	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKC5	mouse	TacKI/TacKI	HKC	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKD2	mouse	TacKI/TacKI	HKD	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKD5	mouse	TacKI/TacKI	HKD	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKD6	mouse	TacKI/TacKI	HKD	uninoculated	none	0		#ffbe76
+HK	HK-uninoculated-males	HKD3	mouse	TacKI/TacKI	HKD	uninoculated	none	0		#ffbe76
+HK	HK-RES-03	HKE2	mouse	TacKI/TacKI	HKE	RES-03	none	0		#eb4d4b
+HK	HK-RES-03	HKE3	mouse	TacKI/TacKI	HKE	RES-03	none	0		#eb4d4b
+HK	HK-RES-03	HKE5	mouse	TacKI/TacKI	HKE	RES-03	none	0		#eb4d4b
+HK	HK-RES-05	HKF3	mouse	TacKI/TacKI	HKF	RES-05	none	0		#686de0
+HK	HK-RES-05	HKF1	mouse	TacKI/TacKI	HKF	RES-05	none	0		#686de0
+HK	HK-RES-05	HKF4	mouse	TacKI/TacKI	HKF	RES-05	none	0		#686de0
+HK	HK-RES-05	HKF5	mouse	TacKI/TacKI	HKF	RES-05	none	0		#686de0
+HK	HK-RES-06	HKG4	mouse	TacKI/TacKI	HKG	RES-06	none	0		#95afc0
+HK	HK-RES-06	HKG5	mouse	TacKI/TacKI	HKG	RES-06	none	0		#95afc0
+HK	HK-RES-06	HKG1	mouse	TacKI/TacKI	HKG	RES-06	none	0		#95afc0
+HK	HK-RES-06	HKG3	mouse	TacKI/TacKI	HKG	RES-06	none	0		#95afc0
+HK	HK-RES-04	HKH1	mouse	TacKI/TacKI	HKH	RES-04	none	0		#e056fd
+HK	HK-RES-04	HKH3	mouse	TacKI/TacKI	HKH	RES-04	none	0		#e056fd
+HK	HK-RES-04	HKH5	mouse	TacKI/TacKI	HKH	RES-04	none	0		#e056fd
+HK	HK-RES-07	HKI1	mouse	TacKI/TacKI	HKI	RES-07	none	0		#ae9f45
+HK	HK-RES-07	HKI3	mouse	TacKI/TacKI	HKI	RES-07	none	0		#ae9f45
+HK	HK-RES-07	HKI7	mouse	TacKI/TacKI	HKI	RES-07	none	0		#ae9f45
+HK	HK-RES-07	HKI4	mouse	TacKI/TacKI	HKI	RES-07	none	0		#ae9f45
+HK	HK-RES-09	HKJ1	mouse	TacKI/TacKI	HKJ	RES-09	none	0		#51a875
+HK	HK-RES-09	HKJ3	mouse	TacKI/TacKI	HKJ	RES-09	none	0		#51a875
+HK	HK-RES-09	HKJ5	mouse	TacKI/TacKI	HKJ	RES-09	none	0		#51a875
+HK	HK-RES-09	HKJ7	mouse	TacKI/TacKI	HKJ	RES-09	none	0		#51a875
+HK	HK-uninoculated-females	HKF7	mouse	TacKI/TacKI	HKK	uninoculated	none	0		#501378
+HK	HK-uninoculated-females	HKG6	mouse	TacKI/TacKI	HKK	uninoculated	none	0		#501378
+HK	HK-uninoculated-females	HKI5	mouse	TacKI/TacKI	HKK	uninoculated	none	0		#501378
+HK	HK-uninoculated-females	HKJ11	mouse	TacKI/TacKI	HKK	uninoculated	none	0		#501378
+RD	RD-WT-uninoculated-ASO6-1000ug	122038.1	rat	WT	122038	uninoculated	ASO 6	1000		#686de0
+RD	RD-WT-uninoculated-ASO6-1000ug	122038.2	rat	WT	122038	uninoculated	ASO 6	1000		#686de0
+RD	RD-WT-uninoculated-ASO6-1000ug	122039.1	rat	WT	122039	uninoculated	ASO 6	1000		#686de0
+RD	RD-WT-uninoculated-PBS	122039.2	rat	WT	122039	uninoculated	PBS	0		#686de0
+RD	RD-WT-uninoculated-PBS	122040.1	rat	WT	122040	uninoculated	PBS	0		#686de0
+RD	RD-WT-uninoculated-PBS	122040.2	rat	WT	122040	uninoculated	PBS	0		#686de0
+RD	RD-WT-uninoculated-ASO6-1000ug	122041.1	rat	WT	122041	uninoculated	ASO 6	1000		#686de0
+RD	RD-WT-uninoculated-ASO6-1000ug	122041.2	rat	WT	122041	uninoculated	ASO 6	1000		#686de0
+RD	RD-WT-uninoculated-ASO6-1000ug	122042.1	rat	WT	122042	uninoculated	ASO 6	1000		#686de0
+RD	RD-WT-uninoculated-PBS	122042.2	rat	WT	122042	uninoculated	PBS	0		#686de0
+RD	RD-WT-uninoculated-PBS	122043.1	rat	WT	122043	uninoculated	PBS	0		#686de0
+RD	RD-WT-uninoculated-PBS	122043.2	rat	WT	122043	uninoculated	PBS	0		#686de0
+RE	RE-WT-RRML-saline	88543L	rat	WT	88543	RRML	saline	0		#A9A9A9
+RE	RE-WT-RRML-saline	88543R	rat	WT	88543	RRML	saline	0		#A9A9A9
+RE	RE-WT-RRML-saline	88544L	rat	WT	88544	RRML	saline	0		#A9A9A9
+RE	RE-WT-RRML-saline	88544R	rat	WT	88544	RRML	saline	0		#A9A9A9
+RE	RE-WT-RRML-ASO6-1000ug	88545L	rat	WT	88545	RRML	ASO 6	1000	119	#41B6C4
+RE	RE-WT-RRML-ASO6-1000ug	88545R	rat	WT	88545	RRML	ASO 6	1000	119	#41B6C4
+RE	RE-WT-RRML-ASO6-1000ug	88546L	rat	WT	88546	RRML	ASO 6	1000	119	#41B6C4
+RE	RE-WT-RRML-ASO6-1000ug	88546R	rat	WT	88546	RRML	ASO 6	1000	119	#41B6C4
+RE	RE-WT-RRML-saline	88547L	rat	WT	88547	RRML	saline	0		#A9A9A9
+RE	RE-WT-RRML-saline	88547R	rat	WT	88547	RRML	saline	0		#A9A9A9
+RE	RE-WT-RRML-saline	88548L	rat	WT	88548	RRML	saline	0		#A9A9A9
+RE	RE-died	88548R	rat	WT	88548	RRML	NA			#22a6b3
+RE	RE-died	88549L	rat	WT	88549	RRML	ASO 6	1000	119	#22a6b3
+RE	RE-WT-RRML-ASO6-1000ug	88549R	rat	WT	88549	RRML	ASO 6	1000	119	#41B6C4
+RE	RE-WT-RRML-ASO6-1000ug	88550L	rat	WT	88550	RRML	ASO 6	1000	119	#41B6C4
+RE	RE-WT-RRML-ASO6-1000ug	88550R	rat	WT	88550	RRML	ASO 6	1000	119	#41B6C4
+RG	RG-HO-RRML	107327R	rat	KO	107327	RRML	none	0		#A02422
+RG	RG-WT-RRML	107327L	rat	WT	107327	RRML	none	0		#0001CD
+RG	RG-WT-RRML	107328R	rat	WT	107328	RRML	none	0		#0001CD
+RG	RG-HE-RRML	107328L	rat	HE	107328	RRML	none	0		#501378
+RG	RG-HE-RRML	107330R	rat	HE	107330	RRML	none	0		#501378
+RG	RG-HO-RRML	107330L	rat	KO	107330	RRML	none	0		#A02422
+RG	RG-WT-RRML	107331R	rat	WT	107331	RRML	none	0		#0001CD
+RG	RG-WT-RRML	107331L	rat	WT	107331	RRML	none	0		#0001CD
+RG	RG-WT-RRML	107332R	rat	WT	107332	RRML	none	0		#0001CD
+RG	RG-HE-RRML	107332L	rat	HE	107332	RRML	none	0		#501378
+RG	RG-HO-RRML	107335R	rat	KO	107335	RRML	none	0		#A02422
+RG	RG-HE-RRML	107335L	rat	HE	107335	RRML	none	0		#501378
+RG	RG-WT-RRML	107336R	rat	WT	107336	RRML	none	0		#0001CD
+RG	RG-HE-RRML	107336L	rat	HE	107336	RRML	none	0		#501378
+RG	RG-HO-RRML	107337R	rat	KO	107337	RRML	none	0		#A02422
+RG	RG-HE-RRML	107337L	rat	HE	107337	RRML	none	0		#501378
+RG	RG-HO-RRML	107338R	rat	KO	107338	RRML	none	0		#A02422
+RG	RG-WT-RRML	107338L	rat	WT	107338	RRML	none	0		#0001CD
+RG	RG-HE-RRML	107340R	rat	HE	107340	RRML	none	0		#501378
+RG	RG-HO-RRML	107340L	rat	KO	107340	RRML	none	0		#A02422
+RG	RG-WT-RRML	107341R	rat	WT	107341	RRML	none	0		#0001CD
+RG	RG-WT-RRML	107341L	rat	WT	107341	RRML	none	0		#0001CD
+RG	RG-HO-RRML	107342R	rat	KO	107342	RRML	none	0		#A02422
+RG	RG-HO-RRML	107342L	rat	KO	107342	RRML	none	0		#A02422
+RG	RG-WT-RRML	107344R	rat	WT	107344	RRML	none	0		#0001CD
+RG	RG-HE-RRML	107344L	rat	HE	107344	RRML	none	0		#501378
+RG	RG-HE-RRML	107346R	rat	HE	107346	RRML	none	0		#501378
+RG	RG-HO-RRML	107346L	rat	KO	107346	RRML	none	0		#A02422
+RG	RG-HO-RRML	107348R	rat	KO	107348	RRML	none	0		#A02422
+RG	RG-HE-RRML	107348L	rat	HE	107348	RRML	none	0		#501378
+RG	RG-HO-RRML	107349R	rat	KO	107349	RRML	none	0		#A02422
+RG	RG-WT-RRML	107349L	rat	WT	107349	RRML	none	0		#0001CD
+RG	RG-HE-RRML	107351R	rat	HE	107351	RRML	none	0		#501378
+RG	RG-HO-RRML	107351L	rat	KO	107351	RRML	none	0		#A02422
+RG	RG-HO-RRML	107352R	rat	KO	107352	RRML	none	0		#A02422
+RG	RG-WT-uninoc	107352L	rat	WT	107352	RRML	none	0		#5b5b5b
+RP	RP-WT-RRML-vehicle	131825L	rat	WT	131825	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131825R	rat	WT	131825	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131826L	rat	WT	131826	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131826R	rat	WT	131826	RRML	vehicle	0	127	#6ab04c
+RP	RP-died	131827L	rat	WT	131827	RRML	NA			#ae9f45
+RP	RP-WT-RRML-vehicle	131827R	rat	WT	131827	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131828L	rat	WT	131828	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131828R	rat	WT	131828	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131829L	rat	WT	131829	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-ASO6-300ug	131829R	rat	WT	131829	RRML	ASO 6	300	127	#51a875
+RP	RP-WT-RRML-ASO6-300ug	131830L	rat	WT	131830	RRML	ASO 6	300	127	#51a875
+RP	RP-WT-RRML-ASO6-300ug	131830R	rat	WT	131830	RRML	ASO 6	300	127	#51a875
+RP	RP-WT-RRML-ASO6-600ug	131831L	rat	WT	131831	RRML	ASO 6	600	127	#501378
+RP	RP-WT-RRML-ASO6-600ug	131831R	rat	WT	131831	RRML	ASO 6	600	127	#501378
+RP	RP-WT-RRML-ASO6-600ug	131832L	rat	WT	131832	RRML	ASO 6	600	127	#501378
+RP	RP-WT-RRML-ASO6-600ug	131832R	rat	WT	131832	RRML	ASO 6	600	127	#501378
+RP	RP-WT-RRML-ASO6-1000ug	131833L	rat	WT	131833	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	110128L	rat	WT	110128	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131834L	rat	WT	131834	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131834R	rat	WT	131834	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131835L	rat	WT	131835	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131835R	rat	WT	131835	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131836L	rat	WT	131836	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131836R	rat	WT	131836	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-vehicle	131837	rat	WT	131837	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131838	rat	WT	131838	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131839	rat	WT	131839	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131840	rat	WT	131840	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131841	rat	WT	131841	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131842	rat	WT	131842	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131843	rat	WT	131843	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-vehicle	131844	rat	WT	131844	RRML	vehicle	0	127	#6ab04c
+RP	RP-WT-RRML-ASO6-300ug	131845	rat	WT	131845	RRML	ASO 6	300	127	#51a875
+RP	RP-WT-RRML-ASO6-300ug	131846	rat	WT	131846	RRML	ASO 6	300	127	#51a875
+RP	RP-WT-RRML-ASO6-300ug	131847	rat	WT	131847	RRML	ASO 6	300	127	#51a875
+RP	RP-WT-RRML-ASO6-600ug	131848	rat	WT	131848	RRML	ASO 6	600	127	#501378
+RP	RP-WT-RRML-ASO6-600ug	131862	rat	WT	131862	RRML	ASO 6	600	127	#501378
+RP	RP-WT-RRML-ASO6-600ug	131863	rat	WT	131863	RRML	ASO 6	600	127	#501378
+RP	RP-died	131864	rat	WT	131864	RRML	NA			#ae9f45
+RP	RP-WT-RRML-ASO6-1000ug	131865	rat	WT	131865	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131866	rat	WT	131866	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131867	rat	WT	131867	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131868	rat	WT	131868	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131869	rat	WT	131869	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131870	rat	WT	131870	RRML	ASO 6	1000	127	#30336b
+RP	RP-died	131871	rat	WT	131871	RRML	NA			#ae9f45
+RP	RP-WT-RRML-ASO6-1000ug	131872	rat	WT	131872	RRML	ASO 6	1000	127	#30336b
+RP	RP-WT-RRML-ASO6-1000ug	131873	rat	WT	131873	RRML	ASO 6	1000	127	#30336b
+RR	RR-RRML	74616L	rat	WT	74616	RRML	none	0		#95afc0
+RR	RR-RRML	74616R	rat	WT	74616	RRML	none	0		#95afc0
+RR	RR-died	74617L	rat	WT	74617	none	none	0		#e056fd
+RR	RR-NBH	74617R	rat	WT	74617	NBH	none	0		#f9ca24
+RR	RR-RRML	74618L	rat	WT	74618	RRML	none	0		#95afc0
+RR	RR-RRML	74618R	rat	WT	74618	RRML	none	0		#95afc0
+RR	RR-NBH	74619L	rat	WT	74619	NBH	none	0		#f9ca24
+RR	RR-NBH	74619R	rat	WT	74619	NBH	none	0		#f9ca24
+RR	RR-RRML	74620L	rat	WT	74620	RRML	none	0		#95afc0
+RR	RR-RRML	74620R	rat	WT	74620	RRML	none	0		#95afc0
+RR	RR-NBH	74621L	rat	WT	74621	NBH	none	0		#f9ca24
+RR	RR-NBH	74621R	rat	WT	74621	NBH	none	0		#f9ca24
+RR	RR-RRML	74622L	rat	WT	74622	RRML	none	0		#95afc0
+RR	RR-RRML	74622R	rat	WT	74622	RRML	none	0		#95afc0
+RR	RR-NBH	74623L	rat	WT	74623	NBH	none	0		#f9ca24
+RR	RR-NBH	74623R	rat	WT	74623	NBH	none	0		#f9ca24
+RZ	RZ-spare	136743L	rat	WT	136743	RRML	NA			#ae9f45
+RZ	RZ-spare	136743R	rat	WT	136743	RRML	NA			#ae9f45
+RZ	RZ-WT-RRML-ASO6-600ug	136744L	rat	WT	136744	RRML	ASO 6	600	127	#51a875
+RZ	RZ-WT-RRML-ASO6-300ug	136744R	rat	WT	136744	RRML	ASO 6	300	127	#501378
+RZ	RZ-WT-RRML-ASO6-1000ug	136745L	rat	WT	136745	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-vehicle	136745R	rat	WT	136745	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-ASO6-300ug	136746L	rat	WT	136746	RRML	ASO 6	300	127	#501378
+RZ	RZ-WT-RRML-vehicle	136746R	rat	WT	136746	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-ASO6-300ug	136747L	rat	WT	136747	RRML	ASO 6	300	127	#501378
+RZ	RZ-WT-RRML-vehicle	136747R	rat	WT	136747	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-ASO6-1000ug	136748L	rat	WT	136748	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-ASO6-600ug	136748R	rat	WT	136748	RRML	ASO 6	600	127	#51a875
+RZ	RZ-WT-RRML-ASO6-1000ug	136749L	rat	WT	136749	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-vehicle	136749R	rat	WT	136749	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-ASO6-1000ug	136750L	rat	WT	136750	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-ASO6-1000ug	136750R	rat	WT	136750	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-ASO6-1000ug	136751L	rat	WT	136751	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-vehicle	136751R	rat	WT	136751	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-vehicle	136752L	rat	WT	136752	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-ASO6-600ug	136752R	rat	WT	136752	RRML	ASO 6	600	127	#51a875
+RZ	RZ-WT-RRML-ASO6-1000ug	136753	rat	WT	136753	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-vehicle	136754	rat	WT	136754	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-ASO6-1000ug	136755	rat	WT	136755	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-vehicle	136756	rat	WT	136756	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-ASO6-1000ug	136757	rat	WT	136757	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-ASO6-1000ug	136758	rat	WT	136758	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-ASO6-1000ug	136759	rat	WT	136759	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-ASO6-1000ug	136760	rat	WT	136760	RRML	ASO 6	1000	127	#30336b
+RZ	RZ-WT-RRML-vehicle	136761	rat	WT	136761	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-vehicle	136792	rat	WT	136792	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-ASO6-600ug	136793	rat	WT	136793	RRML	ASO 6	600	127	#51a875
+RZ	RZ-WT-RRML-ASO6-300ug	136794	rat	WT	136794	RRML	ASO 6	300	127	#501378
+RZ	RZ-WT-RRML-ASO6-600ug	136795	rat	WT	136795	RRML	ASO 6	600	127	#51a875
+RZ	RZ-WT-RRML-ASO6-300ug	136796	rat	WT	136796	RRML	ASO 6	300	127	#501378
+RZ	RZ-WT-RRML-ASO6-600ug	136797	rat	WT	136797	RRML	ASO 6	600	127	#51a875
+RZ	RZ-WT-RRML-vehicle	136798	rat	WT	136798	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-vehicle	136799	rat	WT	136799	RRML	vehicle	0	127	#5b5b5b
+RZ	RZ-WT-RRML-ASO6-300ug	136800	rat	WT	136800	RRML	ASO 6	300	127	#501378
+SB	SB-WT-263K-NoTx	103247	hamster	WT	103247	263K	none	0		#eeb45b
+SB	SB-WT-263K-NoTx	103248	hamster	WT	103248	263K	none	0		#eeb45b
+SB	SB-WT-263K-NoTx	103249	hamster	WT	103249	263K	none	0		#eeb45b
+SB	SB-WT-263K-NoTx	103250	hamster	WT	103250	263K	none	0		#eeb45b
+SB	SB-WT-263K-NoTx	103251	hamster	WT	103251	263K	none	0		#eeb45b
+SB	SB-WT-263K-NoTx	103252	hamster	WT	103252	263K	none	0		#eeb45b
+SB	SB-KO-263K-NoTx	103425	hamster	KO	103425	263K	none	0		#eeb45b
+SB	SB-KO-263K-NoTx	103426	hamster	KO	103426	263K	none	0		#eeb45b
+SB	SB-KO-263K-NoTx	103427	hamster	KO	103427	263K	none	0		#eeb45b
+SB	SB-KO-263K-NoTx	103428	hamster	KO	103428	263K	none	0		#eeb45b
+SB	SB-KO-263K-NoTx	103429	hamster	KO	103429	263K	none	0		#eeb45b
+SB	SB-KO-263K-NoTx	103430	hamster	KO	103430	263K	none	0		#eeb45b
+SB	SB-KO-263K-NoTx	103431	hamster	KO	103431	263K	none	0		#eeb45b
+SB	SB-KO-263K-NoTx	103432	hamster	KO	103432	263K	none	0		#eeb45b
+SC	SC-HE-D15	114170	hamster	HE	114170	263K	none	0		#eb4d4b
+SC	SC-HE-D60	114171	hamster	HE	114171	263K	none	0		#686de0
+SC	SC-HE-D120	114172	hamster	HE	114172	263K	none	0		#95afc0
+SC	SC-HE-D30	114173	hamster	HE	114173	263K	none	0		#e056fd
+SC	SC-HE-D100	114174	hamster	HE	114174	263K	none	0		#ae9f45
+SC	SC-HE-D45	114175	hamster	HE	114175	263K	none	0		#51a875
+SC	SC-HE-D60	114176	hamster	HE	114176	263K	none	0		#686de0
+SC	SC-HE-D120	114177	hamster	HE	114177	263K	none	0		#95afc0
+SC	SC-HE-D80	114178	hamster	HE	114178	263K	none	0		#501378
+SC	SC-HE-D30	114179	hamster	HE	114179	263K	none	0		#e056fd
+SC	SC-HE-D60	114180	hamster	HE	114180	263K	none	0		#686de0
+SC	SC-HE-D100	114181	hamster	HE	114181	263K	none	0		#ae9f45
+SC	SC-HE-D15	114182	hamster	HE	114182	263K	none	0		#eb4d4b
+SC	SC-HE-D80	114183	hamster	HE	114183	263K	none	0		#501378
+SC	SC-HE-D45	114184	hamster	HE	114184	263K	none	0		#51a875
+SC	SC-HE-D30	114185	hamster	HE	114185	263K	none	0		#e056fd
+SC	SC-HE-D100	114186	hamster	HE	114186	263K	none	0		#ae9f45
+SC	SC-HE-D60	114187	hamster	HE	114187	263K	none	0		#686de0
+SC	SC-HE-D45	114188	hamster	HE	114188	263K	none	0		#51a875
+SC	SC-HE-D120	114189	hamster	HE	114189	263K	none	0		#95afc0
+SC	SC-HE-D15	114190	hamster	HE	114190	263K	none	0		#eb4d4b
+SC	SC-HE-D30	114191	hamster	HE	114191	263K	none	0		#e056fd
+SC	SC-HE-D100	114192	hamster	HE	114192	263K	none	0		#ae9f45
+SC	SC-HE-D80	114193	hamster	HE	114193	263K	none	0		#501378
+SC	SC-HE-D45	114194	hamster	HE	114194	263K	none	0		#51a875
+SC	SC-HE-D15	114195	hamster	HE	114195	263K	none	0		#eb4d4b
+SC	SC-HE-D120	114196	hamster	HE	114196	263K	none	0		#95afc0
+SC	SC-HE-D80	114197	hamster	HE	114197	263K	none	0		#501378
+SD	SD-HO-D15	117288	hamster	KO	117288	263K	none	0		#501378
+SD	Hamster-HE-Untreated	117289	hamster	HE	117289	263K	none	0		#501378
+SD	Hamster-HE-Untreated	117290	hamster	HE	117290	263K	none	0		#501378
+SD	Hamster-HE-Untreated	117291	hamster	HE	117291	263K	none	0		#501378
+SD	SD-HO-D45	117292	hamster	KO	117292	263K	none	0		#3A6629
+SD	Hamster-HE-Untreated	117293	hamster	HE	117293	263K	none	0		#501378
+SD	SD-HO-D15	117294	hamster	KO	117294	263K	none	0		#501378
+SD	SD-HO-D45	117295	hamster	KO	117295	263K	none	0		#3A6629
+SD	Hamster-HE-Untreated	117296	hamster	HE	117296	263K	none	0		#501378
+SD	SD-HO-D15	117297	hamster	KO	117297	263K	none	0		#501378
+SD	SD-HO-D45	117298	hamster	KO	117298	263K	none	0		#3A6629
+SD	Hamster-HE-Untreated	117299	hamster	HE	117299	263K	none	0		#501378
+SD	SD-HO-D120	117300	hamster	KO	117300	263K	none	0		#836FFF
+SD	SD-HO-D45	117301	hamster	KO	117301	263K	none	0		#3A6629
+SD	Hamster-HE-Untreated	117302	hamster	HE	117302	263K	none	0		#501378
+SD	SD-HO-D15	117303	hamster	KO	117303	263K	none	0		#501378
+SD	SD-HO-D170	117304	hamster	KO	117304	263K	none	0		#ae9f45
+SD	Hamster-HE-Untreated	117305	hamster	HE	117305	263K	none	0		#501378
+SD	Hamster-HE-Untreated	117306	hamster	HE	117306	263K	none	0		#501378
+SD	Hamster-HE-Untreated	117307	hamster	HE	117307	263K	none	0		#501378
+SD	Hamster-HE-Untreated	117308	hamster	HE	117308	263K	none	0		#501378
+SD	Hamster-HE-Untreated	117309	hamster	HE	117309	263K	none	0		#501378
+SE	Hamster-WT-Untreated	107822	hamster	WT	107822	263K	none	0		#0001CD
+SE	Hamster-WT-ASO1-300ug-64dpi	107823	hamster	WT	107823	263K	ASO 1	300	64	#1fa902
+SE	Hamster-WT-ASO1-300ug-43dpi	107824	hamster	WT	107824	263K	ASO 1	300	43	#afec87
+SE	Hamster-WT-Untreated	107825	hamster	WT	107825	263K	none	0		#0001CD
+SE	Hamster-WT-Untreated	107826	hamster	WT	107826	263K	none	0		#0001CD
+SE	Hamster-WT-ASO1-300ug-43dpi	107827	hamster	WT	107827	263K	ASO 1	300	43	#afec87
+SE	Hamster-WT-Untreated	107828	hamster	WT	107828	263K	none	0		#0001CD
+SE	Hamster-WT-ASO1-300ug-64dpi	107829	hamster	WT	107829	263K	ASO 1	300	64	#1fa902
+SE	Hamster-WT-ASO1-300ug-43dpi	107830	hamster	WT	107830	263K	ASO 1	300	43	#afec87
+SE	Hamster-WT-Untreated	107831	hamster	WT	107831	263K	none	0		#0001CD
+SE	Hamster-WT-ASO1-300ug-64dpi	107832	hamster	WT	107832	263K	ASO 1	300	64	#1fa902
+SE	Hamster-WT-ASO1-300ug-43dpi	107833	hamster	WT	107833	263K	ASO 1	300	43	#afec87
+SE	Hamster-WT-Untreated	107834	hamster	WT	107834	263K	none	0		#0001CD
+SE	Hamster-WT-ASO1-300ug-64dpi	107835	hamster	WT	107835	263K	ASO 1	300	64	#1fa902
+SE	Hamster-WT-ASO1-300ug-43dpi	107836	hamster	WT	107836	263K	ASO 1	300	43	#afec87
+SE	Hamster-WT-Untreated	107837	hamster	WT	107837	263K	none	0		#0001CD
+SE	Hamster-WT-ASO1-300ug-64dpi	107838	hamster	WT	107838	263K	ASO 1	300	64	#1fa902
+SE	Hamster-WT-ASO1-300ug-43dpi	107839	hamster	WT	107839	263K	ASO 1	300	43	#afec87
+SE	Hamster-WT-Untreated	107840	hamster	WT	107840	263K	none	0		#0001CD
+SE	Hamster-WT-ASO1-300ug-64dpi	107841	hamster	WT	107841	263K	ASO 1	300	64	#1fa902
+SE	Hamster-WT-ASO1-300ug-43dpi	107842	hamster	WT	107842	263K	ASO 1	300	43	#afec87
+SE	Hamster-WT-Untreated	107843	hamster	WT	107843	263K	none	0		#0001CD
+SE	Hamster-WT-ASO1-300ug-64dpi	107844	hamster	WT	107844	263K	ASO 1	300	64	#1fa902
+SE	Hamster-WT-ASO1-300ug-43dpi	107845	hamster	WT	107845	263K	ASO 1	300	43	#afec87
+SG	Hamster-Pilot-HE-263K-Untreated	89019	hamster	HE	89019	263K	none	0		#51a875
+SG	Hamster-Pilot-HE-263K-Untreated	89020	hamster	HE	89020	263K	none	0		#51a875
+SG	Hamster-Pilot-HE-263K-Untreated	89021	hamster	HE	89021	263K	none	0		#51a875
+SG	Hamster-Pilot-HE-263K-Untreated	89023	hamster	HE	89023	263K	none	0		#51a875
+SG	Hamster-Pilot-HE-263K-Untreated	89024	hamster	HE	89024	263K	none	0		#51a875
+SG	Hamster-Pilot-HE-263K-Untreated	89025	hamster	HE	89025	263K	none	0		#51a875
+SH	Hamster-Pilot-WT-Uninoc-Untreated	101218	hamster	WT	101218	none	none	0		#eb4d4b
+SH	Hamster-Pilot-WT-Uninoc-Untreated	101219	hamster	WT	101219	none	none	0		#eb4d4b
+SH	Hamster-Pilot-WT-Uninoc-Untreated	101220	hamster	WT	101220	none	none	0		#eb4d4b
+SH	Hamster-Pilot-WT-Uninoc-Untreated	101221	hamster	WT	101221	none	none	0		#eb4d4b
+SH	Hamster-Pilot-WT-263K-Untreated	101222	hamster	WT	101222	263K	none	0		#686de0
+SH	Hamster-Pilot-WT-263K-Untreated	101223	hamster	WT	101223	263K	none	0		#686de0
+SH	Hamster-Pilot-WT-263K-Untreated	101224	hamster	WT	101224	263K	none	0		#686de0
+SH	Hamster-Pilot-WT-263K-Untreated	101225	hamster	WT	101225	263K	none	0		#686de0
+SH	Hamster-Pilot-WT-263K-Untreated	101226	hamster	WT	101226	263K	none	0		#686de0
+SH	Hamster-Pilot-WT-263K-Untreated	101227	hamster	WT	101227	263K	none	0		#686de0
+SH	Hamster-Pilot-WT-263K-Untreated	101228	hamster	WT	101228	263K	none	0		#686de0
+SH	Hamster-Pilot-WT-263K-Untreated	101229	hamster	WT	101229	263K	none	0		#686de0
+SH	Hamster-Pilot-WT-Uninoc-Untreated	101230	hamster	WT	101230	none	none	0		#eb4d4b
+SH	Hamster-Pilot-WT-Uninoc-Untreated	101231	hamster	WT	101231	none	none	0		#eb4d4b
+SH	Hamster-Pilot-WT-Uninoc-Untreated	101232	hamster	WT	101232	none	none	0		#eb4d4b
+SH	Hamster-Pilot-WT-Uninoc-Untreated	101233	hamster	WT	101233	none	none	0		#eb4d4b
+SH	Hamster-Pilot-HO-263K-Untreated	101666	hamster	KO	101666	263K	none	0		#95afc0
+SH	Hamster-Pilot-HO-263K-Untreated	101667	hamster	KO	101667	263K	none	0		#95afc0
+SH	Hamster-Pilot-HO-263K-Untreated	101668	hamster	KO	101668	263K	none	0		#95afc0
+SH	Hamster-Pilot-HO-263K-Untreated	101669	hamster	KO	101669	263K	none	0		#95afc0
+SH	Hamster-Pilot-HO-263K-Untreated	101670	hamster	KO	101670	263K	none	0		#95afc0
+SH	Hamster-Pilot-HO-263K-Untreated	101671	hamster	KO	101671	263K	none	0		#95afc0
+SH	Hamster-Pilot-HO-263K-Untreated	101672	hamster	KO	101672	263K	none	0		#95afc0
+SH	Hamster-Pilot-HO-263K-Untreated	101673	hamster	KO	101673	263K	none	0		#95afc0
+SK	SK-WT-D30	120862	hamster	WT	120862	263K	none	0		#eb9941
+SK	Hamster-WT-ASO1-300ug-64dpi	120863	hamster	WT	120863	263K	ASO 1	300	64	#1fa902
+SK	Hamster-WT-ASO1-300ug-43dpi	120864	hamster	WT	120864	263K	ASO 1	300	43	#afec87
+SK	SK-WT-D45	120865	hamster	WT	120865	263K	none	0		#ae9f45
+SK	Hamster-WT-Untreated	120866	hamster	WT	120866	263K	none	0		#0001CD
+SK	excluded	120867	hamster	NA	120867	263K	excluded			#eb4d4b
+SK	Hamster-WT-ASO1-300ug-43dpi	120868	hamster	WT	120868	263K	ASO 1	300	43	#afec87
+SK	SK-WT-D30	120869	hamster	WT	120869	263K	none	0		#eb9941
+SK	Hamster-WT-ASO1-300ug-43dpi	120870	hamster	WT	120870	263K	ASO 1	300	43	#afec87
+SK	Hamster-WT-ASO1-300ug-64dpi	120871	hamster	WT	120871	263K	ASO 1	300	64	#1fa902
+SK	SK-WT-D45	120872	hamster	WT	120872	263K	none	0		#ae9f45
+SK	Hamster-WT-Untreated	120873	hamster	WT	120873	263K	none	0		#0001CD
+SK	Hamster-WT-ASO1-300ug-64dpi	120874	hamster	WT	120874	263K	ASO 1	300	64	#1fa902
+SK	SK-WT-D30	120875	hamster	WT	120875	263K	none	0		#eb9941
+SK	Hamster-WT-Untreated	120876	hamster	WT	120876	263K	none	0		#0001CD
+SK	Hamster-WT-ASO1-300ug-43dpi	120877	hamster	WT	120877	263K	ASO 1	300	43	#afec87
+SK	SK-WT-D45	120878	hamster	WT	120878	263K	none	0		#ae9f45
+SK	Hamster-WT-Untreated	120879	hamster	WT	120879	263K	none	0		#0001CD
+SK	Hamster-WT-ASO1-300ug-64dpi	120880	hamster	WT	120880	263K	ASO 1	300	64	#1fa902
+SK	Hamster-WT-ASO1-300ug-43dpi	120881	hamster	WT	120881	263K	ASO 1	300	43	#afec87
+SK	SK-WT-D30	120882	hamster	WT	120882	263K	none	0		#eb9941
+SK	Hamster-WT-Untreated	120883	hamster	WT	120883	263K	none	0		#0001CD
+SK	SK-WT-D45	120884	hamster	WT	120884	263K	none	0		#ae9f45
+SZ	SZ-WT-NoTx	124692	hamster	WT	124692	263K	none	0		#ffbe76
+SZ	SZ-WT-NoTx	124693	hamster	WT	124693	263K	none	0		#ffbe76
+SZ	SZ-WT-43dpi-ASO1	124694	hamster	WT	124694	263K	ASO 1	300	43	#eb4d4b
+SZ	SZ-WT-NoTx	124695	hamster	WT	124695	263K	none	0		#ffbe76
+SZ	SZ-WT-43dpi-ASO1	124696	hamster	WT	124696	263K	ASO 1	300	43	#eb4d4b
+SZ	SZ-WT-NoTx	124697	hamster	WT	124697	263K	none	0		#ffbe76
+SZ	SZ-WT-NoTx	124698	hamster	WT	124698	263K	none	0		#ffbe76
+SZ	SZ-WT-43dpi-ASO1	124699	hamster	WT	124699	263K	ASO 1	300	43	#eb4d4b
+SZ	SZ-WT-NoTx	124700	hamster	WT	124700	263K	none	0		#ffbe76
+SZ	SZ-WT-NoTx	124701	hamster	WT	124701	263K	none	0		#ffbe76
+SZ	SZ-WT-43dpi-ASO1	124702	hamster	WT	124702	263K	ASO 1	300	43	#eb4d4b
+SZ	SZ-WT-NoTx	124703	hamster	WT	124703	263K	none	0		#ffbe76
+SZ	SZ-WT-NoTx	124704	hamster	WT	124704	263K	none	0		#ffbe76
+SZ	SZ-WT-43dpi-ASO1	124705	hamster	WT	124705	263K	ASO 1	300	43	#eb4d4b
+SZ	SZ-WT-NoTx	124706	hamster	WT	124706	263K	none	0		#ffbe76
+CMR-2187	CMR2187-WT-uninoculated-NoTx	104288	hamster	WT	104288	uninoculated	none	0		#51a875
+CMR-2187	CMR2187-WT-uninoculated-NoTx	104289	hamster	WT	104289	uninoculated	none	0		#51a875
+CMR-2187	CMR2187-WT-uninoculated-NoTx	104290	hamster	WT	104290	uninoculated	none	0		#51a875
+CMR-2187	CMR2187-WT-uninoculated-ASO1-300ug	104291	hamster	WT	104291	uninoculated	ASO 1	300		#ffbe76
+CMR-2187	CMR2187-WT-uninoculated-ASO1-300ug	104292	hamster	WT	104292	uninoculated	ASO 1	300		#ffbe76
+CMR-2187	CMR2187-WT-uninoculated-ASO1-300ug	104293	hamster	WT	104293	uninoculated	ASO 1	300		#ffbe76
+CMR-2187	CMR2187-WT-uninoculated-NoTx	104294	hamster	WT	104294	uninoculated	none	0		#51a875
+CMR-2187	CMR2187-WT-uninoculated-NoTx	104295	hamster	WT	104295	uninoculated	none	0		#51a875
+CMR-2187	CMR2187-WT-uninoculated-NoTx	104296	hamster	WT	104296	uninoculated	none	0		#51a875
+CMR-2187	CMR2187-WT-uninoculated-ASO1-300ug	104297	hamster	WT	104297	uninoculated	ASO 1	300		#ffbe76
+CMR-2187	CMR2187-WT-uninoculated-ASO1-300ug	104298	hamster	WT	104298	uninoculated	ASO 1	300		#ffbe76
+CMR-2187	CMR2187-WT-uninoculated-ASO1-300ug	104299	hamster	WT	104299	uninoculated	ASO 1	300		#ffbe76

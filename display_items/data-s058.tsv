@@ -1,0 +1,25 @@
+expt	sex	animal	txdpi	treatment	dob	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+VONH	F	107		none	2021-10-24		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	262
+VONH	F	108		none	2021-10-24		2022-06-11	TRUE	TRUE	prion endpoint	counted in all-cause	Tg(Vole)	230
+VONH	F	109		none	2021-10-24		2022-05-22	TRUE	TRUE	prion endpoint	counted in all-cause	Tg(Vole)	210
+VONH	M	110		none	2021-10-24		2022-01-05	FALSE	TRUE	other	counted in all-cause	PrP KO	73
+VONH	M	111		none	2021-10-24		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	262
+VONH	M	112		none	2021-10-24		2022-04-14	TRUE	TRUE	prion endpoint	counted in all-cause	Tg(Vole)	172
+VONH	M	113		none	2021-10-24		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	262
+VONH	M	114		none	2021-10-24		2022-02-03	FALSE	TRUE	other	counted in all-cause	Tg(Vole)	102
+VONH	F	115		none	2021-10-25		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	261
+VONH	F	116		none	2021-10-25		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	261
+VONH	M	117		none	2021-10-25		2022-01-28	FALSE	TRUE	other	counted in all-cause	PrP KO	95
+VONH	M	118		none	2021-10-25		2022-05-10	TRUE	TRUE	prion endpoint	counted in all-cause	Tg(Vole)	197
+VONH	M	119		none	2021-10-25		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	261
+VONH	F	120		none	2021-10-31		2022-03-22	FALSE	TRUE	found dead	counted in all-cause	Tg(Vole)	142
+VONH	F	121		none	2021-10-31		2022-05-25	TRUE	TRUE	prion endpoint	counted in all-cause	Tg(Vole)	206
+VONH	F	122		none	2021-10-31		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	255
+VONH	F	123		none	2021-10-31		2022-05-06	TRUE	TRUE	prion endpoint	counted in all-cause	Tg(Vole)	187
+VONH	F	124		none	2021-10-31		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	255
+VONH	M	125		none	2021-10-31		2022-07-13	TRUE	TRUE	prion endpoint	counted in all-cause	Tg(Vole)	255
+VONH	M	126		none	2021-10-31		2022-06-16	TRUE	TRUE	prion endpoint	counted in all-cause	Tg(Vole)	228
+VONH	M	127		none	2021-10-31		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	255
+VONH	M	128		none	2021-10-31		2022-07-13	FALSE	FALSE	end of study	scheduled euthanasia	PrP KO	255
+VONH	F	129		none	2021-10-28		2022-05-18	TRUE	TRUE	other	counted in all-cause	Tg(Vole)	202
+VONH	M	131		none	2021-10-28		2022-04-18	TRUE	TRUE	prion endpoint	counted in all-cause	Tg(Vole)	172

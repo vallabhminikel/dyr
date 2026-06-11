@@ -1,0 +1,6 @@
+cohort_disp	experiments	n	mean_peak_weight	mean_peak_pct	mean_peak_dpi	delta_dpi
+Tg26372 hom (20 copies)	HH	8	33.33	12.24	174.75	0
+PrP KO	HG	8	38.23	20.81	329.75	0.89
+Tg25109 het (3 copies)	HH	7	34.33	12.03	229.29	0.31
+Tg26372 het (10 copies)	HH	7	33.21	15.34	195	0.12
+uninoculated (all genotypes)	HH	25	36.31	26.44	347.48	0.99

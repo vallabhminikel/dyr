@@ -1,0 +1,8 @@
+cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
+uninoculated	5	HB	1	29		>400		1
+E200K MM	3	HB	3	245.7	191.23	349		0.0462
+E200K MV	3	HB	0			>400		0.439
+MM1 sCJD isolate 1	4	HB	4	299.8	16.94	303.5		0.0483
+MM1 sCJD isolate 2	3	HB	3	303	34.07	288		0.0732
+VV2 sCJD isolate 2	5	HB	0			>400		0.317
+VV2 sCJD isolate 1	4	HB	0			>400		0.371

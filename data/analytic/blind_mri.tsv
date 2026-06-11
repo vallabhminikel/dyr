@@ -1,0 +1,311 @@
+expt	cohort	animal	species	sex	genotype	inoculum	treatment	dose_ug	takedown_timepoint
+VOAG	VOAG-Tg-F	1099	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1103	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1108	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1109	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1110	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1112	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-F	1113	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-KO-M	1114	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1115	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1116	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1122	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1123	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1124	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-F	1126	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-F	1127	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1128	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1129	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1130	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1131	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1132	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1133	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1134	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1136	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1138	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1139	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1140	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-F	1143	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1144	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-F	1145	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-F	1146	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1147	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1148	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1149	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-F	1150	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-F	1152	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1153	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1154	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1155	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1157	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1158	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1160	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-F	1161	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-F	1162	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1163	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1164	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1165	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1166	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-F	1167	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-F	1168	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-KO-F	1169	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1170	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1171	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1172	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1173	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-F	1174	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1176	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1177	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-KO-F	1178	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-F	1179	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1180	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1181	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-KO-M	1182	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1183	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1184	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1185	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1186	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1188	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1189	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1190	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-F	1192	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-F	1199	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1204	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-KO-F	1207	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-F	1209	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1210	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1211	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1212	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1213	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1214	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-F	1216	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1218	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1219	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-KO-F	1220	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-KO-F	1221	mouse	F	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1222	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1223	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1224	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1225	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1226	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1227	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1228	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-KO-M	1231	mouse	M	Prp null	NA	none		NA
+VOAG	VOAG-Tg-M	1232	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1233	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1234	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1237	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1238	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-M	1239	mouse	M	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1241	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1242	mouse	F	Tg(Vole)	NA	none		NA
+VOAG	VOAG-Tg-F	1249	mouse	F	Tg(Vole)	NA	none		NA
+VONH	VONH-KO	107	mouse	F	Prp null	NA	none		NA
+VONH	VONH-Tg	108	mouse	F	Tg(Vole)	NA	none		NA
+VONH	VONH-Tg	109	mouse	F	Tg(Vole)	NA	none		NA
+VONH	VONH-KO	110	mouse	M	Prp null	NA	none		NA
+VONH	VONH-KO	111	mouse	M	Prp null	NA	none		NA
+VONH	VONH-Tg	112	mouse	M	Tg(Vole)	NA	none		NA
+VONH	VONH-KO	113	mouse	M	Prp null	NA	none		NA
+VONH	VONH-Tg	114	mouse	M	Tg(Vole)	NA	none		NA
+VONH	VONH-KO	115	mouse	F	Prp null	NA	none		NA
+VONH	VONH-KO	116	mouse	F	Prp null	NA	none		NA
+VONH	VONH-KO	117	mouse	M	Prp null	NA	none		NA
+VONH	VONH-Tg	118	mouse	M	Tg(Vole)	NA	none		NA
+VONH	VONH-KO	119	mouse	M	Prp null	NA	none		NA
+VONH	VONH-Tg	120	mouse	F	Tg(Vole)	NA	none		NA
+VONH	VONH-Tg	121	mouse	F	Tg(Vole)	NA	none		NA
+VONH	VONH-KO	122	mouse	F	Prp null	NA	none		NA
+VONH	VONH-Tg	123	mouse	F	Tg(Vole)	NA	none		NA
+VONH	VONH-KO	124	mouse	F	Prp null	NA	none		NA
+VONH	VONH-Tg	125	mouse	M	Tg(Vole)	NA	none		NA
+VONH	VONH-Tg	126	mouse	M	Tg(Vole)	NA	none		NA
+VONH	VONH-KO	127	mouse	M	Prp null	NA	none		NA
+VONH	VONH-KO	128	mouse	M	Prp null	NA	none		NA
+VONH	VONH-Tg	129	mouse	F	Tg(Vole)	NA	none		NA
+VONH	VONH-Tg	131	mouse	M	Tg(Vole)	NA	none		NA
+VOE1	VOE1-Tg-PBS	411	mouse	F	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	412	mouse	F	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	413	mouse	F	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	414	mouse	M	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	416	mouse	M	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	436	mouse	M	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	421	mouse	F	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	422	mouse	F	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	423	mouse	F	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	419	mouse	M	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	420	mouse	M	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-PBS	443	mouse	M	Tg(Vole)	NA	PBS		NA
+VOE1	VOE1-Tg-ASO6-300	429	mouse	F	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	439	mouse	F	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	442	mouse	F	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	426	mouse	M	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	427	mouse	M	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	428	mouse	M	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	452	mouse	F	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	457	mouse	F	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	453	mouse	F	TgVole (+)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	448	mouse	M	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	454	mouse	M	Tg(Vole)	NA	ASO 6		NA
+VOE1	VOE1-Tg-ASO6-300	456	mouse	M	Tg(Vole)	NA	ASO 6		NA
+HU2	HU2-uninoc	1	mouse	F	Ki817 hom	none	none		NA
+HU2	HU2-uninoc	2	mouse	F	Ki817 hom	none	none		NA
+HU2	HU2-uninoc	3	mouse	F	Ki817 hom	none	none		NA
+HU2	HU2-uninoc	4	mouse	M	Ki817 hom	none	none		NA
+HU2	HU2-uninoc	5	mouse	M	Ki817 hom	none	none		NA
+HU2	HU2-uninoc	6	mouse	M	Ki817 hom	none	none		NA
+HU2	HU2-RES05	7	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	8	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	9	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	10	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	11	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	12	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	13	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	14	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	15	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	16	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	17	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	18	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	19	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	20	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	21	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	22	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	23	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	24	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	25	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	26	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	27	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	28	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	29	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	30	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	31	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	32	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	33	mouse	M	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	34	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	35	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES05	36	mouse	F	Ki817 hom	RES-05	none		NA
+HU2	HU2-RES09	37	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	38	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	39	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	40	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	41	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	42	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	43	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	44	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	45	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	46	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	47	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	48	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	49	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	50	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	51	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	52	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	53	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	54	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	55	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	56	mouse	M	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	57	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	58	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	59	mouse	F	Ki817 hom	RES-09	none		NA
+HU2	HU2-RES09	60	mouse	F	Ki817 hom	RES-09	none		NA
+VOE2	VOE2-Tg-ASO6-100	861	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	862	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	863	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	786	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	788	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	806	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	866	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	784	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	789	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	790	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	791	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-100	792	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	807	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	811	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	812	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	822	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	819	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	821	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	796	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	798	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	799	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	800	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	801	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-300	802	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	846	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	829	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	832	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	836	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	838	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	840	mouse	M	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	804	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	808	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	823	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	825	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	841	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-ASO6-500	826	mouse	F	TgVole	NA	ASO 6		NA
+VOE2	VOE2-Tg-PBS	857	mouse	M	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	859	mouse	M	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	851	mouse	M	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	852	mouse	M	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	815	mouse	M	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	816	mouse	M	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	835	mouse	F	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	855	mouse	F	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	856	mouse	F	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	848	mouse	F	TgVole	NA	PBS		NA
+VOE2	VOE2-Tg-PBS	849	mouse	F	TgVole	NA	PBS		NA
+VOE2	VOE2-KO-NoTx	793	mouse	M	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	794	mouse	M	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	795	mouse	M	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	805	mouse	M	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	809	mouse	M	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	810	mouse	M	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	785	mouse	F	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	787	mouse	F	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	797	mouse	F	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	803	mouse	F	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	824	mouse	F	Prnp Null	NA	none		NA
+VOE2	VOE2-KO-NoTx	842	mouse	F	Prnp Null	NA	none		NA
+VOTE	VOTE-F-NoTx	69	mouse	F	Tg(Vole)	NA	none		NA
+VOTE	VOTE-F-NoTx	77	mouse	F	Tg(Vole)	NA	none		NA
+VOTE	VOTE-F-NoTx	79	mouse	F	Tg(Vole)	NA	none		NA
+VOTE	VOTE-M-NoTx	72	mouse	M	Tg(Vole)	NA	none		NA
+VOTE	VOTE-M-NoTx	74	mouse	M	Tg(Vole)	NA	none		NA
+VOTE	VOTE-M-NoTx	75	mouse	M	Tg(Vole)	NA	none		NA
+VOTE	VOTE-F-ASO6-300	85	mouse	F	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-F-ASO6-300	86	mouse	F	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-F-ASO6-300	91	mouse	F	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-M-ASO6-300	76	mouse	M	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-M-ASO6-300	81	mouse	M	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-M-ASO6-300	83	mouse	M	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-F-ASO6-500	93	mouse	F	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-F-ASO6-500	94	mouse	F	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-F-ASO6-500	84	mouse	M	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-M-ASO6-500	87	mouse	M	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-M-ASO6-500	89	mouse	M	Tg(Vole)	NA	ASO6		NA
+VOTE	VOTE-M-ASO6-500	96	mouse	M	Tg(Vole)	NA	ASO6		NA
+VOSS	VOSS-30	897	mouse	F	Tg(Vole) +	NA	none		30
+VOSS	VOSS-30	898	mouse	F	Tg(Vole) +	NA	none		30
+VOSS	VOSS-30	884	mouse	M	Tg(Vole) +	NA	none		30
+VOSS	VOSS-30	889	mouse	M	Tg(Vole) +	NA	none		30
+VOSS	VOSS-60	948	mouse	F	Tg(Vole) +	NA	none		61
+VOSS	VOSS-60	953	mouse	F	Tg(Vole) +	NA	none		61
+VOSS	VOSS-60	949	mouse	M	Tg(Vole) +	NA	none		61
+VOSS	VOSS-60	950	mouse	M	Tg(Vole) +	NA	none		61
+VOSS	VOSS-90	954	mouse	F	Tg(Vole) +	NA	none		90
+VOSS	VOSS-90	956	mouse	F	Tg(Vole) +	NA	none		90
+VOSS	VOSS-90	951	mouse	M	Tg(Vole) +	NA	none		90
+VOSS	VOSS-90	952	mouse	M	Tg(Vole) +	NA	none		90
+VOSS	VOSS-120	899	mouse	F	Tg(Vole) +	NA	none		120
+VOSS	VOSS-120	914	mouse	F	Tg(Vole) +	NA	none		120
+VOSS	VOSS-120	909	mouse	M	Tg(Vole) +	NA	none		120
+VOSS	VOSS-120	910	mouse	M	Tg(Vole) +	NA	none		120
+VOSS	VOSS-148	939	mouse	F	Tg(Vole) +	NA	none		148
+VOSS	VOSS-150	941	mouse	F	Tg(Vole) +	NA	none		150
+VOSS	VOSS-150	944	mouse	M	Tg(Vole) +	NA	none		150
+VOSS	VOSS-150	946	mouse	M	Tg(Vole) +	NA	none		150
+VOSS	VOSS-151	877	mouse	F	Tg(Vole) +	NA	none		151
+VOSS	VOSS-180	879	mouse	F	Tg(Vole) +	NA	none		180
+VOSS	VOSS-171	881	mouse	M	Tg(Vole) +	NA	none		171
+VOSS	VOSS-180	882	mouse	M	Tg(Vole) +	NA	none		180

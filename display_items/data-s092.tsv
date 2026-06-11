@@ -1,0 +1,6 @@
+expt	animal	cohort_disp	genotype	dpi	treatment	prion_endpoint	endpoint_comments	titer	se
+HA	HAA1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom	206	none	FALSE	found dead	10.698970004336019	0.28867513459481287
+HA	HAE1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom	207	none	TRUE	prion endpoint	11.198970004336019	0.3535533905932738
+HA	HAF1	MM1 sCJD isolate 2	Tg26372 hom; ZH3 hom	185	none	FALSE	intercurrent/other	9.698970004336019	0.28867513459481287
+HA	HAG3	E200K MV	Tg26372 hom; ZH3 hom	144	none	FALSE	intercurrent/other	9.198970004336019	0
+HA	HAH1	E200K MM	Tg26372 hom; ZH3 hom	207	none	TRUE	prion endpoint	10.698970004336019	0.28867513459481287

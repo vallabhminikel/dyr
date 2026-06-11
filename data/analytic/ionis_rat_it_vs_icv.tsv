@@ -1,0 +1,234 @@
+region	route	dose_ug	replicate	residual
+cortex	IT	100	1	0.8745242
+cortex	IT	100	2	0.8765601
+cortex	IT	100	3	0.9142117
+cortex	IT	100	4	0.9031401
+cortex	IT	100	5	0.9553573
+cortex	IT	100	6	0.8508069
+cortex	ICV	100	1	0.953
+cortex	ICV	100	2	0.874
+cortex	ICV	100	3	0.73
+cortex	ICV	100	4	0.793
+cortex	ICV	100	5	0.758
+cortex	ICV	100	6	0.607
+cortex	IT	300	1	0.8959906
+cortex	IT	300	2	0.7209309
+cortex	IT	300	3	0.7085232
+cortex	IT	300	4	0.8684172
+cortex	IT	300	5	0.8663618
+cortex	IT	300	6	0.8304789
+cortex	ICV	300	1	0.904
+cortex	ICV	300	2	0.365
+cortex	ICV	300	3	0.706
+cortex	ICV	300	4	0.625
+cortex	ICV	300	5	0.971
+cortex	ICV	300	6	0.839
+cortex	IT	1000	1	0.6288729
+cortex	IT	1000	2	0.6696843
+cortex	IT	1000	3	0.7425039
+cortex	IT	1000	4	0.7954346
+cortex	IT	1000	5	0.4884627
+cortex	IT	1000	6	0.7429023
+cortex	ICV	1000	1	0.318
+cortex	ICV	1000	2	0.264
+cortex	ICV	1000	3	0.346
+cortex	ICV	1000	4	0.272
+cortex	ICV	1000	5	0.283
+cortex	ICV	1000	6	0.267
+cortex	IT	3000	2	0.393195
+cortex	IT	3000	3	0.4676232
+cortex	IT	3000	4	0.3247215
+cortex	IT	3000	5	0.3564187
+cortex	IT	3000	6	0.2337173
+cortex	ICV	3000	1	0.34
+cortex	ICV	3000	2	0.24
+cortex	ICV	3000	3	0.317
+cortex	ICV	3000	4	0.287
+cortex	ICV	3000	5	0.339
+cortex	ICV	3000	6	0.311
+spinal cord	IT	100	1	0.495788
+spinal cord	IT	100	2	0.4656093
+spinal cord	IT	100	3	0.39577
+spinal cord	IT	100	4	0.3985856
+spinal cord	IT	100	5	0.4881925
+spinal cord	IT	100	6	0.5158958
+spinal cord	ICV	100	1	1.070379
+spinal cord	ICV	100	2	0.9475883
+spinal cord	ICV	100	3	0.8237075
+spinal cord	ICV	100	4	0.8257915
+spinal cord	ICV	100	5	0.8845177
+spinal cord	ICV	100	6	0.8007236
+spinal cord	IT	300	1	0.3172684
+spinal cord	IT	300	2	0.3369879
+spinal cord	IT	300	3	0.9211431
+spinal cord	IT	300	4	0.4746135
+spinal cord	IT	300	5	0.425376
+spinal cord	IT	300	6	0.4046915
+spinal cord	ICV	300	1	0.9983755
+spinal cord	ICV	300	2	0.8710912
+spinal cord	ICV	300	3	0.6563984
+spinal cord	ICV	300	4	0.7291982
+spinal cord	ICV	300	5	0.6339565
+spinal cord	ICV	300	6	0.656281
+spinal cord	IT	1000	1	0.3449231
+spinal cord	IT	1000	2	0.3088922
+spinal cord	IT	1000	3	0.3442492
+spinal cord	IT	1000	4	0.3768639
+spinal cord	IT	1000	5	0.2251543
+spinal cord	IT	1000	6	0.2335609
+spinal cord	ICV	1000	1	0.3591837
+spinal cord	ICV	1000	2	0.3374005
+spinal cord	ICV	1000	3	0.423392
+spinal cord	ICV	1000	4	0.7978615
+spinal cord	ICV	1000	5	0.436667
+spinal cord	ICV	1000	6	0.3856472
+spinal cord	IT	3000	2	0.1959078
+spinal cord	IT	3000	3	0.2302004
+spinal cord	IT	3000	4	0.1790008
+spinal cord	IT	3000	5	0.1615988
+spinal cord	IT	3000	6	0.1532089
+spinal cord	ICV	3000	1	0.3512367
+spinal cord	ICV	3000	2	0.2903324
+spinal cord	ICV	3000	3	0.3495613
+spinal cord	ICV	3000	4	0.3388744
+spinal cord	ICV	3000	5	0.3714931
+spinal cord	ICV	3000	6	0.6551453
+brain stem	IT	100	1	0.9194822
+brain stem	IT	100	2	1.08952
+brain stem	IT	100	3	0.9844952
+brain stem	IT	100	4	0.9079986
+brain stem	IT	100	5	0.834443
+brain stem	IT	100	6	0.9052139
+brain stem	ICV	100	1	1.005
+brain stem	ICV	100	2	0.889
+brain stem	ICV	100	3	0.794
+brain stem	ICV	100	4	0.89
+brain stem	ICV	100	5	0.86
+brain stem	ICV	100	6	0.869
+brain stem	IT	300	1	0.9623204
+brain stem	IT	300	2	0.7645618
+brain stem	IT	300	3	1.274315
+brain stem	IT	300	4	0.7337793
+brain stem	IT	300	5	1.018673
+brain stem	IT	300	6	0.8022788
+brain stem	ICV	300	1	0.82
+brain stem	ICV	300	2	0.78
+brain stem	ICV	300	3	0.594
+brain stem	ICV	300	4	0.744
+brain stem	ICV	300	5	0.644
+brain stem	ICV	300	6	0.569
+brain stem	IT	1000	1	0.5934586
+brain stem	IT	1000	2	0.5630438
+brain stem	IT	1000	3	0.6315478
+brain stem	IT	1000	4	0.7752433
+brain stem	IT	1000	5	0.4441393
+brain stem	IT	1000	6	0.5396927
+brain stem	ICV	1000	1	0.378
+brain stem	ICV	1000	2	0.372
+brain stem	ICV	1000	3	0.416
+brain stem	ICV	1000	4	0.679
+brain stem	ICV	1000	5	0.416
+brain stem	ICV	1000	6	0.355
+brain stem	IT	3000	2	0.3573331
+brain stem	IT	3000	3	0.422883
+brain stem	IT	3000	4	0.4442874
+brain stem	IT	3000	5	0.4387253
+brain stem	IT	3000	6	0.4046489
+brain stem	ICV	3000	1	0.386
+brain stem	ICV	3000	2	0.365
+brain stem	ICV	3000	4	0.353
+brain stem	ICV	3000	5	0.431
+brain stem	ICV	3000	6	0.508
+hippocampus	IT	100	1	0.9753723
+hippocampus	IT	100	2	0.9231999
+hippocampus	IT	100	3	0.9523078
+hippocampus	IT	100	4	0.9503443
+hippocampus	IT	100	5	0.9498549
+hippocampus	IT	100	6	1.348907
+hippocampus	ICV	100	1	1.1274
+hippocampus	ICV	100	2	1.0855
+hippocampus	ICV	100	3	0.5608
+hippocampus	ICV	100	4	0.9531
+hippocampus	ICV	100	5	0.7233
+hippocampus	ICV	100	6	0.7471
+hippocampus	IT	300	1	0.7223612
+hippocampus	IT	300	2	0.6296074
+hippocampus	IT	300	3	0.9973129
+hippocampus	IT	300	4	1.110244
+hippocampus	IT	300	6	0.9144809
+hippocampus	ICV	300	1	0.8135
+hippocampus	ICV	300	2	0.4575
+hippocampus	ICV	300	3	0.731
+hippocampus	ICV	300	4	0.4903
+hippocampus	ICV	300	5	0.4284
+hippocampus	ICV	300	6	0.5617
+hippocampus	IT	1000	1	0.4683835
+hippocampus	IT	1000	2	0.5985769
+hippocampus	IT	1000	3	0.8175187
+hippocampus	IT	1000	4	0.9353472
+hippocampus	IT	1000	5	0.6005375
+hippocampus	IT	1000	6	0.720983
+hippocampus	ICV	1000	1	0.4145
+hippocampus	ICV	1000	2	0.3765
+hippocampus	ICV	1000	3	0.3906
+hippocampus	ICV	1000	4	0.4272
+hippocampus	ICV	1000	5	0.3292
+hippocampus	ICV	1000	6	0.3205
+hippocampus	IT	3000	2	0.57482
+hippocampus	IT	3000	3	0.637937
+hippocampus	IT	3000	4	0.4719408
+hippocampus	IT	3000	5	0.4638682
+hippocampus	IT	3000	6	0.4240109
+hippocampus	ICV	3000	1	0.3594
+hippocampus	ICV	3000	2	0.2957
+hippocampus	ICV	3000	3	0.4221
+hippocampus	ICV	3000	4	0.4198
+hippocampus	ICV	3000	5	0.4153
+hippocampus	ICV	3000	6	0.3462
+thalamus	IT	100	1	0.8583598
+thalamus	IT	100	2	0.9552
+thalamus	IT	100	3	0.9861778
+thalamus	IT	100	4	0.8751008
+thalamus	IT	100	5	1.078606
+thalamus	IT	100	6	1.120248
+thalamus	ICV	100	1	0.623
+thalamus	ICV	100	2	0.906
+thalamus	ICV	100	3	1.249
+thalamus	ICV	100	4	1.038
+thalamus	ICV	100	5	0.959
+thalamus	ICV	100	6	0.849
+thalamus	IT	300	1	0.8538589
+thalamus	IT	300	2	0.9113805
+thalamus	IT	300	3	1.059228
+thalamus	IT	300	4	0.9073664
+thalamus	IT	300	5	1.077555
+thalamus	IT	300	6	0.8581701
+thalamus	ICV	300	1	0.93
+thalamus	ICV	300	2	0.704
+thalamus	ICV	300	3	1.105
+thalamus	ICV	300	4	0.764
+thalamus	ICV	300	5	0.811
+thalamus	ICV	300	6	0.742
+thalamus	IT	1000	1	0.5378494
+thalamus	IT	1000	2	0.7738305
+thalamus	IT	1000	3	0.8326448
+thalamus	IT	1000	4	0.7870627
+thalamus	IT	1000	5	0.6938999
+thalamus	IT	1000	6	0.7495428
+thalamus	ICV	1000	1	0.535
+thalamus	ICV	1000	2	0.363
+thalamus	ICV	1000	3	0.706
+thalamus	ICV	1000	4	0.653
+thalamus	ICV	1000	5	0.757
+thalamus	ICV	1000	6	0.539
+thalamus	IT	3000	2	0.5870597
+thalamus	IT	3000	3	0.6596503
+thalamus	IT	3000	4	0.5866345
+thalamus	IT	3000	5	0.528181
+thalamus	IT	3000	6	0.5047704
+thalamus	ICV	3000	1	0.351
+thalamus	ICV	3000	2	0.394
+thalamus	ICV	3000	3	0.506
+thalamus	ICV	3000	4	0.496
+thalamus	ICV	3000	5	0.415
+thalamus	ICV	3000	6	0.594

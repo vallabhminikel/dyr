@@ -1,0 +1,185 @@
+cohort_disp	animal	timepoint	nfl	sex	timepoint_rounded
+RML	r1	-7	74.3		-0
+RML	r1	30	82		30
+RML	r1	60	147		60
+RML	r1	90	717		90
+RML	r1	120	1400		120
+RML	r1	150	2265		150
+RML	r2	-7	184.3		-0
+RML	r2	30	200.3		30
+RML	r2	60	168		60
+RML	r2	90	680		90
+RML	r2	120	2200		120
+RML	r2	150	2371		150
+RML	r3	-7	59		-0
+RML	r3	30	146.6		30
+RML	r3	60	189		60
+RML	r3	90	401		90
+RML	r3	120	938		120
+RML	r3	150	4506		150
+RML	r4	-7	62.9		-0
+RML	r4	30	117.2		30
+RML	r4	60	122		60
+RML	r4	90	450		90
+RML	r4	120	1148		120
+RML	r4	150	1551		150
+RML	r5	-7	48.1		-0
+RML	r5	30	120.9		30
+RML	r5	60	160		60
+RML	r5	90	708		90
+RML	r5	120	691		120
+RML	r5	150	1284		150
+RML	r6	-7	39.4		-0
+RML	r6	30	150.7		30
+RML	r6	60	96		60
+RML	r6	90	155		90
+RML	r6	120	831		120
+RML	r6	150	1904		150
+RML	r7	-7	43.1		-0
+RML	r7	30	174.4		30
+RML	r7	90	511		90
+RML	r7	120	1059		120
+RML	r7	150	2609		150
+RML	r8	-7	52.1		-0
+RML	r8	30	93.3		30
+RML	r8	60	118		60
+RML	r8	90	378		90
+RML	r8	120	773		120
+RML	r8	150	1033		150
+RML	r9	-7	44.5		-0
+RML	r9	30	53.2		30
+RML	r9	60	113		60
+RML	r9	90	351		90
+RML	r9	150	1726		150
+RML	ra	-7	59		-0
+RML	ra	30	110.7		30
+RML	ra	60	173		60
+RML	ra	90	357		90
+RML	ra	120	855		120
+RML	ra	150	1047		150
+RML	rb	-7	106		-0
+RML	rb	30	128.8		30
+RML	rb	60	134		60
+RML	rb	90	370		90
+RML	rb	120	1122		120
+RML	rb	150	1208		150
+Tg(Vole)	108	35	767	F	30
+Tg(Vole)	109	35	387	F	30
+Tg(Vole)	112	35	484	M	30
+Tg(Vole)	114	35	644	M	30
+Tg(Vole)	118	35	421	M	30
+Tg(Vole)	120	35	252	F	30
+Tg(Vole)	121	35	349	F	30
+Tg(Vole)	123	35	332	F	30
+Tg(Vole)	125	35	3439	M	30
+Tg(Vole)	126	35	2100	M	30
+Tg(Vole)	129	35	383	F	30
+Tg(Vole)	131	35	306	M	30
+Tg(Vole)	108	64	1132	F	60
+Tg(Vole)	109	64	682	F	60
+Tg(Vole)	112	64	1412	M	60
+Tg(Vole)	114	64	2006	M	60
+Tg(Vole)	118	64	1557	M	60
+Tg(Vole)	120	64	998	F	60
+Tg(Vole)	121	64	1237	F	60
+Tg(Vole)	123	64	1369	F	60
+Tg(Vole)	125	64	1169	M	60
+Tg(Vole)	126	64	1932	M	60
+Tg(Vole)	129	64	1037	F	60
+Tg(Vole)	131	64	1266	M	60
+Tg(Vole)	108	85	886	F	90
+Tg(Vole)	109	85	703	F	90
+Tg(Vole)	112	85	4761	M	90
+Tg(Vole)	114	85	1549	M	90
+Tg(Vole)	118	85	604	M	90
+Tg(Vole)	120	85	923	F	90
+Tg(Vole)	123	85	757	F	90
+Tg(Vole)	125	85	1302	M	90
+Tg(Vole)	126	85	974	M	90
+Tg(Vole)	129	85	823	F	90
+Tg(Vole)	131	85	1068	M	90
+Tg(Vole)	108	125	1087	F	120
+Tg(Vole)	109	125	685	F	120
+Tg(Vole)	118	125	1035	M	120
+Tg(Vole)	120	125	2247	F	120
+Tg(Vole)	121	125	928	F	120
+Tg(Vole)	123	125	646	F	120
+Tg(Vole)	125	125	785	M	120
+Tg(Vole)	126	125	1667	M	120
+Tg(Vole)	129	125	978	F	120
+Tg(Vole)	131	125	641	M	120
+Tg(Vole)	108	154	783	F	150
+Tg(Vole)	109	154	677	F	150
+Tg(Vole)	112	154	1291	M	150
+Tg(Vole)	118	154	468	M	150
+Tg(Vole)	121	154	888	F	150
+Tg(Vole)	123	154	666	F	150
+Tg(Vole)	125	154	332	M	150
+Tg(Vole)	126	154	588	M	150
+Tg(Vole)	129	154	843	F	150
+Tg(Vole)	131	154	807	M	150
+Tg(Vole)	108	186	449	F	180
+Tg(Vole)	118	186	171	M	180
+Tg(Vole)	121	186	1901	F	180
+Tg(Vole)	108	216	2458	F	210
+Tg(Vole)	125	216	506	M	210
+Tg(Vole)	125	243	1196	M	240
+uninoculated	u1	-7	98.9		-0
+uninoculated	u1	30	95.3		30
+uninoculated	u1	60	70		60
+uninoculated	u1	90	111		90
+uninoculated	u1	120	100		120
+uninoculated	u1	150	94		150
+uninoculated	u2	-7	82.1		-0
+uninoculated	u2	30	133.1		30
+uninoculated	u2	60	119		60
+uninoculated	u2	120	115		120
+uninoculated	u2	150	85		150
+uninoculated	u3	-7	55.8		-0
+uninoculated	u3	30	87.7		30
+uninoculated	u3	60	100		60
+uninoculated	u3	90	49		90
+uninoculated	u3	120	53		120
+uninoculated	u3	150	95		150
+uninoculated	u4	-7	81.8		-0
+uninoculated	u4	30	106.6		30
+uninoculated	u4	60	117		60
+uninoculated	u4	90	81		90
+uninoculated	u4	120	82		120
+uninoculated	u4	150	139		150
+uninoculated	u5	-7	72		-0
+uninoculated	u5	30	113.4		30
+uninoculated	u5	60	90		60
+uninoculated	u5	90	101		90
+uninoculated	u5	120	88		120
+uninoculated	u5	150	94		150
+uninoculated	u6	-7	74.2		-0
+uninoculated	u6	30	55.4		30
+uninoculated	u6	60	87		60
+uninoculated	u6	90	64		90
+uninoculated	u6	120	87		120
+uninoculated	u6	150	177		150
+uninoculated	u7	-7	38.6		-0
+uninoculated	u7	30	122.3		30
+uninoculated	u7	60	94		60
+uninoculated	u7	90	105		90
+uninoculated	u7	120	61		120
+uninoculated	u7	150	64		150
+uninoculated	u8	-7	53.9		-0
+uninoculated	u8	30	88.1		30
+uninoculated	u8	60	82		60
+uninoculated	u8	90	102		90
+uninoculated	u8	120	76		120
+uninoculated	u8	150	57		150
+uninoculated	u9	-7	37.4		-0
+uninoculated	u9	30	67.7		30
+uninoculated	u9	60	72		60
+uninoculated	u9	90	69		90
+uninoculated	u9	120	106		120
+uninoculated	u9	150	56		150
+uninoculated	ua	-7	113.2		-0
+uninoculated	ua	30	51.6		30
+uninoculated	ua	60	82		60
+uninoculated	ua	90	63		90
+uninoculated	ua	120	122		120
+uninoculated	ua	150	145		150

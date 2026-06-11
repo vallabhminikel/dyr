@@ -1,0 +1,28 @@
+expt	animal	species	cohort	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+HB	HBA81	mouse	HB-RES-03-HET	Tg25109 het; ZH3 hom		none	2020-02-04	RES-03	2020-03-26	2021-02-05	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 1	316
+HB	HBB88	mouse	HB-RES-04-HET	Tg25109 het; ZH3 hom		none	2020-02-14	RES-04	2020-03-26	2021-03-03	FALSE	TRUE	found dead	included in all-cause	MM1 sCJD isolate 2	342
+HB	HBC1	mouse	HB-RES-03-HET	Tg25109 het; ZH3 hom		none	2020-01-13	RES-03	2020-03-26	2021-01-22	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 1	302
+HB	HBC5	mouse	HB-RES-03-HET	Tg25109 het; ZH3 hom		none	2020-01-13	RES-03	2020-03-26	2021-01-25	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 1	305
+HB	HBC6	mouse	HB-RES-03-HET	Tg25109 het; ZH3 hom		none	2020-01-13	RES-03	2020-03-26	2020-12-27	FALSE	TRUE	found dead	included in all-cause	MM1 sCJD isolate 1	276
+HB	HBD50	mouse	HB-RES-05-HET	Tg25109 het; ZH3 hom		none	2020-01-28	RES-05	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	VV2 sCJD isolate 1	400
+HB	HBD53	mouse	HB-RES-05-HET	Tg25109 het; ZH3 hom		none	2020-01-28	RES-05	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	VV2 sCJD isolate 1	400
+HB	HBD61	mouse	HB-RES-05-HET	Tg25109 het; ZH3 hom		none	2020-01-23	RES-05	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	VV2 sCJD isolate 1	400
+HB	HBE62	mouse	HB-RES-06-HET	Tg25109 het; ZH3 hom		none	2020-01-23	RES-06	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	VV2 sCJD isolate 2	400
+HB	HBE44	mouse	HB-RES-06-HET	Tg25109 het; ZH3 hom		none	2020-01-30	RES-06	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	VV2 sCJD isolate 2	400
+HB	HBE47	mouse	HB-RES-06-HET	Tg25109 het; ZH3 hom		none	2020-01-30	RES-06	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	VV2 sCJD isolate 2	400
+HB	HBE74	mouse	HB-RES-06-HET	Tg25109 het; ZH3 hom		none	2020-02-04	RES-06	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	VV2 sCJD isolate 2	400
+HB	HBF3	mouse	HB-RES-07-HET	Tg25109 het; ZH3 hom		none	2020-01-16	RES-07	2020-03-26	2021-03-24	FALSE	TRUE	found dead	included in all-cause	E200K MM	363
+HB	HBG1	mouse	HB-RES-07-HET	Tg25109 het; ZH3 hom		none	2020-02-02	RES-07	2020-03-26	2021-03-10	TRUE	TRUE	prion endpoint	included in all-cause	E200K MM	349
+HB	HBH2	mouse	HB-RES-05-HET	Tg25109 het; ZH3 hom		none	2020-02-08	RES-05	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	VV2 sCJD isolate 1	400
+HB	HBI1	mouse	HB-RES-09-HET	Tg25109 het; ZH3 hom		none	2020-02-08	RES-09	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	E200K MV	400
+HB	HBI2	mouse	HB-RES-09-HET	Tg25109 het; ZH3 hom		none	2020-02-08	RES-09	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	E200K MV	400
+HB	HBK2	mouse	HB-RES-06-HET	Tg25109 het; ZH3 hom		none	2020-02-12	RES-06	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	VV2 sCJD isolate 2	400
+HB	HBL1	mouse	HB-RES-09-HET	Tg25109 het; ZH3 hom		none	2020-02-12	RES-09	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	E200K MV	400
+HB	HBM1	mouse	HB-RES-07-HET	Tg25109 het; ZH3 hom		none	2020-01-16	RES-07	2020-03-26	2020-04-20	FALSE	TRUE	found dead	included in all-cause	E200K MM	25
+HB	HBN2	mouse	HB-uninoc-HET	Tg25109 het; ZH3 hom		none	2019-12-19	uninoculated	2020-03-26	2020-04-24	FALSE	TRUE	found dead	included in all-cause	uninoculated	29
+HB	HBN3	mouse	HB-uninoc-HET	Tg25109 het; ZH3 hom		none	2019-12-19	uninoculated	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	uninoculated	400
+HB	HBO69	mouse	HB-RES-04-HET	Tg25109 het; ZH3 hom		none	2020-01-26	RES-04	2020-03-26	2021-01-08	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 2	288
+HB	HBO7	mouse	HB-RES-04-HET	Tg25109 het; ZH3 hom		none	2020-01-13	RES-04	2020-03-26	2020-12-30	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 2	279
+HB	HBP1	mouse	HB-uninoc-HET-unblinded	Tg25109 het; ZH3 hom		none	2019-12-09	uninoculated	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	uninoculated	400
+HB	HBP2	mouse	HB-uninoc-HET-unblinded	Tg25109 het; ZH3 hom		none	2019-12-09	uninoculated	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	uninoculated	400
+HB	HBP3	mouse	HB-uninoc-HET-unblinded	Tg25109 het; ZH3 hom		none	2019-12-09	uninoculated	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	uninoculated	400

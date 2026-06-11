@@ -1,0 +1,32 @@
+expt	cohort	cohort_disp	genotype	inoculum	treatment	dose_ug	takedown_timepoint	color
+VOAG	VOAG-Tg-F	Tg(Vole)	Tg(Vole)	NA	none			#afec87
+VOAG	VOAG-Tg-M	Tg(Vole)	Tg(Vole)	NA	none			#afec87
+VOAG	VOAG-KO-M	PrP KO	Prp null	NA	none			#A9A9A9
+VOAG	VOAG-KO-F	PrP KO	Prp null	NA	none			#A9A9A9
+VONH	VONH-KO	PrP KO	Prp null	NA	none			#A9A9A9
+VONH	VONH-Tg	Tg(Vole)	Tg(Vole)	NA	none			#F18701
+VOE1	VOE1-Tg-PBS	PBS	Tg(Vole)	NA	PBS			#F18701
+VOE1	VOE1-Tg-ASO6-300	ASO 6 300 µg	Tg(Vole)	NA	ASO 6			#0077b6
+HU2	HU2-uninoc	uninoculated	Ki817 hom	none	none			#A9A9A9
+HU2	HU2-RES05	sCJD VV2 isolate 1	Ki817 hom	RES-05	none			#afec87
+HU2	HU2-RES09	E200K MV	Ki817 hom	RES-09	none			#30336b
+VOE2	VOE2-KO-NoTx	PrP KO	Prnp Null	NA	none			#A9A9A9
+VOE2	VOE2-Tg-PBS	PBS	TgVole	NA	PBS			#f18701
+VOE2	VOE2-Tg-ASO6-100	ASO 6 100 µg	TgVole	NA	ASO 6			#6baed6
+VOE2	VOE2-Tg-ASO6-300	ASO 6 300 µg	TgVole	NA	ASO 6			#3182bd
+VOE2	VOE2-Tg-ASO6-500	ASO 6 500 µg	TgVole	NA	ASO 6			#08519c
+VOTE	VOTE-F-NoTx	None	Tg(Vole)	NA	none			#A9A9A9
+VOTE	VOTE-M-NoTx	None	Tg(Vole)	NA	none			#A9A9A9
+VOTE	VOTE-F-ASO6-300	ASO 6 300 µg	Tg(Vole)	NA	ASO6			#014f86
+VOTE	VOTE-M-ASO6-300	ASO 6 300 µg	Tg(Vole)	NA	ASO6			#014f86
+VOTE	VOTE-F-ASO6-500	ASO 6 500 µg	Tg(Vole)	NA	ASO6			#012a4a
+VOTE	VOTE-M-ASO6-500	ASO 6 500 µg	Tg(Vole)	NA	ASO6			#012a4a
+VOSS	VOSS-30	Tg(Vole)	Tg(Vole) +	NA	none			#F18701
+VOSS	VOSS-60	Tg(Vole)	Tg(Vole) +	NA	none			#F18701
+VOSS	VOSS-90	Tg(Vole)	Tg(Vole) +	NA	none			#F18701
+VOSS	VOSS-120	Tg(Vole)	Tg(Vole) +	NA	none			#F18701
+VOSS	VOSS-148	Tg(Vole)	Tg(Vole) +	NA	none			#F18701
+VOSS	VOSS-150	Tg(Vole)	Tg(Vole) +	NA	none			#F18701
+VOSS	VOSS-151	Tg(Vole)	Tg(Vole) +	NA	none			#F18701
+VOSS	VOSS-180	Tg(Vole)	Tg(Vole) +	NA	none			#F18701
+VOSS	VOSS-171	Tg(Vole)	Tg(Vole) +	NA	none			#F18701

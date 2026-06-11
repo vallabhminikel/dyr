@@ -1,0 +1,5 @@
+cohort_disp	experiments	n	mean_peak_weight	mean_peak_pct	mean_peak_dpi	delta_dpi
+Vehicle	RP	16	509.06	527.09	144.69	0
+ASO 6 300ug	RP	6	549.5	467.53	164.83	0.14
+ASO 6 600ug	RP	7	473.14	422.72	183	0.26
+ASO 6 1000ug	RP	16	534.94	559.06	192.38	0.33

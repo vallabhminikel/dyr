@@ -1,0 +1,229 @@
+---
+title: "Baseline Weight Volatility and Endpoint Risk"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: journal
+    highlight: tango
+    toc: true
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width=10, fig.height=6)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Set seed for reproducibility
+set.seed(45)
+```
+
+# Overview
+
+The natural background volatility of mouse and hamster weights is estimated to justify experimental design. By analyzing uninoculated control animals, the "false positive" risk was estimated. This is the upper bound on the probability that a healthy animal will trigger a weight-loss endpoint (e.g., -20% loss) purely due to natural biological fluctuation.
+
+### Methodology:
+1. Trend estimation and removal: Individual growth trends were estimated for each animal and removed to isolate random daily fluctuations $E[W_{t+1}|W_t] = W_t$, which defines a martingale series, was validated from the residuals.
+  - A second degree polynomial fit was used to fit the trend against DPI.
+2. Volatility Estimation: The species daily variance ($\sigma_{daily}^2$) is estimated as an average across individual animals.
+3. Risk Bounds: The probability of incidental endpoint trigger from biological weight variation was calculated at $t = 25,50,75,100$. P-vals were estimated assuming Gaussian noise. An assumption-free conservative upper bound using the Kolmogorov inequality for martingales was also calculated. $p\left(\max{\text{Deviation}} \geq \epsilon \right) \leq \frac{\sum_{1:n}\text{Var}[W_k]}{\epsilon^2}$. 
+
+```{r}
+# Load Data (Assuming file exists in working directory)
+if(file.exists("combined_data_processed.tsv")) {
+  data <- read_tsv("~/src/dyr/data/weight_variance_analysis/data/raw_data/combined_data_processed.tsv", show_col_types = FALSE)
+} else {
+  stop("Error: 'combined_data_processed.tsv' not found. Please ensure data is in the working directory.")
+}
+
+# Filter Data
+data <- data %>%
+  filter((species == "mouse" & dpi < 120) | (species == "hamster" & dpi < 60)
+         | (species == "rat" & dpi < 250 & dpi > 70)) %>%
+  mutate(inoculated = ifelse(species == "rat", FALSE, inoculated)) %>%
+  arrange(animal, dpi)
+
+martingale_df <- data %>%
+  group_by(animal) %>%
+  filter(n() >= 3) %>%
+  group_modify(function(df, key) {
+    if(nrow(df) >= 6) {
+      model <- lm(weight ~ poly(dpi, 2), data = df)
+    } else {
+      model <- lm(weight ~ dpi, data = df)
+    }
+    df %>% mutate(
+      expected_weight = predict(model, newdata = df),
+      martingale_val = weight / expected_weight
+    )
+  }) %>%
+  ungroup()
+
+martingale_increments <- martingale_df %>%
+  group_by(animal) %>%
+  mutate(
+    delta_M = martingale_val - lag(martingale_val),
+    dt = dpi - lag(dpi)
+  ) %>%
+  filter(!is.na(delta_M)) %>% 
+  ungroup()
+
+volatility_params <- martingale_increments %>%
+  filter(inoculated == FALSE) %>% 
+  group_by(species) %>%
+  summarise(
+    n_animals = n_distinct(animal),
+    var_increments = var(delta_M, na.rm=TRUE),
+    avg_dt = mean(dt, na.rm=TRUE),
+    sigma_sq_daily = var_increments / avg_dt,
+    sigma_daily = sqrt(sigma_sq_daily),
+    .groups = "drop"
+  )
+
+```
+
+# Endpoint Trigger Risk Table
+
+The table below reports the Baseline Daily Volatility (Coefficient of Variation) and the theoretical false endpoint trigger probability. Conservative upper bound reported in parentheses. 
+
+Endpoint: -20% Weight Loss. 
+
+```{r risk_table_bounds}
+# Define Threshold
+epsilon <- 0.20 # 20% weight loss
+
+risk_table_detailed <- volatility_params %>%
+  crossing(day_point = c(25, 50, 75, 100)) %>%
+  mutate(
+    # Kolmogorov Bound (Upper Risk Limit)
+    risk_upper = pmin(1, 0.5 * (day_point * sigma_sq_daily) / (epsilon^2)),
+    
+    # Gaussian Estimate (Lower Risk Estimate)
+    current_volatility = sigma_daily * sqrt(day_point),
+    risk_lower = 2 * pnorm(-epsilon / current_volatility) # <--- FIXED: Assigned to 'risk_lower'
+  ) %>%
+  select(species, sigma_daily, day_point, risk_lower, risk_upper) %>%
+  pivot_wider(
+    names_from = day_point,
+    values_from = c(risk_lower, risk_upper),
+    names_glue = "day_{day_point}_{.value}"
+  )
+
+display_table_clean <- risk_table_detailed %>%
+  mutate(species = str_to_title(species)) %>%
+  mutate(across(starts_with("day"), ~ .x * 100)) %>% 
+  transmute(
+    Species = species,
+    `Daily CV` = sprintf("%.2f%%", sigma_daily * 100),
+    `Day 25` = sprintf("%.1f%% (\u2264 %.1f%%)", day_25_risk_lower, day_25_risk_upper)
+  )
+
+# 1. Align: "lcc" (Left, Center, Center) matches the 3 columns
+# 2. Header: c(" " = 2, "..." = 1) sums to 3
+kable(display_table_clean, align = "lcc") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"), full_width = FALSE) %>%
+  add_header_above(c(" " = 2, "Probability of False Endpoint Trigger (-20% Loss from Peak)" = 1))
+```
+
+# Visualization of Baseline Volatility
+
+
+### Real Data Trajectories (Detrended)
+
+These traces show the weight of uninoculated animals after removing their individual growth trends.
+
+```{r}
+martingale_df %>%
+  filter(inoculated == FALSE) %>%
+  ggplot(aes(x = dpi, y = martingale_val, group = animal)) +
+  geom_line(alpha = 0.3, color = "steelblue") +
+  geom_hline(yintercept = 1, linetype = "dashed") +
+  facet_wrap(~species, scales = "free_x") +
+  theme_minimal() +
+  labs(y = "Normalized Weight (Observed / Expected)", x = "Days Post Inoculation")
+```
+
+# Simulation: Weight Trajectories Post-Peak
+
+To visualize what the "Daily Volatility" values in Table 1 imply, 30 random trajectories were simulated for each species starting from "Peak Weight" (Day 0). The red dashed line indicates the -20% endpoint.
+
+```{r}
+library(tidyverse)
+
+simulate_post_peak <- function(sigma, sim_id, max_days=60) {
+  # 1. Generate the full potential trajectory
+  daily_increments <- rnorm(max_days, mean = 0, sd = sigma)
+  trajectory <- cumsum(c(1, daily_increments))
+  
+  # 2. Find the FIRST time it hits >= 1.2 or <= 0.8
+  # We look for indices where the condition is met
+  breach_indices <- which(trajectory >= 1.2 | trajectory <= 0.8)
+  
+  # 3. Determine where to cut the data
+  # If there is a breach, stop at the first one. Otherwise, keep all.
+  cutoff_index <- if(length(breach_indices) > 0) min(breach_indices) else length(trajectory)
+  
+  # 4. Slice the trajectory and days to stop at the event
+  final_trajectory <- trajectory[1:cutoff_index]
+  final_days <- 0:(cutoff_index - 1)
+  
+  tibble(
+    sim_id = as.factor(sim_id),
+    days_post_peak = final_days,
+    simulated_weight = final_trajectory
+  )
+}
+
+# --- Re-run Data Generation ---
+
+simulated_data <- volatility_params %>%
+  group_by(species) %>%
+  group_modify(~{
+    map_dfr(1:30, \(i) simulate_post_peak(.x$sigma_daily, i))
+  }) %>%
+  ungroup()
+
+# --- Plotting (Same as before) ---
+
+ggplot(simulated_data, aes(x = days_post_peak, y = simulated_weight, group = sim_id)) +
+  geom_line(alpha = 0.5, color = "purple") +
+  geom_hline(yintercept = 1, linetype = "solid", color = "black", alpha = 1.0) +
+  # Visualizing the lower and upper bounds
+  geom_hline(yintercept = 0.8, linetype = "dashed", color = "red", linewidth = 1) +
+  geom_hline(yintercept = 1.2, linetype = "dashed", color = "red", linewidth = 1) + 
+  facet_wrap(~species) +
+  theme_minimal() +
+  scale_x_continuous(expand = c(0, 0)) +
+  coord_cartesian(ylim = c(0.6, 1.4)) +
+  labs(
+    subtitle = "Simulated natural drift (Clipped at +/- 20%)",
+    x = "Days Post-Peak",
+    y = "Simulated Normalized Weight"
+  )
+```
+
+# One-Sided Risk Bounds (Kolmogorov)
+
+This plot visualizes the data in Table 1 across a continuous time range. It represents the theoretical upper bound of the probability that a healthy animal will drop below -10% or -20% weight purely by chance.
+
+```{r}
+risk_curves <- volatility_params %>%
+  crossing(days = seq(10, 120, by=5)) %>%
+  crossing(epsilon = c(0.2)) %>%
+  mutate(
+    raw_bound = 0.5 * (days * sigma_sq_daily) / (epsilon^2),
+    prob_bound = pmin(1, raw_bound),
+    label = paste0("Loss Threshold: -", epsilon * 100, "%")
+  )
+
+ggplot(risk_curves, aes(x = days, y = prob_bound, color = species)) +
+  geom_line(linewidth = 1.2) +
+  facet_wrap(~label) +
+  scale_y_continuous(limits = c(0, 1.05), labels = scales::percent) +
+  theme_minimal() +
+  labs(
+    y = "Probability Upper Bound", 
+    x = "Days Elapsed"
+  )
+```

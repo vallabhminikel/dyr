@@ -1,0 +1,311 @@
+animal	sex	dob	inoculation_date	death_date	prion_endpoint	acm_comments	acm	endpoint_comments	expt
+107	F	2021-10-24		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+108	F	2021-10-24		2022-06-11	TRUE	counted in all-cause	TRUE	prion endpoint	VONH
+109	F	2021-10-24		2022-05-22	TRUE	counted in all-cause	TRUE	prion endpoint	VONH
+110	M	2021-10-24		2022-01-05	FALSE	counted in all-cause	TRUE	other	VONH
+111	M	2021-10-24		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+112	M	2021-10-24		2022-04-14	TRUE	counted in all-cause	TRUE	prion endpoint	VONH
+113	M	2021-10-24		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+114	M	2021-10-24		2022-02-03	FALSE	counted in all-cause	TRUE	other	VONH
+115	F	2021-10-25		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+116	F	2021-10-25		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+117	M	2021-10-25		2022-01-28	FALSE	counted in all-cause	TRUE	other	VONH
+118	M	2021-10-25		2022-05-10	TRUE	counted in all-cause	TRUE	prion endpoint	VONH
+119	M	2021-10-25		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+120	F	2021-10-31		2022-03-22	FALSE	counted in all-cause	TRUE	found dead	VONH
+121	F	2021-10-31		2022-05-25	TRUE	counted in all-cause	TRUE	prion endpoint	VONH
+122	F	2021-10-31		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+123	F	2021-10-31		2022-05-06	TRUE	counted in all-cause	TRUE	prion endpoint	VONH
+124	F	2021-10-31		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+125	M	2021-10-31		2022-07-13	TRUE	counted in all-cause	TRUE	prion endpoint	VONH
+126	M	2021-10-31		2022-06-16	TRUE	counted in all-cause	TRUE	prion endpoint	VONH
+127	M	2021-10-31		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+128	M	2021-10-31		2022-07-13	FALSE	scheduled euthanasia	FALSE	end of study	VONH
+129	F	2021-10-28		2022-05-18	TRUE	counted in all-cause	TRUE	other	VONH
+131	M	2021-10-28		2022-04-18	TRUE	counted in all-cause	TRUE	prion endpoint	VONH
+411	F	2022-05-27		2022-12-27	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+412	F	2022-05-27		2022-10-19	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+413	F	2022-05-27		2022-12-27	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+414	M	2022-05-27		2022-11-01	FALSE	counted in all-cause	TRUE	found dead	VOE1
+416	M	2022-05-27		2023-01-08	FALSE	counted in all-cause	TRUE	found dead	VOE1
+436	M	2022-05-28		2023-02-06	FALSE	counted in all-cause	TRUE	found dead	VOE1
+421	F	2022-05-28		2022-12-27	FALSE	counted in all-cause	TRUE	found dead	VOE1
+422	F	2022-05-28		2022-11-10	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+423	F	2022-05-28		2022-12-30	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+419	M	2022-05-31		2022-11-01	FALSE	counted in all-cause	TRUE	found dead	VOE1
+420	M	2022-05-31		2022-12-31	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+443	M	2022-05-26		2022-12-30	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+429	F	2022-05-26		2023-03-02	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+439	F	2022-05-26		2023-03-29	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+442	F	2022-05-26		2022-10-12	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+426	M	2022-05-28		2023-03-14	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+427	M	2022-05-28		2023-02-11	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+428	M	2022-05-28		2023-03-02	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+452	F	2022-05-31		2022-11-21	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+457	F	2022-05-31		2023-02-11	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+453	F	2022-05-31		2023-03-16	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+448	M	2022-05-31		2023-02-24	FALSE	counted in all-cause	TRUE	found dead	VOE1
+454	M	2022-05-31		2023-05-12	FALSE	counted in all-cause	TRUE	found dead	VOE1
+456	M	2022-05-31		2023-01-27	TRUE	counted in all-cause	TRUE	prion endpoint	VOE1
+861	M	2022-12-21		2023-06-23		counted in all-cause	TRUE	other	VOE2
+862	M	2022-12-21		2023-10-16		counted in all-cause	TRUE	prion endpoint	VOE2
+863	M	2022-12-21		2023-07-22		counted in all-cause	TRUE	prion endpoint	VOE2
+786	M	2022-12-23		2023-08-20		counted in all-cause	TRUE	prion endpoint	VOE2
+788	M	2022-12-23		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+806	M	2022-12-23		2023-10-25		counted in all-cause	TRUE	prion endpoint	VOE2
+866	F	2022-12-22		2023-08-25		counted in all-cause	TRUE	prion endpoint	VOE2
+784	F	2022-12-23		2023-06-13		counted in all-cause	TRUE	prion endpoint	VOE2
+789	F	2022-12-23		2023-09-20		counted in all-cause	TRUE	prion endpoint	VOE2
+790	F	2022-12-23		2023-09-20		counted in all-cause	TRUE	prion endpoint	VOE2
+791	F	2022-12-23		2023-09-20		counted in all-cause	TRUE	found dead	VOE2
+792	F	2022-12-23		2023-09-20		counted in all-cause	TRUE	prion endpoint	VOE2
+807	M	2022-12-23		2023-08-30		counted in all-cause	TRUE	prion endpoint	VOE2
+811	M	2022-12-24		2023-10-14		counted in all-cause	TRUE	prion endpoint	VOE2
+812	M	2022-12-24		2023-11-15		counted in all-cause	TRUE	prion endpoint	VOE2
+822	M	2022-12-24		2023-02-07		counted in all-cause	TRUE	other	VOE2
+819	M	2022-12-25		2023-10-27		counted in all-cause	TRUE	prion endpoint	VOE2
+821	M	2022-12-25		2023-11-13		counted in all-cause	TRUE	prion endpoint	VOE2
+796	F	2022-12-23		2023-09-24		counted in all-cause	TRUE	prion endpoint	VOE2
+798	F	2022-12-23		2023-09-13		counted in all-cause	TRUE	prion endpoint	VOE2
+799	F	2022-12-23		2023-11-06		counted in all-cause	TRUE	prion endpoint	VOE2
+800	F	2022-12-23		2023-08-21		counted in all-cause	TRUE	prion endpoint	VOE2
+801	F	2022-12-23		2023-06-28		counted in all-cause	TRUE	prion endpoint	VOE2
+802	F	2022-12-23		2023-09-18		counted in all-cause	TRUE	prion endpoint	VOE2
+846	M	2022-12-25		2023-10-30		counted in all-cause	TRUE	prion endpoint	VOE2
+829	M	2022-12-25		2023-12-07		counted in all-cause	TRUE	prion endpoint	VOE2
+832	M	2022-12-25		2023-11-27		counted in all-cause	TRUE	prion endpoint	VOE2
+836	M	2022-12-25		2023-11-11		counted in all-cause	TRUE	prion endpoint	VOE2
+838	M	2022-12-25		2024-01-12		excluded	FALSE	excluded	VOE2
+840	M	2022-12-25		2023-11-10		counted in all-cause	TRUE	prion endpoint	VOE2
+804	F	2022-12-23		2023-08-21		counted in all-cause	TRUE	prion endpoint	VOE2
+808	F	2022-12-24		2023-10-23		counted in all-cause	TRUE	prion endpoint	VOE2
+823	F	2022-12-24		2023-10-13		counted in all-cause	TRUE	prion endpoint	VOE2
+825	F	2022-12-24		2023-09-15		counted in all-cause	TRUE	prion endpoint	VOE2
+841	F	2022-12-24		2023-09-11		counted in all-cause	TRUE	prion endpoint	VOE2
+826	F	2022-12-25		2023-11-24		counted in all-cause	TRUE	prion endpoint	VOE2
+857	M	2022-12-25		2023-10-02		counted in all-cause	TRUE	prion endpoint	VOE2
+859	M	2022-12-25		2023-09-28		counted in all-cause	TRUE	prion endpoint	VOE2
+851	M	2022-12-26		2023-06-19		counted in all-cause	TRUE	prion endpoint	VOE2
+852	M	2022-12-26		2023-08-04		counted in all-cause	TRUE	prion endpoint	VOE2
+815	M	2022-12-27		2023-09-11		counted in all-cause	TRUE	prion endpoint	VOE2
+816	M	2022-12-27		2023-06-26		counted in all-cause	TRUE	found dead	VOE2
+835	F	2022-12-25		2023-07-10		counted in all-cause	TRUE	prion endpoint	VOE2
+856	F	2022-12-25		2023-08-23		counted in all-cause	TRUE	prion endpoint	VOE2
+855	F	2022-12-25		2023-06-22		counted in all-cause	TRUE	found dead	VOE2
+848	F	2022-12-26		2023-08-22		counted in all-cause	TRUE	prion endpoint	VOE2
+849	F	2022-12-26		2023-06-22		counted in all-cause	TRUE	prion endpoint	VOE2
+793	M	2022-12-23		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+794	M	2022-12-23		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+795	M	2022-12-23		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+805	M	2022-12-23		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+809	M	2022-12-24		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+810	M	2022-12-24		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+785	F	2022-12-23		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+787	F	2022-12-23		2023-08-23		counted in all-cause	TRUE	prion endpoint	VOE2
+797	F	2022-12-23		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+803	F	2022-12-23		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+824	F	2022-12-24		2023-08-09		counted in all-cause	TRUE	found dead	VOE2
+842	F	2022-12-24		2024-02-09		scheduled euthanasia	FALSE	end of study	VOE2
+1	F	2021-03-08	2021-05-10	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+2	F	2021-03-08	2021-05-10	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+3	F	2021-03-08	2021-05-10	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+4	M	2021-03-08	2021-05-10	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+5	M	2021-03-08	2021-05-10	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+6	M	2021-03-08	2021-05-10	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+7	F	2021-03-08	2021-05-10	2022-04-25	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+8	F	2021-03-08	2021-05-10	2022-04-25	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+9	F	2021-03-08	2021-05-10	2022-07-23	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+10	M	2021-03-08	2021-05-10	2022-04-25	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+11	M	2021-03-08	2021-05-10	2022-04-25	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+12	M	2021-03-08	2021-05-10	2022-07-05	FALSE	counted in all-cause	TRUE	found dead	HU2
+13	F	2021-03-08	2021-05-10	2022-04-15	FALSE	counted in all-cause	TRUE	dermatitis	HU2
+14	F	2021-03-08	2021-05-10	2022-07-06	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+15	F	2021-03-08	2021-05-10	2021-12-29	FALSE	within 24h of surgery	FALSE	surgical complications	HU2
+16	M	2021-03-08	2021-05-10	2022-10-20	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+17	M	2021-03-08	2021-05-10	2022-09-08	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+18	M	2021-03-08	2021-05-10	2022-11-16	FALSE	counted in all-cause	TRUE	found dead	HU2
+19	M	2021-03-08	2021-05-11	2022-05-20	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+20	M	2021-03-08	2021-05-11	2022-07-23	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+21	M	2021-03-08	2021-05-11	2022-05-14	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+22	F	2021-03-08	2021-05-11	2022-06-16	FALSE	counted in all-cause	TRUE	found dead	HU2
+23	F	2021-03-08	2021-05-11	2022-05-04	FALSE	counted in all-cause	TRUE	found dead	HU2
+24	F	2021-03-08	2021-05-11	2022-07-21	FALSE	counted in all-cause	TRUE	found dead	HU2
+25	M	2021-03-08	2021-05-11	2022-08-26	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+26	M	2021-03-08	2021-05-11	2022-08-26	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+27	M	2021-03-08	2021-05-11	2022-08-26	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+28	F	2021-03-08	2021-05-11	2022-06-12	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+29	F	2021-03-08	2021-05-11	2022-07-02	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+30	F	2021-03-08	2021-05-11	2022-05-19	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+31	M	2021-03-08	2021-05-11	2022-07-21	FALSE	counted in all-cause	TRUE	dermatitis	HU2
+32	M	2021-03-08	2021-05-11	2022-06-09	FALSE	counted in all-cause	TRUE	found dead	HU2
+33	M	2021-03-08	2021-05-11	2022-08-26	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+34	F	2021-03-08	2021-05-11	2022-04-29	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+35	F	2021-03-08	2021-05-11	2022-04-17	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+36	F	2021-03-08	2021-05-11	2022-04-06	FALSE	counted in all-cause	TRUE	found dead	HU2
+37	M	2021-03-22	2021-05-12	2022-04-27	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+38	M	2021-03-22	2021-05-12	2022-04-27	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+39	M	2021-03-22	2021-05-12	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+40	M	2021-03-22	2021-05-12	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+41	F	2021-03-22	2021-05-12	2022-04-27	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+42	F	2021-03-22	2021-05-12	2022-04-27	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+43	F	2021-03-22	2021-05-12	2022-08-22	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+44	F	2021-03-22	2021-05-12	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+45	M	2021-03-22	2021-05-12	2022-08-04	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+46	M	2021-03-22	2021-05-12	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+47	M	2021-03-22	2021-05-12	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+48	M	2021-03-22	2021-05-12	2022-09-22	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+49	F	2021-03-22	2021-05-12	2022-08-11	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+50	F	2021-03-22	2021-05-12	2022-08-26	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+51	F	2021-03-22	2021-05-12	2022-08-22	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+52	F	2021-03-22	2021-05-12	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+53	M	2021-03-22	2021-05-12	2022-08-26	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+54	M	2021-03-22	2021-05-12	2022-08-26	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+55	M	2021-03-15	2021-05-12	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+56	M	2021-03-22	2021-05-12	2022-11-10	TRUE	counted in all-cause	TRUE	prion endpoint	HU2
+57	F	2021-03-15	2021-05-12	2022-08-26	FALSE	scheduled euthanasia	FALSE	timed sac	HU2
+58	F	2021-03-22	2021-05-12	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+59	F	2021-03-22	2021-05-12	2023-01-13	FALSE	scheduled euthanasia	FALSE	end of study	HU2
+60	F	2021-03-22	2021-05-12	2022-07-26	FALSE	counted in all-cause	TRUE	found dead	HU2
+69	F	2021-10-04		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+77	F	2021-10-06		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+79	F	2021-10-06		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+72	M	2021-10-04		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+74	M	2021-10-04		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+75	M	2021-10-04		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+85	F	2021-10-10		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+86	F	2021-10-10		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+91	F	2021-10-08		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+76	M	2021-10-04		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+81	M	2021-10-06		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+83	M	2021-10-06		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+93	F	2021-10-08		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+94	F	2021-10-08		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+84	M	2021-10-06		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+87	M	2021-10-10		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+89	M	2021-10-10		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+96	M	2021-10-08		2021-12-16		scheduled euthanasia	FALSE	timed sac	VOTE
+1099	F	2023-09-22		2024-04-16		counted in all-cause		prion endpoint	VOAG
+1103	M	2023-09-22		2024-04-30		counted in all-cause		found dead	VOAG
+1108	M	2023-09-29		2024-02-06		counted in all-cause		found dead	VOAG
+1109	M	2023-09-29				comment		comment	VOAG
+1110	M	2023-09-29		2024-03-26		counted in all-cause		found dead	VOAG
+1112	F	2023-10-20		2024-05-14		counted in all-cause		prion endpoint	VOAG
+1113	F	2023-10-20				comment		comment	VOAG
+1114	M	2023-10-20				comment		comment	VOAG
+1115	M	2023-10-20		2024-05-23		counted in all-cause		found dead	VOAG
+1116	M	2023-10-20		2025-05-14		counted in all-cause		found dead	VOAG
+1122	F	2023-11-02		2024-05-28		counted in all-cause		found dead	VOAG
+1123	M	2023-11-02				comment		comment	VOAG
+1124	M	2023-11-02		2024-06-27		counted in all-cause		found dead	VOAG
+1126	F	2023-11-15		2024-09-17		counted in all-cause		found dead	VOAG
+1127	F	2023-11-15		2024-06-27		counted in all-cause		found dead	VOAG
+1128	F	2023-11-15		2024-06-27		counted in all-cause		found dead	VOAG
+1129	M	2023-11-15		2024-05-28		counted in all-cause		prion endpoint	VOAG
+1130	M	2023-11-15		2024-05-28		counted in all-cause		prion endpoint	VOAG
+1131	M	2023-11-15				comment		comment	VOAG
+1132	M	2023-12-07		2024-06-27		counted in all-cause		found dead	VOAG
+1133	M	2023-12-07		2024-05-14		counted in all-cause		prion endpoint	VOAG
+1134	M	2023-12-07		2024-07-23		counted in all-cause		found dead	VOAG
+1136	F	2023-12-07		2024-06-24		counted in all-cause		found dead	VOAG
+1138	M	2023-12-07		2024-06-24		counted in all-cause		found dead	VOAG
+1139	M	2023-12-07		2024-07-23		counted in all-cause		found dead	VOAG
+1140	M	2023-12-07				comment		comment	VOAG
+1143	F	2023-12-28		2024-05-14		counted in all-cause		found dead	VOAG
+1144	F	2023-12-28		2024-07-26		counted in all-cause		found dead	VOAG
+1145	F	2023-12-28				comment		comment	VOAG
+1146	F	2023-12-28		2024-05-01		counted in all-cause		prion endpoint	VOAG
+1147	M	2023-12-28		2024-08-06		counted in all-cause		comment	VOAG
+1148	M	2023-12-28		2024-07-17		counted in all-cause		prion endpoint	VOAG
+1149	M	2023-12-28		2024-08-22		counted in all-cause		comment	VOAG
+1150	F	2023-12-24				comment		comment	VOAG
+1152	F	2023-12-24		2024-08-22		counted in all-cause		comment	VOAG
+1153	F	2023-12-24		2024-08-22		counted in all-cause		comment	VOAG
+1154	F	2023-12-24		2024-08-22		counted in all-cause		found dead	VOAG
+1155	F	2023-12-24		2024-08-22		counted in all-cause		comment	VOAG
+1157	M	2023-12-24		2025-05-11		counted in all-cause		found dead	VOAG
+1158	M	2023-12-24		2024-09-03		counted in all-cause		found dead	VOAG
+1160	F	2024-01-19		2024-08-30		counted in all-cause		comment	VOAG
+1161	F	2024-01-19				comment		comment	VOAG
+1162	F	2024-01-19		2024-08-30		counted in all-cause		comment	VOAG
+1163	F	2024-01-19		2024-09-03		counted in all-cause		found dead	VOAG
+1164	M	2024-01-19				comment		comment	VOAG
+1165	M	2024-01-19		2024-09-19		counted in all-cause		prion endpoint	VOAG
+1166	M	2024-01-19		2024-11-05		counted in all-cause		found dead	VOAG
+1167	F	2024-02-11		2024-08-20		counted in all-cause		found dead	VOAG
+1168	F	2024-02-11				comment		comment	VOAG
+1169	F	2024-02-11				comment		comment	VOAG
+1170	M	2024-02-11		2024-10-22		counted in all-cause		found dead	VOAG
+1171	M	2024-02-11				comment		comment	VOAG
+1172	M	2024-02-11		2024-09-19		counted in all-cause		prion endpoint	VOAG
+1173	F	2024-03-03		2024-10-01		counted in all-cause		found dead	VOAG
+1174	F	2024-03-03				comment		comment	VOAG
+1176	M	2024-03-03		2024-11-12		counted in all-cause		found dead	VOAG
+1177	M	2024-03-03				comment		comment	VOAG
+1178	F	2024-04-05				comment		comment	VOAG
+1179	F	2024-04-05		2024-10-14		counted in all-cause		found dead	VOAG
+1180	F	2024-04-05		2024-09-03		counted in all-cause		found dead	VOAG
+1181	M	2024-04-05				comment		comment	VOAG
+1182	M	2024-04-05				comment		comment	VOAG
+1183	M	2024-04-05		2024-12-10		counted in all-cause		prion endpoint	VOAG
+1184	M	2024-04-05		2024-09-03		counted in all-cause		found dead	VOAG
+1185	M	2024-04-05		2024-10-01		counted in all-cause		found dead	VOAG
+1186	F	2024-04-26		2024-09-03		counted in all-cause		found dead	VOAG
+1188	M	2024-04-26				comment		comment	VOAG
+1189	M	2024-04-26		2024-12-24		counted in all-cause		found dead	VOAG
+1190	F	2024-07-08		2025-01-30		counted in all-cause		found dead	VOAG
+1192	F	2024-07-08				comment		comment	VOAG
+1199	F	2024-07-15		2024-12-03		counted in all-cause		comment	VOAG
+1204	M	2024-07-15		2025-02-07		counted in all-cause		prion endpoint	VOAG
+1207	F	2024-07-27				comment		comment	VOAG
+1209	F	2024-07-27		2025-01-14		counted in all-cause		found dead	VOAG
+1210	M	2024-07-27				comment		comment	VOAG
+1211	M	2024-07-27		2024-12-03		counted in all-cause		comment	VOAG
+1212	M	2024-07-27				comment		comment	VOAG
+1213	M	2024-07-27		2025-03-18		counted in all-cause		comment	VOAG
+1214	F	2024-07-31		2025-01-12		counted in all-cause		comment	VOAG
+1216	F	2024-07-31				comment		comment	VOAG
+1218	M	2024-07-31		2025-05-20		counted in all-cause		prion endpoint	VOAG
+1219	M	2024-07-31				comment		comment	VOAG
+1220	F	2024-09-04				comment		comment	VOAG
+1221	F	2024-09-04				comment		comment	VOAG
+1222	M	2024-09-04				comment		comment	VOAG
+1223	M	2024-09-04		2025-01-23		counted in all-cause		prion endpoint	VOAG
+1224	M	2024-09-04		2025-05-10		counted in all-cause		prion endpoint	VOAG
+1225	F	2024-09-26		2024-12-26		counted in all-cause		found dead	VOAG
+1226	F	2024-09-26		2025-04-25		counted in all-cause		prion endpoint	VOAG
+1227	M	2024-09-26				comment		comment	VOAG
+1228	M	2024-09-26		2025-05-16		counted in all-cause		comment	VOAG
+1231	M	2024-11-01				comment		comment	VOAG
+1232	M	2024-11-01		2025-06-24		counted in all-cause		found dead	VOAG
+1233	M	2024-11-01		2025-07-08		counted in all-cause		found dead	VOAG
+1234	M	2024-12-06		2025-08-07		counted in all-cause		comment	VOAG
+1237	M	2024-12-12		2025-08-07		counted in all-cause		comment	VOAG
+1238	M	2024-12-12		2025-08-03		counted in all-cause		comment	VOAG
+1239	M	2024-12-12		2025-06-10		counted in all-cause		found dead	VOAG
+1241	F	2024-12-12		2025-06-10		counted in all-cause		found dead	VOAG
+1242	F	2024-12-12		2025-06-03		counted in all-cause		prion endpoint	VOAG
+1249	F	2024-12-15		2025-07-30		comment		comment	VOAG
+897	F	2023-01-04		2023-02-03		scheduled euthanasia		timed sac	VOSS
+898	F	2023-01-04		2023-02-03		scheduled euthanasia		timed sac	VOSS
+884	M	2023-01-03		2023-02-03		scheduled euthanasia		timed sac	VOSS
+889	M	2023-01-03		2023-02-03		scheduled euthanasia		timed sac	VOSS
+948	F	2023-01-11		2023-03-13		scheduled euthanasia		timed sac	VOSS
+953	F	2023-01-11		2023-03-13		scheduled euthanasia		timed sac	VOSS
+949	M	2023-01-11		2023-03-13		scheduled euthanasia		timed sac	VOSS
+950	M	2023-01-11		2023-03-13		scheduled euthanasia		timed sac	VOSS
+954	F	2023-01-11		2023-04-11		scheduled euthanasia		timed sac	VOSS
+956	F	2023-01-11		2023-04-11		scheduled euthanasia		timed sac	VOSS
+951	M	2023-01-11		2023-04-11		scheduled euthanasia		timed sac	VOSS
+952	M	2023-01-11		2023-04-11		scheduled euthanasia		timed sac	VOSS
+899	F	2023-01-04		2023-05-04		scheduled euthanasia		timed sac	VOSS
+914	F	2023-01-04		2023-05-04		scheduled euthanasia		timed sac	VOSS
+909	M	2023-01-04		2023-05-04		scheduled euthanasia		timed sac	VOSS
+910	M	2023-01-04		2023-05-04		scheduled euthanasia		timed sac	VOSS
+939	F	2023-01-10		2023-06-07		counted in all-cause		prion endpoint	VOSS
+941	F	2023-01-10		2023-06-09		scheduled euthanasia		timed sac	VOSS
+944	M	2023-01-10		2023-06-09		scheduled euthanasia		timed sac	VOSS
+946	M	2023-01-10		2023-06-09		scheduled euthanasia		timed sac	VOSS
+877	F	2023-01-01		2023-06-01		counted in all-cause		prion endpoint	VOSS
+879	F	2023-01-01		2023-06-30		scheduled euthanasia		timed sac	VOSS
+881	M	2023-01-01		2023-06-21		counted in all-cause		prion endpoint	VOSS
+882	M	2023-01-01		2023-06-30		scheduled euthanasia		timed sac	VOSS

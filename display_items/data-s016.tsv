@@ -1,0 +1,5 @@
+cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
+WT	11	RG	9	208.7	16.09	213	0	1
+Het KO	11	RG	8	359	90.82	413	0.94	1.9e-4
+Hom KO	13	RG	2	427	90.51	>507		2.16e-6
+Uninoculated	1	RG	0			>507		0.0847

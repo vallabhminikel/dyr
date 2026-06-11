@@ -1,0 +1,31 @@
+expt	animal	species	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+SG	89019	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-12-13	TRUE	TRUE			Het KO 263K	137
+SG	89020	hamster	HE		none	2021-07-01	263K	2021-07-29	2022-01-11	TRUE	TRUE			Het KO 263K	166
+SG	89021	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-12-10	TRUE	TRUE			Het KO 263K	134
+SG	89023	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-11-29	TRUE	TRUE			Het KO 263K	123
+SG	89024	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-11-26	TRUE	TRUE			Het KO 263K	120
+SG	89025	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-11-26	TRUE	TRUE			Het KO 263K	120
+SH	101218	hamster	WT		none	2022-06-08	none	2022-07-05	2022-11-09	TRUE	TRUE	prion endpoint	included in all-cause	WT uninoculated	127
+SH	101219	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
+SH	101220	hamster	WT		none	2022-06-08	none	2022-07-05	2022-11-23	TRUE	TRUE	prion endpoint	included in all-cause	WT uninoculated	141
+SH	101221	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
+SH	101222	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-10-17	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	104
+SH	101223	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-27	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	84
+SH	101224	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-23	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	80
+SH	101225	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-28	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	85
+SH	101226	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-21	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	78
+SH	101227	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-23	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	80
+SH	101228	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-07-05	FALSE	FALSE	surgical complications	within 24h post-surgery	Untreated WT 263K	0
+SH	101229	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-16	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	73
+SH	101230	hamster	WT		none	2022-06-08	none	2022-07-05	2022-11-09	TRUE	TRUE	prion endpoint	included in all-cause	WT uninoculated	127
+SH	101231	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
+SH	101232	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
+SH	101233	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
+SH	101666	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-11-02	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	120
+SH	101667	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-10-26	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	113
+SH	101668	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-11-09	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	127
+SH	101669	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-12-14	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	162
+SH	101670	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO 263K	170
+SH	101671	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO 263K	170
+SH	101672	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-11-02	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	120
+SH	101673	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO 263K	170

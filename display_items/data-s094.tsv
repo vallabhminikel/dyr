@@ -1,0 +1,6 @@
+cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
+Tg26372 hom (20 copies)	8	HH	8	206.8	25.56	200.5	0	1
+PrP KO	8	HG	1	384		>400		4.6e-5
+Tg25109 het (3 copies)	7	HH	7	307.7	15.7	308	0.54	1.2e-4
+Tg26372 het (10 copies)	8	HH	7	222.9	9.72	219	0.09	0.108
+uninoculated (all genotypes)	26	HH	2	156.5	108.19	>400		3.62e-9

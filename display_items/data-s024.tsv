@@ -1,0 +1,5 @@
+cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
+Vehicle	16	RP	16	187.8	16.73	188.5	0	1
+ASO 6 300ug	6	RP	6	229.3	25.3	230.5	0.22	7.66e-4
+ASO 6 600ug	7	RP	7	269.9	42.2	255	0.35	2.17e-5
+ASO 6 1000ug	16	RP	15	266.5	17.9	269	0.43	9.03e-9

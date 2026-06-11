@@ -1,0 +1,5 @@
+tissue	treatment	N	mean_ngml	sd_ngml	se_ngml	mean_norm	sd_norm	se_norm
+BH	none	6	203.93	12.94	5.281	1	0.06	0.026
+BH	ASO 1	6	108.21	18.79	7.672	0.53	0.09	0.038
+CSF	none	6	17.26	9.95	4.063	1	0.58	0.235
+CSF	ASO 1	6	15.05	2.66	1.085	0.87	0.15	0.063

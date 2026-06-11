@@ -1,0 +1,510 @@
+animal	sex	cage	dob	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	expt
+103247	M	103247	2022-07-29	2022-09-13	2022-09-27	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103248	M	103248	2022-07-29	2022-09-13	2022-09-27	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103249	M	103249	2022-07-29	2022-09-13	2022-11-10	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103250	M	103250	2022-07-29	2022-09-13	2022-11-10	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103251	F	103251	2022-07-29	2022-09-13	2022-09-27	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103252	F	103252	2022-07-29	2022-09-13	2022-11-10	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103253	F	103253	2022-07-29		2022-09-13	FALSE	FALSE	found dead	within 24h of surgery	SB
+103254	F	103254	2022-07-29		2022-09-13	FALSE	FALSE	experimental error	experimental error	SB
+103425	M	103425	2022-07-28	2022-09-13	2022-10-13	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103426	M	103426	2022-07-28	2022-09-13	2022-10-13	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103427	M	103427	2022-07-28	2022-09-13	2022-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103428	M	103428	2022-07-28	2022-09-13	2022-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103429	F	103429	2022-07-28	2022-09-13	2022-10-13	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103430	F	103430	2022-07-28	2022-09-13	2022-10-13	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103431	F	103431	2022-07-28	2022-09-13	2022-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+103432	F	103432	2022-07-28	2022-09-13	2022-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	SB
+89019	M	89019	2021-07-01	2021-07-29	2021-12-13	TRUE	TRUE			SG
+89020	M	89020	2021-07-01	2021-07-29	2022-01-11	TRUE	TRUE			SG
+89021	M	89021	2021-07-01	2021-07-29	2021-12-10	TRUE	TRUE			SG
+89023	F	89023	2021-07-01	2021-07-29	2021-11-29	TRUE	TRUE			SG
+89024	F	89024	2021-07-01	2021-07-29	2021-11-26	TRUE	TRUE			SG
+89025	F	89025	2021-07-01	2021-07-29	2021-11-26	TRUE	TRUE			SG
+101218	M	101218	2022-06-08	2022-07-05	2022-11-09	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101219	M	101219	2022-06-08	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	SH
+101220	M	101220	2022-06-08	2022-07-05	2022-11-23	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101221	M	101221	2022-06-08	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	SH
+101222	M	101222	2022-06-08	2022-07-05	2022-10-17	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101223	M	101223	2022-06-08	2022-07-05	2022-09-27	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101224	M	101224	2022-06-08	2022-07-05	2022-09-23	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101225	M	101225	2022-06-08	2022-07-05	2022-09-28	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101226	F	101226	2022-06-08	2022-07-05	2022-09-21	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101227	F	101227	2022-06-08	2022-07-05	2022-09-23	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101228	F	101228	2022-06-08	2022-07-05	2022-07-05	FALSE	FALSE	surgical complications	within 24h post-surgery	SH
+101229	F	101229	2022-06-08	2022-07-05	2022-09-16	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101230	F	101230	2022-06-08	2022-07-05	2022-11-09	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101231	F	101231	2022-06-08	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	SH
+101232	F	101232	2022-06-08	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	SH
+101233	F	101233	2022-06-08	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	SH
+101666	M	101666	2022-06-04	2022-07-05	2022-11-02	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101667	M	101667	2022-06-04	2022-07-05	2022-10-26	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101668	M	101668	2022-06-04	2022-07-05	2022-11-09	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101669	M	101669	2022-06-04	2022-07-05	2022-12-14	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101670	F	101670	2022-06-04	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	SH
+101671	F	101671	2022-06-04	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	SH
+101672	F	101672	2022-06-04	2022-07-05	2022-11-02	TRUE	TRUE	prion endpoint	included in all-cause	SH
+101673	F	101673	2022-06-04	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	SH
+107822	F	107822	2022-10-28	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107823	M	107823	2022-10-28	2022-12-06	2023-03-06	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107824	M	107824	2022-10-28	2022-12-06	2023-03-29	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107825	M	107825	2022-10-28	2022-12-06	2023-03-02	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107826	M	107826	2022-10-28	2022-12-06	2023-02-06	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107827	M	107827	2022-10-28	2022-12-06	2023-05-30	FALSE	TRUE	found dead	included in all-cause	SE
+107828	M	107828	2022-10-28	2022-12-06	2023-04-19	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107829	M	107829	2022-10-28	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107830	M	107830	2022-10-28	2022-12-06	2023-06-02	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107831	M	107831	2022-10-28	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107832	M	107832	2022-10-28	2022-12-06	2023-03-02	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107833	M	107833	2022-10-28	2022-12-06	2023-04-15	FALSE	TRUE	found dead	included in all-cause	SE
+107834	M	107834	2022-10-28	2022-12-06	2023-04-02	FALSE	TRUE	found dead	included in all-cause	SE
+107835	F	107835	2022-10-28	2022-12-06	2023-03-22	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107836	F	107836	2022-10-28	2022-12-06	2023-03-27	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107837	F	107837	2022-10-28	2022-12-06	2023-02-22	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107838	F	107838	2022-10-28	2022-12-06	2023-03-06	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107839	F	107839	2022-10-28	2022-12-06	2023-05-31	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107840	F	107840	2022-10-28	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107841	F	107841	2022-10-28	2022-12-06	2023-06-02	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107842	F	107842	2022-10-28	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107843	F	107843	2022-10-28	2022-12-06	2023-02-22	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107844	F	107844	2022-10-28	2022-12-06	2023-04-03	TRUE	TRUE	prion endpoint	included in all-cause	SE
+107845	F	107845	2022-10-28	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	SE
+114170	M	114170	2023-03-25	2023-04-26	2023-05-11	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114171	M	114171	2023-03-25	2023-04-26	2023-06-26	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114172	M	114172	2023-03-25	2023-04-26	2023-08-24	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114173	M	114173	2023-03-25	2023-04-26	2023-05-26	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114174	M	114174	2023-03-25	2023-04-26	2023-08-07	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114175	F	114175	2023-03-25	2023-04-26	2023-06-09	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114176	F	114176	2023-03-25	2023-04-26	2023-06-26	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114177	F	114177	2023-03-25	2023-04-26	2023-08-24	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114178	F	114178	2023-03-25	2023-04-26	2023-07-14	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114179	F	114179	2023-03-25	2023-04-26	2023-05-15	TRUE	TRUE	prion endpoint	included in all-cause	SC
+114180	F	114180	2023-03-24	2023-04-26	2023-06-26	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114181	F	114181	2023-03-24	2023-04-26	2023-08-07	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114182	F	114182	2023-03-24	2023-04-26	2023-05-11	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114183	F	114183	2023-03-24	2023-04-26	2023-07-14	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114184	F	114184	2023-03-24	2023-04-26	2023-06-09	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114185	M	114185	2023-03-26	2023-04-26	2023-05-26	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114186	M	114186	2023-03-26	2023-04-26	2023-08-07	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114187	M	114187	2023-03-26	2023-04-26	2023-06-26	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114188	M	114188	2023-03-26	2023-04-26	2023-06-09	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114189	F	114189	2023-03-25	2023-04-26	2023-08-24	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114190	F	114190	2023-03-25	2023-04-26	2023-05-11	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114191	F	114191	2023-03-25	2023-04-26	2023-05-26	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114192	F	114192	2023-03-25	2023-04-26	2023-08-07	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114193	M	114193	2023-03-24	2023-04-26	2023-07-14	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114194	M	114194	2023-03-24	2023-04-26	2023-06-09	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114195	M	114195	2023-03-24	2023-04-26	2023-05-11	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114196	M	114196	2023-03-24	2023-04-26	2023-08-24	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+114197	M	114197	2023-03-24	2023-04-26	2023-07-14	FALSE	FALSE	timed sac	scheduled euthanasia	SC
+117288	M	117288	2023-05-25	2023-06-20	2023-07-06	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117289	M	117289	2023-05-25	2023-06-20	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117290	M	117290	2023-05-25	2023-06-20	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117291	M	117291	2023-05-25	2023-06-20	2023-11-06	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117292	M	117292	2023-05-25	2023-06-20	2023-08-04	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117293	M	117293	2023-05-25	2023-06-20	2023-11-06	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117294	M	117294	2023-05-25	2023-06-20	2023-07-06	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117295	M	117295	2023-05-25	2023-06-20	2023-08-04	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117296	M	117296	2023-05-25	2023-06-20	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117297	M	117297	2023-05-25	2023-06-20	2023-07-06	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117298	F	117298	2023-05-25	2023-06-20	2023-08-04	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117299	F	117299	2023-05-25	2023-06-20	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117300	F	117300	2023-05-25	2023-06-20	2023-10-18	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117301	F	117301	2023-05-25	2023-06-20	2023-08-04	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117302	F	117302	2023-05-25	2023-06-20	2023-06-22	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117303	F	117303	2023-05-25	2023-06-20	2023-07-06	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117304	F	117304	2023-05-25	2023-06-20	2023-12-07	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117305	F	117305	2023-05-25	2023-06-20	2023-10-30	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117306	F	117306	2023-05-25	2023-06-20	2023-10-30	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117307	F	117307	2023-05-25	2023-06-20	2023-10-30	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117308	F	117308	2023-05-25	2023-06-20	2023-10-30	TRUE	TRUE	prion endpoint	included in all-cause	SD
+117309	F	117309	2023-05-25	2023-06-20	2023-10-24	TRUE	TRUE	prion endpoint	included in all-cause	SD
+120862	F	120862		2023-09-12	2023-10-12	FALSE	FALSE	timed sac	scheduled euthanasia	SK
+120863	F	120863		2023-09-12	2023-12-14	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120864	F	120864		2023-09-12	2023-11-24	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120865	F	120865		2023-09-12	2023-10-30	FALSE	FALSE	timed sac	scheduled euthanasia	SK
+120866	F	120866		2023-09-12	2023-11-24	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120867	F	120867		2023-09-12	2023-09-12	FALSE	FALSE	experimental error	experimental error	SK
+120868	F	120868		2023-09-12	2023-11-27	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120869	F	120869		2023-09-12	2023-10-12	FALSE	FALSE	timed sac	scheduled euthanasia	SK
+120870	F	120870		2023-09-12	2024-02-21	FALSE	TRUE	found dead	included in all-cause	SK
+120871	F	120871		2023-09-12	2023-12-14	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120872	F	120872		2023-09-12	2023-10-30	FALSE	FALSE	timed sac	scheduled euthanasia	SK
+120873	F	120873		2023-09-12	2023-11-24	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120874	M	120874		2023-09-12	2023-12-14	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120875	M	120875		2023-09-12	2023-10-12	FALSE	FALSE	timed sac	scheduled euthanasia	SK
+120876	M	120876		2023-09-12	2023-12-01	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120877	M	120877		2023-09-12	2023-11-24	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120878	M	120878		2023-09-12	2023-10-30	FALSE	FALSE	timed sac	scheduled euthanasia	SK
+120879	M	120879		2023-09-12	2024-01-08	FALSE	TRUE	found dead	included in all-cause	SK
+120880	M	120880		2023-09-12	2023-12-01	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120881	M	120881		2023-09-12	2023-11-27	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120882	M	120882		2023-09-12	2023-10-12	FALSE	FALSE	timed sac	scheduled euthanasia	SK
+120883	M	120883		2023-09-12	2023-11-30	TRUE	TRUE	prion endpoint	included in all-cause	SK
+120884	M	120884		2023-09-12	2023-10-30	FALSE	FALSE	timed sac	scheduled euthanasia	SK
+124692	F	124692	2023-10-27	2023-11-28	2024-01-10	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124693	F	124693	2023-10-27	2023-11-28	2024-01-23	TRUE	TRUE	prion endpoint	included in all-cause	SZ
+124694	F	124694	2023-10-27	2023-11-28	2024-02-09	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124695	F	124695	2023-10-27	2023-11-28	2024-01-10	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124696	F	124696	2023-10-27	2023-11-28	2024-02-09	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124697	F	124697	2023-10-27	2023-11-28	2024-01-10	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124698	F	124698	2023-10-27	2023-11-28	2024-02-09	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124699	F	124699	2023-10-27	2023-11-28	2024-02-09	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124700	M	124700	2023-10-27	2023-11-28	2024-02-09	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124701	M	124701	2023-10-27	2023-11-28	2024-01-10	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124702	M	124702	2023-10-27	2023-11-28	2024-02-09	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124703	M	124703	2023-10-27	2023-11-28	2024-02-09	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124704	M	124704	2023-10-27	2023-11-28	2024-01-10	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124705	M	124705	2023-10-27	2023-11-28	2024-02-09	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+124706	M	124706	2023-10-27	2023-11-28	2024-02-09	FALSE	FALSE	timed sac	scheduled euthanasia	SZ
+122038.1	M	122038	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122038.2	M	122038	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122039.1	M	122039	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122039.2	M	122039	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122040.1	M	122040	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122040.2	M	122040	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122041.1	F	122041	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122041.2	F	122041	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122042.1	F	122042	2023-07-07		2023-10-04	FALSE	TRUE	found dead	included in all-cause	RD
+122042.2	F	122042	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122043.1	F	122043	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+122043.2	F	122043	2023-07-07		2023-10-31	FALSE	FALSE	timed sac	scheduled euthanasia	RD
+74616L	M	80090	2020-08-19	2020-09-18	2021-03-31	TRUE	TRUE	prion endpoint	included in all-cause	RR
+74616R	M	74616	2020-08-19	2020-09-18	2021-03-09	TRUE	TRUE	prion endpoint	included in all-cause	RR
+74617L	M	74617	2020-08-19		2020-09-16	FALSE	FALSE	intercurrent / other	before treatment group assignment	RR
+74617R	M	74617	2020-08-19	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	RR
+74618L	M	80091	2020-08-19	2020-09-18	2021-03-16	TRUE	TRUE	prion endpoint	included in all-cause	RR
+74618R	M	74618	2020-08-19	2020-09-18	2021-05-14	TRUE	TRUE	prion endpoint	included in all-cause	RR
+74619L	M	80092	2020-08-19	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	RR
+74619R	M	74619	2020-08-19	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	RR
+74620L	F	74620	2020-08-19	2020-09-18	2021-04-27	TRUE	TRUE	prion endpoint	included in all-cause	RR
+74620R	F	74620	2020-08-19	2020-09-18	2021-03-16	TRUE	TRUE	prion endpoint	included in all-cause	RR
+74621L	F	74621	2020-08-19	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	RR
+74621R	F	74621	2020-08-19	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	RR
+74622L	F	74622	2020-08-19	2020-09-18	2021-03-22	TRUE	TRUE	prion endpoint	included in all-cause	RR
+74622R	F	74622	2020-08-19	2020-09-18	2021-03-15	TRUE	TRUE	prion endpoint	included in all-cause	RR
+74623L	F	74623	2020-08-19	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	RR
+74623R	F	74623	2020-08-19	2020-09-18	2021-05-17	FALSE	FALSE	end of study	scheduled euthanasia	RR
+88543L	M	88543	2021-06-22	2021-07-20	2022-01-26	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88543R	M	88543	2021-06-22	2021-07-20	2022-01-26	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88544L	M	88544	2021-06-22	2021-07-20	2022-02-01	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88544R	M	88544	2021-06-22	2021-07-20	2022-01-26	FALSE	TRUE	other	included in all-cause	RE
+88545L	M	88545	2021-06-22	2021-07-20	2022-04-20	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88545R	M	88545	2021-06-22	2021-07-20	2022-05-25	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88546L	M	88546	2021-06-22	2021-07-20	2021-12-02	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88546R	M	88546	2021-06-22	2021-07-20	2021-11-25	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88547L	F	88547	2021-06-22	2021-07-20	2022-01-13	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88547R	F	88547	2021-06-22	2021-07-20	2022-01-03	FALSE	TRUE	other	included in all-cause	RE
+88548L	F	88548	2021-06-22	2021-07-20	2022-02-08	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88548R	F	88548	2021-06-22	2021-07-20	2021-11-02	FALSE	TRUE	other	included in all-cause	RE
+88549L	F	88549	2021-06-22	2021-07-20	2022-03-24	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88549R	F	88549	2021-06-22	2021-07-20	2022-06-03	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88550L	F	88550	2021-06-22	2021-07-20	2022-05-20	TRUE	TRUE	prion endpoint	included in all-cause	RE
+88550R	F	88550	2021-06-22	2021-07-20	2022-05-20	TRUE	TRUE	prion endpoint	included in all-cause	RE
+107327R	M	107327	2022-10-21	2022-11-15	2024-04-05	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107327L	M	107327	2022-10-21	2022-11-15	2023-05-24	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107328R	M	107328	2022-10-21	2022-11-15	2023-06-16	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107328L	M	107328	2022-10-21	2022-11-15	2024-01-09	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107330R	M	107330	2022-10-21	2022-11-15	2023-08-29	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107330L	M	107330	2022-10-21	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107331R	M	107331	2022-10-21	2022-11-15	2023-06-16	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107331L	M	107331	2022-10-21	2022-11-15	2023-05-30	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107332R	M	107332	2022-10-21	2022-11-15	2023-05-24	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107332L	M	107332	2022-10-21	2022-11-15	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107335R	M	107335	2022-10-21	2022-11-15	2024-03-20	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107335L	M	107335	2022-10-21	2022-11-15	2024-01-23	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107336R	M	107336	2022-10-21	2022-11-15	2023-05-30	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107336L	M	107336	2022-10-21	2022-11-15	2024-01-02	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107337R	M	107337	2022-10-21	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107337L	M	107337	2022-10-21	2022-11-15	2023-06-12	FALSE	TRUE	found dead	included in all-cause	RG
+107338R	M	107338	2022-10-21	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107338L	M	107338	2022-10-21	2022-11-15	2023-06-27	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107340R	M	107340	2022-10-21	2022-11-15	2023-08-29	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107340L	M	107340	2022-10-21	2022-11-15	2023-11-13	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107341R	F	107341	2022-10-21	2022-11-15	2023-07-05	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107341L	F	107341	2022-10-21	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	RG
+107342R	F	107342	2022-10-21	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	RG
+107342L	F	107342	2022-10-21	2022-11-15	2024-04-05	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107344R	F	107344	2022-10-21	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	RG
+107344L	F	107344	2022-10-21	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	RG
+107346R	F	107346	2022-10-21	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107346L	F	107346	2022-10-21	2022-11-15	2024-04-05	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107348R	F	107348	2022-10-21	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107348L	F	107348	2022-10-21	2022-11-15	2024-02-29	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107349R	F	107349	2022-10-21	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107349L	F	107349	2022-10-21	2022-11-15	2023-06-27	TRUE	TRUE	prion endpoint	included in all-cause	RG
+107351R	F	107351	2022-10-21	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	RG
+107351L	F	107351	2022-10-21	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	RG
+107352R	F	107352	2022-10-21	2022-11-15	2024-04-05	FALSE	FALSE	end of study	scheduled euthanasia	RG
+107352L	F	107352	2022-10-21	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	RG
+136743L	F	136743	2024-05-13	2024-06-11	2024-11-06	FALSE	FALSE	spare	spare rat - excluded	RZ
+136743R	F	136743	2024-05-13	2024-06-11	2024-11-06	FALSE	FALSE	spare	spare rat - excluded	RZ
+136744L	F	136744	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136744R	F	136744	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136745L	F	136745	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136745R	F	136745	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136746L	F	136746	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136746R	F	136746	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136747L	F	136747	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136747R	F	136747	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136748L	F	136748	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136748R	F	136748	2024-05-13	2024-06-11	2024-11-12	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136749L	F	136749	2024-05-13	2024-06-11	2024-11-13	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136749R	F	136749	2024-05-13	2024-06-11	2024-11-13	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136750L	F	136750	2024-05-13	2024-06-11	2024-11-13	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136750R	F	136750	2024-05-13	2024-06-11	2024-11-13	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136751L	F	136751	2024-05-13	2024-06-11	2024-11-13	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136751R	F	136751	2024-05-13	2024-06-11	2024-11-13	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136752L	F	136752	2024-05-13	2024-06-11	2024-11-13	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136752R	F	136752	2024-05-13	2024-06-11	2024-11-13	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136753	M	136753	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136754	M	136754	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136755	M	136755	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136756	M	136756	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136757	M	136757	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136758	M	136758	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136759	M	136759	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136760	M	136760	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136761	M	136761	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136792	M	136792	2024-05-13	2024-06-11	2024-11-14	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136793	M	136793	2024-05-13	2024-06-11	2024-11-15	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136794	M	136794	2024-05-13	2024-06-11	2024-11-15	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136795	M	136795	2024-05-13	2024-06-11	2024-11-15	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136796	M	136796	2024-05-13	2024-06-11	2024-11-15	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136797	M	136797	2024-05-13	2024-06-11	2024-11-15	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136798	M	136798	2024-05-13	2024-06-11	2024-11-15	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136799	M	136799	2024-05-13	2024-06-11	2024-11-15	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+136800	M	136800	2024-05-13	2024-06-11	2024-11-15	FALSE	FALSE	timed sac	scheduled euthanasia	RZ
+131825L	F	131825	2024-03-11	2024-04-09	2024-10-18	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131825R	F	131825	2024-03-11	2024-04-09	2024-10-18	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131826L	F	131826	2024-03-11	2024-04-09	2024-10-03	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131826R	F	131826	2024-03-11	2024-04-09	2024-11-08	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131827L	F	131827	2024-03-11	2024-04-09	2024-04-15	FALSE	FALSE	euthanized before treatment	prior to group assignment	RP
+131827R	F	131827	2024-03-11	2024-04-09	2024-10-11	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131828L	F	131828	2024-03-11	2024-04-09	2024-11-01	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131828R	F	131828	2024-03-11	2024-04-09	2024-10-18	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131829L	F	131829	2024-03-11	2024-04-09	2024-11-01	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131829R	F	131829	2024-03-11	2024-04-09	2024-11-22	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131830L	F	131830	2024-03-11	2024-04-09	2024-11-22	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131830R	F	131830	2024-03-11	2024-04-09	2024-12-06	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131831L	F	131831	2024-03-11	2024-04-09	2024-11-22	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131831R	F	131831	2024-03-11	2024-04-09	2025-01-17	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131832L	F	131832	2024-03-11	2024-04-09	2025-03-13	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131832R	F	131832	2024-03-11	2024-04-09	2025-02-14	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131833L	F	131833	2024-03-11	2024-04-09	2025-01-03	TRUE	TRUE	prion endpoint	included in all-cause	RP
+110128L	F	110128	2024-03-11	2024-04-09	2025-01-24	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131834L	F	131834	2024-03-11	2024-04-09	2025-01-03	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131834R	F	131834	2024-03-11	2024-04-09	2025-01-03	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131835L	F	131835	2024-03-11	2024-04-09	2024-12-20	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131835R	F	131835	2024-03-11	2024-04-09	2024-12-20	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131836L	F	131836	2024-03-11	2024-04-09	2025-02-07	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131836R	F	131836	2024-03-11	2024-04-09	2025-01-14	FALSE	TRUE	other	included in all-cause	RP
+131837	M	131837	2024-03-11	2024-04-09	2024-10-18	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131838	M	131838	2024-03-11	2024-04-09	2024-08-30	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131839	M	131839	2024-03-11	2024-04-09	2024-10-03	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131840	M	131840	2024-03-11	2024-04-09	2024-10-11	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131841	M	131841	2024-03-11	2024-04-09	2024-10-03	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131842	M	131842	2024-03-11	2024-04-09	2024-10-03	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131843	M	131843	2024-03-11	2024-04-09	2024-11-01	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131844	M	131844	2024-03-11	2024-04-09	2024-10-11	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131845	M	131845	2024-03-11	2024-04-09	2024-12-27	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131846	M	131846	2024-03-11	2024-04-09	2024-10-11	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131847	M	131847	2024-03-11	2024-04-09	2024-11-29	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131848	M	131848	2024-03-11	2024-04-09	2024-12-06	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131862	M	131862	2024-03-11	2024-04-09	2024-11-29	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131863	M	131863	2024-03-11	2024-04-09	2024-12-20	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131864	M	131864	2024-03-11	2024-04-09	2024-05-20	TRUE	FALSE	prion endpoint	prior to group assignment	RP
+131865	M	131865	2024-03-11	2024-04-09	2024-12-20	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131866	M	131866	2024-03-11	2024-04-09	2024-12-20	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131867	M	131867	2024-03-11	2024-04-09	2024-12-20	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131868	M	131868	2024-03-11	2024-04-09	2025-01-17	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131869	M	131869	2024-03-11	2024-04-09	2024-08-13	FALSE	FALSE	prion endpoint	included in all-cause	RP
+131870	M	131870	2024-03-11	2024-04-09	2024-12-06	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131871	M	131871	2024-03-11	2024-04-09	2024-05-20	TRUE	FALSE	prion endpoint	prior to group assignment	RP
+131872	M	131872	2024-03-11	2024-04-09	2025-01-10	TRUE	TRUE	prion endpoint	included in all-cause	RP
+131873	M	131873	2024-03-11	2024-04-09	2024-12-06	TRUE	TRUE	prion endpoint	included in all-cause	RP
+HHA1	M	HHA	2020-08-18	2020-10-26	2021-06-16	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHA2	M	HHA	2020-08-18	2020-10-26	2021-01-14	FALSE	TRUE	found dead	included in all-cause	HH
+HHA3	M	HHA	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHA4	M	HHA	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHA5	M	HHA	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHB1	F	HHB	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHB2	F	HHB	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHB3	F	HHB	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHB4	F	HHB	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHC1	M	HHC	2020-08-18	2020-10-26	2021-06-18	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHC2	M	HHC	2020-08-18	2020-10-26	2021-06-11	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHC3	M	HHC	2020-08-18	2020-10-26	2021-05-28	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHC4	M	HHC	2020-08-18	2020-10-26	2021-06-18	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHD1	F	HHD	2020-08-18	2020-10-26	2021-05-31	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHD2	F	HHD	2020-08-18	2020-10-26	2021-06-02	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHD3	F	HHD	2020-08-18	2020-10-26	2021-05-26	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHD4	F	HHD	2020-08-18	2020-10-26	2020-10-26	FALSE	FALSE	found dead	within 24h of surgery	HH
+HHE1	M	HHE	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHE2	M	HHE	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHE3	M	HHE	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHE4	M	HHE	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHE5	M	HHE	2020-08-18	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHF1	F	HHF	2020-08-18	2020-10-26	2021-07-21	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHF2	F	HHF	2020-08-18	2020-10-26	2021-05-03	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHF3	F	HHF	2020-08-18	2020-10-26	2021-05-17	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHF4	F	HHF	2020-08-18	2020-10-26	2021-05-12	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHG1	M	HHG	2020-08-19	2020-10-26	2021-05-03	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHG2	M	HHG	2020-08-19	2020-10-26	2021-05-19	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHG3	M	HHG	2020-08-19	2020-10-26	2021-05-19	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHG4	M	HHG	2020-08-19	2020-10-26	2021-05-11	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHH1	F	HHH	2020-08-19	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHH2	F	HHH	2020-08-19	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHH3	F	HHH	2020-08-19	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHI1	F	HHI	2020-09-01	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHI2	F	HHI	2020-09-01	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHI3	F	HHI	2020-09-01	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHJ2	M	HHJ	2020-08-16	2020-10-26	2021-08-23	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHJ3	M	HHJ	2020-08-16	2020-10-26	2021-08-20	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHJ4	M	HHJ	2020-08-16	2020-10-26	2021-08-30	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHJ5	M	HHJ	2020-08-16	2020-10-26	2021-08-30	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHK1	F	HHK	2020-08-16	2020-10-26	2021-09-28	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHK2	F	HHK	2020-08-16	2020-10-26	2021-08-09	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHK4	F	HHK	2020-08-16	2020-10-26	2021-09-06	TRUE	TRUE	prion endpoint	included in all-cause	HH
+HHL1	F	HHL	2020-08-13	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHL2	F	HHL	2020-08-13	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHL3	F	HHL	2020-08-13	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHM1	F	HHM	2020-08-08	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHM3	F	HHM	2020-08-08	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HHM4	F	HHM	2020-08-08	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	HH
+HGA1	M	HGA	2020-12-18	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	HG
+HGA3	M	HGA	2020-12-18	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	HG
+HGA4	M	HGA	2020-12-18	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	HG
+HGB1	F	HGB	2020-12-15	2021-02-04	2022-02-23	FALSE	TRUE	dermatitis	included in all-cause	HG
+HGB2	F	HGB	2020-12-18	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	HG
+HGB3	F	HGB	2020-12-24	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	HG
+HGB6	F	HGB	2020-12-28	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	HG
+HGC1	M	HGC	2020-12-28	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	HG
+HJA1	M	HJA	2020-09-06	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJA2	M	HJA	2020-09-06	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJA3	M	HJA	2020-09-06	2020-11-17	2022-01-24	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJA4	M	HJA	2020-09-06	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJB1	F	HJB	2020-09-06	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJB2	F	HJB	2020-09-06	2020-11-17	2022-01-21	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJB3	F	HJB	2020-09-06	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJC1	M	HJC	2020-09-09	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJC2	M	HJC	2020-09-09	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJC3	M	HJC	2020-09-09	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJD1	F	HJD	2020-09-09	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJD2	F	HJD	2020-09-09	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJD3	F	HJD	2020-09-09	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJD4	F	HJD	2020-09-09	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJD5	F	HJD	2020-09-09	2020-11-17	2022-07-11	FALSE	FALSE	end of study	scheduled euthanasia	HJ
+HJE1	M	HJE	2020-09-09	2020-11-17	2022-02-08	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJE2	M	HJE	2020-09-09	2020-11-17	2022-06-15	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJE3	M	HJE	2020-09-09	2020-11-17	2022-04-15	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJE4	M	HJE	2020-09-09	2020-11-17	2022-06-22	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJF1	F	HJF	2020-09-09	2020-11-17	2022-06-27	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJF2	F	HJF	2020-09-09	2020-11-17	2022-04-20	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJF3	F	HJF	2020-09-09	2020-11-17	2022-01-19	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJF4	F	HJF	2020-09-09	2020-11-17	2021-10-13	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJG1	M	HJG	2020-09-19	2020-11-17	2022-06-10	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJH1	F	HJH	2020-09-28	2020-11-17	2021-04-28	FALSE	TRUE	found dead	included in all-cause	HJ
+HJH2	F	HJH	2020-09-28	2020-11-17	2021-10-18	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJH3	F	HJH	2020-09-28	2020-11-17	2021-12-01	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJH4	F	HJH	2020-09-28	2020-11-17	2021-10-11	FALSE	TRUE	found dead	included in all-cause	HJ
+HJI1	M	HJI	2020-10-01	2020-11-17	2021-12-08	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJI2	M	HJI	2020-10-01	2020-11-17	2021-11-24	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HJI3	M	HJI	2020-10-01	2020-11-17	2022-02-08	TRUE	TRUE	prion endpoint	included in all-cause	HJ
+HKA2	M	HKA		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKA3	M	HKA		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKA4	M	HKA		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKA7	M	HKA		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKB9	M	HKB		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKB5	M	HKB		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKB6	M	HKB		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKB1	M	HKB		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKC3	M	HKC		2019-07-05	2020-12-08	FALSE	TRUE	intercurrent/other	included in all-cause	HK
+HKC1	M	HKC		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKC2	M	HKC		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKC5	M	HKC		2019-07-05	2020-01-22	FALSE	TRUE	found dead	included in all-cause	HK
+HKD2	M	HKD		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKD5	M	HKD		2019-07-05	2021-02-02	FALSE	TRUE	found dead	included in all-cause	HK
+HKD6	M	HKD		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKD3	M	HKD		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKE2	F	HKE		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKE3	F	HKE		2019-07-05	2021-02-09	TRUE	TRUE	prion endpoint	included in all-cause	HK
+HKE5	F	HKE		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKF3	F	HKF		2019-07-05	2020-07-30	TRUE	TRUE	prion endpoint	included in all-cause	HK
+HKF1	F	HKF		2019-07-05	2020-06-04	FALSE	TRUE	dermatitis	included in all-cause	HK
+HKF4	F	HKF		2019-07-05	2020-05-11	FALSE	TRUE	dermatitis	included in all-cause	HK
+HKF5	F	HKF		2019-07-05	2020-06-30	FALSE	TRUE	dermatitis	included in all-cause	HK
+HKG4	F	HKG		2019-07-05	2020-05-26	FALSE	TRUE	found dead	included in all-cause	HK
+HKG5	F	HKG		2019-07-05	2020-05-26	FALSE	TRUE	found dead	included in all-cause	HK
+HKG1	F	HKG		2019-07-05	2019-07-05	FALSE	FALSE	found dead	within 24h of surgeries	HK
+HKG3	F	HKG		2019-07-05	2019-07-05	FALSE	FALSE	found dead	within 24h of surgeries	HK
+HKH1	F	HKH		2019-07-05	2019-07-05	FALSE	FALSE	found dead	within 24h of surgeries	HK
+HKH3	F	HKH		2019-07-05	2021-02-15	FALSE	TRUE	dermatitis	included in all-cause	HK
+HKH5	F	HKH		2019-07-05	2021-01-04	FALSE	TRUE	dermatitis	included in all-cause	HK
+HKI1	F	HKI1		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKI3	F	HKI		2019-07-05	2020-11-25	FALSE	TRUE	intercurrent/other	included in all-cause	HK
+HKI7	F	HKI		2019-07-05	2021-02-09	TRUE	TRUE	prion endpoint	included in all-cause	HK
+HKI4	F	HKI		2019-07-05	2020-08-05	FALSE	TRUE	found dead	included in all-cause	HK
+HKJ1	F	HKJ		2019-07-05	2020-09-28	FALSE	TRUE	found dead	included in all-cause	HK
+HKJ3	F	HKJ		2019-07-05	2020-09-02	TRUE	TRUE	prion endpoint	included in all-cause	HK
+HKJ5	F	HKJ		2019-07-05	2020-09-30	TRUE	TRUE	prion endpoint	included in all-cause	HK
+HKJ7	F	HKJ		2019-07-05	2021-01-12	TRUE	TRUE	prion endpoint	included in all-cause	HK
+HKF7	F	HKK		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKG6	F	HKK		2019-07-05	2021-02-09	TRUE	TRUE	prion endpoint	included in all-cause	HK
+HKI5	F	HKK		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HKJ11	F	HKK		2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	HK
+HAA1	F	HAA		2019-12-02	2020-06-25	FALSE	TRUE	found dead	included in all-cause	HA
+HAA2	F	HAA		2019-12-02	2020-08-03	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAA3	F	HAA		2019-12-02	2020-08-05	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAB1	F	HAB		2019-12-02	2020-07-13	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAB2	F	HAB		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HAB3	F	HAB		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HAC1	F	HAC		2019-12-02	2021-04-08	FALSE	TRUE	dermatitis	included in all-cause	HA
+HAC2	F	HAC		2019-12-02	2019-12-02	FALSE	FALSE	found dead	included in all-cause	HA
+HAC3	F	HAC		2019-12-02	2020-08-18	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAD1	M	HAD		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HAE1	M	HAE		2019-12-02	2020-06-26	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAE2	M	HAE		2019-12-02	2020-07-10	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAF1	M	HAF		2019-12-02	2020-06-04	FALSE	TRUE	intercurrent/other	included in all-cause	HA
+HAF2	M	HAF		2019-12-02	2020-08-03	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAF3	M	HAF		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HAF4	M	HAF		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HAF5	M	HAF		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HAG1	M	HAG		2019-12-02	2020-07-02	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAG2	M	HAG		2019-12-02	2020-08-05	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAG3	M	HAG		2019-12-02	2020-04-24	FALSE	TRUE	intercurrent/other	included in all-cause	HA
+HAG4	M	HAG		2019-12-02	2021-02-12	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAH1	F	HAH		2019-12-02	2020-06-26	TRUE	TRUE	prion endpoint	included in all-cause	HA
+HAH2	F	HAH		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HAH3	F	HAH		2019-12-02	2021-03-04	FALSE	TRUE	dermatitis	included in all-cause	HA
+HAI1	F	HAI		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HAI2	F	HAI		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HAI3	F	HAI		2019-12-02	2021-04-15	FALSE	FALSE	end of study	scheduled euthanasia	HA
+HBA81	M	HBA	2020-02-04	2020-03-26	2021-02-05	TRUE	TRUE	prion endpoint	included in all-cause	HB
+HBB88	M	HBB	2020-02-14	2020-03-26	2021-03-03	FALSE	TRUE	found dead	included in all-cause	HB
+HBC1	F	HBC	2020-01-13	2020-03-26	2021-01-22	TRUE	TRUE	prion endpoint	included in all-cause	HB
+HBC5	F	HBC	2020-01-13	2020-03-26	2021-01-25	TRUE	TRUE	prion endpoint	included in all-cause	HB
+HBC6	F	HBC	2020-01-13	2020-03-26	2020-12-27	FALSE	TRUE	found dead	included in all-cause	HB
+HBD50	F	HBD	2020-01-28	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBD53	F	HBD	2020-01-28	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBD61	F	HBD	2020-01-23	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBE62	F	HBE	2020-01-23	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBE44	F	HBE	2020-01-30	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBE47	F	HBE	2020-01-30	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBE74	F	HBE	2020-02-04	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBF3	F	HBF3	2020-01-16	2020-03-26	2021-03-24	FALSE	TRUE	found dead	included in all-cause	HB
+HBG1	F	HBG1	2020-02-02	2020-03-26	2021-03-10	TRUE	TRUE	prion endpoint	included in all-cause	HB
+HBH2	M	HBH2	2020-02-08	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBI1	F	HBI1	2020-02-08	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBI2	F	HBI2	2020-02-08	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBK2	M	HBK2	2020-02-12	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBL1	F	HBL1	2020-02-12	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBM1	M	HBM1	2020-01-16	2020-03-26	2020-04-20	FALSE	TRUE	found dead	included in all-cause	HB
+HBM2	M	HBM2	2020-01-16	2020-03-26	2020-11-10	FALSE	TRUE	found dead	included in all-cause	HB
+HBN2	M	HBN2	2019-12-19	2020-03-26	2020-04-24	FALSE	TRUE	found dead	included in all-cause	HB
+HBN3	M	HBN3	2019-12-19	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBO69	F	HBO	2020-01-26	2020-03-26	2021-01-08	TRUE	TRUE	prion endpoint	included in all-cause	HB
+HBO7	F	HBO	2020-01-13	2020-03-26	2020-12-30	TRUE	TRUE	prion endpoint	included in all-cause	HB
+HBP1	F	HBP	2019-12-09	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBP2	F	HBP	2019-12-09	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
+HBP3	F	HBP	2019-12-09	2020-03-26	2021-04-30	FALSE	FALSE	timed sac	scheduled euthanasia	HB
