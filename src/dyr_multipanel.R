@@ -5585,10 +5585,12 @@ if ('figure-4'=='figure-4') {
 
 
   HA_survival()
-  mtext(side=3, line=0.5, cex=0.7, text='Tg26372 PRNP 129M')
+  mtext(side=3, line=0.75, cex=0.7, text='Tg26372 PRNP 129M')
+  mtext(side=3, line=-0.25, cex=0.6, text='Prion isolate characterization')
   mtext("A", side=3, cex=1.5, adj = 0, line = 0)
   HB_survival()
   mtext(side=3, line=0.5, cex=0.7, text='Tg25109 PRNP 129M')
+  mtext(side=3, line=-0.25, cex=0.6, text='Prion isolate characterization')
   mtext("B", side=3, cex=1.5, adj = 0, line = 0)
 
   HG_HH_survival()
@@ -5600,10 +5602,11 @@ if ('figure-4'=='figure-4') {
 
   HK_survival()
   mtext(side=3, line=0.5, cex=0.7, text='Ki817 PRNP 129V')
+  mtext(side=3, line=-0.25, cex=0.6, text='Prion isolate characterization')
   mtext("E", side=3, cex=1.5, adj = 0, line = 0)
 
   HJ_survival()
-  mtext(side=3, line=0.5, cex=0.7, text='Ki817 PRNP 129V')
+  mtext(side=3, line=0.5, cex=0.7, text='Ki817 PRNP 129V genetic dose-response')
   mtext("F", side=3, cex=1.5, adj = 0, line = 0)
   
   HA_HB_legend()
