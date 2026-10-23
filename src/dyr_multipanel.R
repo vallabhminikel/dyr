@@ -540,8 +540,69 @@ nest_plot <- nest %>%
   select(-comb)
 
 
+stat_registry <- new.env()
+stat_registry$surv <- list()
+stat_registry$peak <- list()
+
+describe_groups <- function(dat) {
+  has_mri <- exists('meta_mri') && exists('blind_mri')
+  mri_expts <- if (has_mri) meta_mri$expt else character(0)
+  info <- bind_rows(
+    meta %>%
+      transmute(expt, cohort, cohort_disp = as.character(cohort_disp), species,
+                genotype = recode(genotype, HE = 'HET', KO = 'HOM'),
+                prion_strain = as.character(inoculum), treatment = as.character(treatment),
+                dose_ug = as.numeric(dose_ug),
+                treatment_start_dpi = as.character(treatment_start_dpi)),
+    if (has_mri) meta_mri %>%
+      left_join(blind_mri %>% distinct(expt, species), by = 'expt') %>%
+      transmute(expt, cohort, cohort_disp = as.character(cohort_disp), species,
+                genotype = recode(genotype, 'TgVole' = 'Tg(Vole)', 'Prp null' = 'PrP KO', 'Prnp Null' = 'PrP KO'),
+                prion_strain = coalesce(as.character(inoculum), 'none'), treatment = as.character(treatment),
+                dose_ug = suppressWarnings(as.numeric(dose_ug)),
+                treatment_start_dpi = NA_character_)
+  )
+  present <- if ('cohort' %in% names(dat)) {
+    dat %>% distinct(expt, cohort) %>% inner_join(info, by = c('expt', 'cohort'))
+  } else {
+    dat %>% distinct(expt, cohort_disp) %>% mutate(cohort_disp = as.character(cohort_disp)) %>%
+      inner_join(info, by = c('expt', 'cohort_disp'))
+  }
+  collapse <- function(x) paste(sort(unique(na.omit(as.character(x)))), collapse = '; ')
+  present %>%
+    group_by(group = cohort_disp) %>%
+    summarize(.groups = 'drop',
+              experiment = collapse(expt),
+              species = collapse(species),
+              genotype = collapse(genotype),
+              prion_strain = collapse(prion_strain),
+              treatment = collapse(treatment),
+              dose_ug = collapse(dose_ug),
+              treatment_start_dpi = collapse(treatment_start_dpi),
+              time_axis = ifelse(all(expt %in% setdiff(mri_expts, 'HU2')), 'age (days)', 'dpi'))
+}
+
+surv_stats <- function(dat, ref_group) {
+  dat <- dat %>% mutate(group = as.character(cohort_disp))
+  sf <- survfit(Surv(dpi, acm) ~ group, data = dat)
+  med <- tibble(group = sub('group=', '', names(sf$strata)),
+                median_survival = unname(summary(sf)$table[, 'median']))
+  pvals <- map_dfr(setdiff(unique(dat$group), ref_group), function(g) {
+    dat2 <- dat %>% filter(group %in% c(ref_group, g)) %>%
+      mutate(tmp = factor(group, levels = c(ref_group, g)))
+    s <- suppressWarnings(survdiff(Surv(dpi, acm) ~ tmp, data = dat2))
+    tibble(group = g, p_vs_control = signif(1 - pchisq(s$chisq, df = 1), 3))
+  })
+  dat %>%
+    group_by(group) %>%
+    summarize(.groups = 'drop', n = n(), events = sum(acm == 1)) %>%
+    left_join(med, by = 'group') %>%
+    left_join(pvals, by = 'group') %>%
+    mutate(control_group = ref_group)
+}
+
 surv_table <- function(dat, ref_group) {
-  
+
   sf <- survfit(Surv(dpi, acm) ~ cohort_disp, data = dat)
   
   # survfit medians
@@ -605,14 +666,15 @@ surv_table <- function(dat, ref_group) {
       median
     ))%>%
     mutate(across(everything(), ~ ifelse(is.na(.x) | is.nan(.x), "", .x)))
-  
-  
+
+  stat_registry$surv[[length(stat_registry$surv) + 1]] <- surv_stats(dat, ref_group) %>%
+    left_join(describe_groups(dat), by = 'group')
   
   return(final)
 }
 
 
-make_weight_summary <- function(data, ref_group) {
+make_weight_summary <- function(data, ref_group, stat_ref_group = ref_group) {
   
   #  Peak 
   peak_by_animal <- data %>%
@@ -624,7 +686,24 @@ make_weight_summary <- function(data, ref_group) {
       .groups = "drop"
     )%>% ungroup()
   
-  # Cohort-level peaks 
+  stat_peaks <- data %>%
+    group_by(group = as.character(cohort_disp), animal) %>%
+    summarise(peak_dpi = wtdpi[which.max(weight)], .groups = 'drop')
+  ref_dpi_vals <- stat_peaks$peak_dpi[stat_peaks$group == stat_ref_group]
+  stat_registry$peak[[length(stat_registry$peak) + 1]] <- stat_peaks %>%
+    group_by(group) %>%
+    summarize(.groups = 'drop',
+              n = n(),
+              mean_peak_dpi = mean(peak_dpi),
+              l95 = mean(peak_dpi) - 1.96 * sd(peak_dpi) / sqrt(n()),
+              u95 = mean(peak_dpi) + 1.96 * sd(peak_dpi) / sqrt(n()),
+              p_vs_control = ifelse(group[1] == stat_ref_group, NA_real_,
+                                    tryCatch(signif(t.test(peak_dpi, ref_dpi_vals)$p.value, 3),
+                                             error = function(e) NA_real_))) %>%
+    mutate(control_group = stat_ref_group) %>%
+    left_join(describe_groups(data), by = 'group')
+  
+  # Cohort-level peaks
   cohort_peaks <- peak_by_animal %>%
     group_by(cohort_disp) %>%
     summarise(
@@ -906,7 +985,7 @@ write_supp_table(rel_weights_smry%>%ungroup() %>%select(-color), 'RR weights sum
 
 
 weight_summary <- make_weight_summary(weight_plot%>%
-                                        filter(expt == 'RR'), ref_group = "RRML")%>%
+                                        filter(expt == 'RR'), ref_group = "RRML", stat_ref_group = "NBH")%>%
   arrange(match(cohort_disp, c('NBH','RRML')))
 
 write_supp_table(weight_summary, 'RR weights peak')
@@ -1138,13 +1217,7 @@ RR_rtqic <- function(){
   
   
   
-  text(
-    x = par("usr")[2]-0.5, 
-    y = LLQ-1,
-    labels = "LLQ" ,
-    
-    col = "red", pos = 4, xpd = TRUE
-  ) 
+  mtext(side=4, line=0.1, at=5.69, text="LLQ", col="red", las=2, cex=0.7)
   
   
   with(stat, {
@@ -1442,15 +1515,20 @@ write_supp_table(plot_rna_rd %>%
 
 ## RG   ####
 
+# all RG analyses exclude timed-sac animals and the N=1 incidental uninoculated animal (not part of original experimental design)
+rg_keep_animals <- master %>%
+  filter(expt == "RG", endpoint_comments != "timed sac") %>%
+  pull(animal)
+
 ### survival ####
 surv_ex <- survdata %>%
-  filter(expt %in% c("RG"))
+  filter(expt %in% c("RG"), animal %in% rg_keep_animals, cohort_disp != "Uninoculated")
 
 write_supp_table(surv_ex %>% select(-color,-cohort), 'RG survival individual')
 
 
 surv_smry<- surv_table(surv_ex, ref_group = "WT")%>%
-  arrange(match(cohort_disp, c('WT','Het KO','Hom KO','Uninoculated')))
+  arrange(match(cohort_disp, c('WT','Het KO','Hom KO')))
 
 write_supp_table(surv_smry, 'RG survival summarized')
 
@@ -1463,14 +1541,13 @@ RG_survival<- function(){
   
   
   surv_ex <- survdata %>%
-    filter(expt %in% c("RG")) %>%
+    filter(expt %in% c("RG"), animal %in% rg_keep_animals, cohort_disp != "Uninoculated") %>%
     mutate(
       cohort_disp = factor(
         cohort_disp,
-        levels = c("WT", "Het KO", "Hom KO", "Uninoculated")
+        levels = c("WT", "Het KO", "Hom KO")
       )
-    ) %>%
-    filter(cohort_disp != "Uninoculated") # only N=1 incidental uninoc'ed animal, not worth plotting. was not part of original experimental design
+    )
   
   
   sf = make_sf(surv_ex)
@@ -1489,7 +1566,7 @@ RG_survival<- function(){
 
 
 dat_ex <- weight_plot %>%
-  filter(expt == "RG") %>%
+  filter(expt == "RG", animal %in% rg_keep_animals, cohort_disp != "Uninoculated") %>%
   select(cohort, animal, wtdpi, color, weight, peak, offpeak,cohort_disp) %>%
   ungroup()
 
@@ -1510,14 +1587,72 @@ write_supp_table(rel_weights_smry_RG%>%ungroup() %>%select(-color), 'RG weights 
 
 
 
-weight_summary <- make_weight_summary(weight_plot%>%
-                                        filter(expt == 'RG'), ref_group = "WT")%>%
-  arrange(match(cohort_disp, c('WT','Het KO','Hom KO','Uninoculated')))
+rg_weight_filtered <- weight_plot %>%
+  filter(expt == 'RG', animal %in% rg_keep_animals, cohort_disp != "Uninoculated")
+
+rg_peak_dpi_cohort <- rg_weight_filtered %>%
+  group_by(cohort_disp, animal) %>%
+  summarize(.groups = "drop", peak_dpi = wtdpi[which.max(weight)])
+
+rg_p_vs_wt <- sapply(c("Het KO", "Hom KO"), function(g) {
+  tryCatch(
+    t.test(rg_peak_dpi_cohort$peak_dpi[rg_peak_dpi_cohort$cohort_disp == g],
+           rg_peak_dpi_cohort$peak_dpi[rg_peak_dpi_cohort$cohort_disp == "WT"])$p.value,
+    error = function(e) NA_real_
+  )
+})
+
+weight_summary <- make_weight_summary(rg_weight_filtered, ref_group = "WT")%>%
+  arrange(match(cohort_disp, c('WT','Het KO','Hom KO'))) %>%
+  mutate(p_vs_wt = case_when(
+    cohort_disp == "Het KO" ~ rg_p_vs_wt[["Het KO"]],
+    cohort_disp == "Hom KO" ~ rg_p_vs_wt[["Hom KO"]],
+    TRUE ~ NA_real_
+  ))
 
 write_supp_table(weight_summary, 'RG weights peak')
 
 
-RG_weight<- function(){ 
+### peak weight dpi by animal and genotype ####
+
+rg_peak_by_animal <- dat_ex %>%
+  inner_join(blind %>% filter(expt == "RG") %>% distinct(animal, genotype), by = "animal") %>%
+  arrange(animal, wtdpi) %>%
+  group_by(cohort, cohort_disp, genotype, animal) %>%
+  summarize(.groups = "drop",
+            peak_weight = max(weight),
+            peak_dpi    = wtdpi[weight == max(weight)][1])
+
+write_supp_table(rg_peak_by_animal %>% select(-cohort), 'RG peak weight by animal')
+
+rg_peak_dpi_genotype <- rg_peak_by_animal
+
+p_vs_wt <- sapply(c("HE", "KO"), function(g) {
+  tryCatch(
+    t.test(rg_peak_dpi_genotype$peak_dpi[rg_peak_dpi_genotype$genotype == g],
+           rg_peak_dpi_genotype$peak_dpi[rg_peak_dpi_genotype$genotype == "WT"])$p.value,
+    error = function(e) NA_real_
+  )
+})
+
+rg_peak_dpi_genotype_smry <- rg_peak_dpi_genotype %>%
+  group_by(genotype) %>%
+  summarize(.groups = "drop",
+            n = n(),
+            mean_peak_dpi = mean(peak_dpi),
+            l95 = mean(peak_dpi) - 1.96 * sd(peak_dpi) / sqrt(n()),
+            u95 = mean(peak_dpi) + 1.96 * sd(peak_dpi) / sqrt(n())) %>%
+  mutate(p_vs_wt = case_when(
+    genotype == "HE" ~ p_vs_wt[["HE"]],
+    genotype == "KO" ~ p_vs_wt[["KO"]],
+    TRUE ~ NA_real_
+  )) %>%
+  arrange(match(genotype, c("WT", "HE", "KO")))
+
+write_supp_table(rg_peak_dpi_genotype_smry, 'RG peak weight dpi by genotype')
+
+
+RG_weight<- function(){
   
   par(mar=c(3,4,2,2))
   plot_weights_max(rel_weights_smry_RG,ylims=c(-1,0.2))
@@ -1606,6 +1741,12 @@ surv_smry<- surv_table(surv_ex, ref_group = "Vehicle")
 
 write_supp_table(surv_smry, 'RP survival summarized')
 
+# log-rank test, RP ASO 6 600 ug vs. 1000 ug (not reported in Tables S1/S2)
+rp_600_vs_1000 <- survdiff(Surv(dpi, acm) ~ cohort_disp,
+                           data = surv_ex %>% filter(cohort_disp %in% c('ASO 6 600ug', 'ASO 6 1000ug')) %>%
+                             mutate(cohort_disp = droplevels(factor(cohort_disp))))
+rp_600_vs_1000_p <- 1 - pchisq(rp_600_vs_1000$chisq, df = 1)
+
 RP_survival<- function(){ 
   
   
@@ -1619,7 +1760,7 @@ RP_survival<- function(){
   
   sf = make_sf(surv_ex)
   
-  plot_sf(sf,xlims = c(0, max(surv_ex$dpi)))
+  plot_sf(sf,xlims = c(0, max(surv_ex$dpi) + 10))
   
   
 }
@@ -1693,6 +1834,7 @@ hamster_elisa <- function(){
   
   
   mtext(side=2, line=3.1, text='residual PrP (%)',cex=0.8)
+  mtext('brain', side = 3, line = 0.5, font = 1, cex = 0.8)
   
 }
 
@@ -2447,7 +2589,7 @@ SC_SD_SE_SK_nfl <- function(){
          col=leg$color,
          text.col=leg$color)
   
-  
+  mtext('plasma NfL', side = 3, line = 0.5, font = 1, cex = 0.8)
   
 }
 
@@ -2609,7 +2751,7 @@ SZ_rtqic<- function(){
     
     axis(side=1, at=c(0,4), labels=NA, lwd.ticks=0)
     mtext(side=1, padj=0, at = 1:3, text = c("none", "none", "ASO 1"), line=-0.2, cex=0.3)
-    mtext(side=1, padj=0, at = c(1,2.5), text = c("43\ndpi", "73\ndpi"), line=1, cex=0.3)
+    mtext(side=1, padj=0, at = c(1,2.5), text = c("43\ndpi", "73\ndpi"), line=1.5, cex=0.4)
     barwidth = 0.4
     axis(side=1, line=1, at=1 + c(-1,1)*barwidth, tck=0.03, labels=NA)
     axis(side=1, line=1, at=c(2,3) + c(-1,1)*barwidth, tck=0.03, labels=NA)
@@ -2643,7 +2785,7 @@ SZ_rtqic<- function(){
       subset(stat, !is.na(l95) & !is.na(u95)),
       {
         arrows(x0 = x, y0 = l95, x1 = x, y1 = u95,
-               angle = 90, code = 3, length = 0.07, lwd = 1.5, col = color)
+               angle = 90, code = 3, length = 0.04, lwd = 1.5, col = color)
         segments(x - 0.28, mean, x + 0.28, mean, lwd = 3, col = color)
       }
     ))
@@ -2734,7 +2876,7 @@ write_supp_table(nfl_sz_stat %>% select(-color, -x), 'SZ NfL summarized')
 SZ_nfl <- function() {
   par(mar = c(4, 4, 2, 1))
 
-  ylims <- c(0, 2500)
+  ylims <- c(0, 2700)
 
   nfl_sz$group <- factor(nfl_sz$group, levels = c('43dpi none', '73dpi none', '73dpi ASO 1'))
 
@@ -2751,7 +2893,7 @@ SZ_nfl <- function() {
   
   axis(side=1, at=c(0,4), labels=NA, lwd.ticks=0)
   mtext(side=1, padj=0, at = 1:3, text = c("none", "none", "ASO 1"), line=-0.2, cex=0.3)
-  mtext(side=1, padj=0, at = c(1,2.5), text = c("43\ndpi", "73\ndpi"), line=1, cex=0.3)
+  mtext(side=1, padj=0, at = c(1,2.5), text = c("43\ndpi", "73\ndpi"), line=1.5, cex=0.4)
   barwidth = 0.4
   axis(side=1, line=1, at=1 + c(-1,1)*barwidth, tck=0.03, labels=NA)
   axis(side=1, line=1, at=c(2,3) + c(-1,1)*barwidth, tck=0.03, labels=NA)
@@ -2764,7 +2906,7 @@ SZ_nfl <- function() {
     subset(nfl_sz_stat, !is.na(l95) & !is.na(u95)),
     {
       arrows(x0 = x, y0 = l95, x1 = x, y1 = u95,
-             angle = 90, code = 3, length = 0.07, lwd = 1.5, col = color)
+             angle = 90, code = 3, length = 0.04, lwd = 1.5, col = color)
       segments(x - 0.28, mean, x + 0.28, mean, lwd = 3, col = color)
     }
   )
@@ -2903,6 +3045,9 @@ survdata_mri<- master_mri %>%
 
 
 survdata_mri$dpi <- as.integer(survdata_mri$death_date- survdata_mri$dob)
+# HU2 is always expressed in dpi, not age
+is_hu2 <- survdata_mri$expt == 'HU2'
+survdata_mri$dpi[is_hu2] <- as.integer(survdata_mri$death_date[is_hu2] - survdata_mri$inoculation_date[is_hu2])
 
 ###weight ####
 
@@ -2915,7 +3060,7 @@ weight_plot_mri <- weight_mri %>%
   inner_join(blind_mri %>% select(expt,cohort,animal,txdpi), by=c('animal','expt'))%>%
   inner_join(meta_mri %>% distinct(expt,color,cohort,cohort_disp), by=c('expt','cohort'))%>%
   filter(!str_detect(cohort, "-died|excluded"))%>%
-  mutate(wtdpi = as.integer(date - dob)) %>%
+  mutate(wtdpi = as.integer(date - if_else(expt == 'HU2', inoculation_date, dob))) %>%
   group_by(expt, animal) %>%
   mutate(
     baseline = first(weight),
@@ -3451,6 +3596,10 @@ final <- basic %>%
   mutate(across(everything(), ~ ifelse(is.na(.x) | is.nan(.x), "", .x)))
 
 write_supp_table(final, 'VOAG survival summary')
+
+stat_registry$surv[[length(stat_registry$surv) + 1]] <- surv_stats(surv_ex %>% mutate(cohort_disp = sex), 'F') %>%
+  mutate(experiment = 'VOAG', species = 'mouse', genotype = 'Tg(Vole)', prion_strain = 'none',
+         treatment = 'none', dose_ug = '', treatment_start_dpi = '', time_axis = 'age (days)')
 
 
 
@@ -5200,6 +5349,54 @@ worksheetOrder(supplement) = new_order
 activeSheet(supplement) = 'contents'
 # now save
 saveWorkbook(supplement,supplement_path,overwrite = TRUE)
+
+
+# STANDALONE STAT TABLES (not part of the supplement workbook) ####
+
+stat_cols <- c('experiment','species','genotype','prion_strain','treatment','dose_ug',
+               'treatment_start_dpi','group','control_group','time_axis','figure_panel')
+
+# prion isolate characterization studies are omitted from Tables S1 and S2
+omit_expts <- c('HA', 'HB', 'HK')
+
+# studies that span several experiment codes are sorted together so the reference group comes first
+study_key <- function(x) case_when(x %in% c('HG', 'HH') ~ 'HG/HH',
+                                   x %in% c('SD', 'SE; SK') ~ 'SC/SD/SE/SK',
+                                   x %in% c('SG', 'SH') ~ 'SG/SH',
+                                   TRUE ~ x)
+
+panel_surv <- c(RR = 'Figure 1A', RG = 'Figure 1F', RP = 'Figure 1H', RE = 'Figure S2G',
+                SD = 'Figure 2C', `SE; SK` = 'Figure 2C', SG = 'Figure S3B', SH = 'Figure S3B',
+                VONH = 'Figure 3A', VOAG = 'Figure 3D', VOE1 = 'Figure 3F', VOE2 = 'Figure 3G',
+                HG = 'Figure 4C', HH = 'Figure 4C', HJ = 'Figure 4F', HU2 = 'Figure S5E')
+panel_wt   <- c(RR = 'Figure 1B', RG = 'Figure S2A', RP = 'Figure S2H',
+                SD = 'Figure S3C', `SE; SK` = 'Figure S3C',
+                VONH = 'Figure S4A', VOE2 = 'Figure S4D',
+                HG = 'Figure 4D', HH = 'Figure 4D', HJ = 'Figure S5I', HU2 = 'Figure S5F')
+
+table_s01 <- bind_rows(stat_registry$surv) %>%
+  distinct(experiment, group, .keep_all = TRUE) %>%
+  filter(!experiment %in% omit_expts) %>%
+  mutate(figure_panel = unname(panel_surv[experiment])) %>%
+  mutate(event_rate = paste0(events, '/', n)) %>%
+  select(experiment, control_group, time_axis, n, events,
+         species, genotype, prion_strain, treatment, dose_ug, treatment_start_dpi,
+         group, figure_panel, event_rate, median_survival, p_vs_control) %>%
+  arrange(study_key(experiment), group != control_group, group) %>%
+  mutate(across(c(median_survival, p_vs_control), ~ ifelse(is.na(.x), '\u2014', as.character(.x))))
+write_tsv(table_s01, 'display_items/table-s01.tsv', na = '')
+
+table_s02 <- bind_rows(stat_registry$peak) %>%
+  distinct(experiment, group, .keep_all = TRUE) %>%
+  filter(!experiment %in% omit_expts) %>%
+  mutate(figure_panel = unname(panel_wt[experiment])) %>%
+  select(experiment, control_group, time_axis, n,
+         species, genotype, prion_strain, treatment, dose_ug, treatment_start_dpi,
+         group, figure_panel, mean_peak_dpi, l95, u95, p_vs_control) %>%
+  mutate(across(c(mean_peak_dpi, l95, u95), ~ round(.x, 1))) %>%
+  arrange(study_key(experiment), group != control_group, group) %>%
+  mutate(p_vs_control = ifelse(is.na(p_vs_control), '\u2014', as.character(p_vs_control)))
+write_tsv(table_s02, 'display_items/table-s02.tsv', na = '')
 
 
 

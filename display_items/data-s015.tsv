@@ -20,18 +20,11 @@ RG	107338L	rat	WT		none	2022-10-21	RRML	2022-11-15	2023-06-27	TRUE	TRUE	prion en
 RG	107340R	rat	HE		none	2022-10-21	RRML	2022-11-15	2023-08-29	TRUE	TRUE	prion endpoint	included in all-cause	Het KO	287
 RG	107340L	rat	KO		none	2022-10-21	RRML	2022-11-15	2023-11-13	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO	363
 RG	107341R	rat	WT		none	2022-10-21	RRML	2022-11-15	2023-07-05	TRUE	TRUE	prion endpoint	included in all-cause	WT	232
-RG	107341L	rat	WT		none	2022-10-21	RRML	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	WT	30
-RG	107342R	rat	KO		none	2022-10-21	RRML	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	Hom KO	30
 RG	107342L	rat	KO		none	2022-10-21	RRML	2022-11-15	2024-04-05	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO	507
-RG	107344R	rat	WT		none	2022-10-21	RRML	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	WT	30
-RG	107344L	rat	HE		none	2022-10-21	RRML	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	Het KO	30
 RG	107346R	rat	HE		none	2022-10-21	RRML	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	Het KO	500
 RG	107346L	rat	KO		none	2022-10-21	RRML	2022-11-15	2024-04-05	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO	507
 RG	107348R	rat	KO		none	2022-10-21	RRML	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO	500
 RG	107348L	rat	HE		none	2022-10-21	RRML	2022-11-15	2024-02-29	TRUE	TRUE	prion endpoint	included in all-cause	Het KO	471
 RG	107349R	rat	KO		none	2022-10-21	RRML	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO	500
 RG	107349L	rat	WT		none	2022-10-21	RRML	2022-11-15	2023-06-27	TRUE	TRUE	prion endpoint	included in all-cause	WT	224
-RG	107351R	rat	HE		none	2022-10-21	RRML	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	Het KO	30
-RG	107351L	rat	KO		none	2022-10-21	RRML	2022-11-15	2022-12-15	FALSE	FALSE	timed sac	scheduled euthanasia	Hom KO	30
 RG	107352R	rat	KO		none	2022-10-21	RRML	2022-11-15	2024-04-05	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO	507
-RG	107352L	rat	WT		none	2022-10-21	RRML	2022-11-15	2024-03-29	FALSE	FALSE	end of study	scheduled euthanasia	Uninoculated	500

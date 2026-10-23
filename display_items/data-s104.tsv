@@ -1,4 +1,4 @@
-cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
-Ki817 / Ki817 VV2 sCJD	8	HJ	8	372.5	115.03	375.5	0	1
-Ki817 / KO VV2 sCJD	8	HJ	8	497.9	90.42	516.5	0.38	0.0223
-uninoculated (all genotypes)	15	HJ	2	431.5	2.12	>601		1.43e-6
+expt	animal	cohort_disp	genotype	dpi	treatment	prion_endpoint	endpoint_comments	titer	se
+HK	HKF1	MM1 sCJD isolate 2	TacKI/TacKI	335	none	FALSE	dermatitis	10.948970004336019	0.38188130791298663
+HK	HKG4	VV2 sCJD isolate 1	TacKI/TacKI	326	none	FALSE	found dead	11.198970004336019	0.408248290463863
+HK	HKG5	VV2 sCJD isolate 1	TacKI/TacKI	326	none	FALSE	found dead	10.948970004336019	0.38188130791298663

@@ -1,31 +1,25 @@
-expt	animal	species	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
-SG	89019	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-12-13	TRUE	TRUE			Het KO 263K	137
-SG	89020	hamster	HE		none	2021-07-01	263K	2021-07-29	2022-01-11	TRUE	TRUE			Het KO 263K	166
-SG	89021	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-12-10	TRUE	TRUE			Het KO 263K	134
-SG	89023	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-11-29	TRUE	TRUE			Het KO 263K	123
-SG	89024	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-11-26	TRUE	TRUE			Het KO 263K	120
-SG	89025	hamster	HE		none	2021-07-01	263K	2021-07-29	2021-11-26	TRUE	TRUE			Het KO 263K	120
-SH	101218	hamster	WT		none	2022-06-08	none	2022-07-05	2022-11-09	TRUE	TRUE	prion endpoint	included in all-cause	WT uninoculated	127
-SH	101219	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
-SH	101220	hamster	WT		none	2022-06-08	none	2022-07-05	2022-11-23	TRUE	TRUE	prion endpoint	included in all-cause	WT uninoculated	141
-SH	101221	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
-SH	101222	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-10-17	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	104
-SH	101223	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-27	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	84
-SH	101224	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-23	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	80
-SH	101225	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-28	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	85
-SH	101226	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-21	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	78
-SH	101227	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-23	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	80
-SH	101228	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-07-05	FALSE	FALSE	surgical complications	within 24h post-surgery	Untreated WT 263K	0
-SH	101229	hamster	WT		none	2022-06-08	263K	2022-07-05	2022-09-16	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	73
-SH	101230	hamster	WT		none	2022-06-08	none	2022-07-05	2022-11-09	TRUE	TRUE	prion endpoint	included in all-cause	WT uninoculated	127
-SH	101231	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
-SH	101232	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
-SH	101233	hamster	WT		none	2022-06-08	none	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	WT uninoculated	170
-SH	101666	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-11-02	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	120
-SH	101667	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-10-26	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	113
-SH	101668	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-11-09	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	127
-SH	101669	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-12-14	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	162
-SH	101670	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO 263K	170
-SH	101671	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO 263K	170
-SH	101672	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-11-02	TRUE	TRUE	prion endpoint	included in all-cause	Hom KO 263K	120
-SH	101673	hamster	KO		none	2022-06-04	263K	2022-07-05	2022-12-22	FALSE	FALSE	end of study	scheduled euthanasia	Hom KO 263K	170
+plate	animal	species	expt	tissue	sample	standard_curve	ngml_av	se_mean	flag	genotype	treatment	inoculum	norm_conc
+101	104288	hamster	CMR-2187	BH	104288 - BH	SHaPrP71	198.803	7.273		WT	none	uninoculated	0.9748765485575673
+101	104288	hamster	CMR-2187	CSF	104288 - CSF	SHaPrP71	10.038	0.026		WT	none	uninoculated	0.5815141304032982
+101	104289	hamster	CMR-2187	BH	104289 - BH	SHaPrP71	206.677	4.23		WT	none	uninoculated	1.0134885309891317
+101	104289	hamster	CMR-2187	CSF	104289 - CSF	SHaPrP71	22.408	3.657		WT	none	uninoculated	1.2981239922372094
+101	104290	hamster	CMR-2187	BH	104290 - BH	SHaPrP71	208.492	2.416		WT	none	uninoculated	1.022388803800065
+101	104290	hamster	CMR-2187	CSF	104290 - CSF	SHaPrP71	25.745	2.085		WT	none	uninoculated	1.49144065423719
+101	104291	hamster	CMR-2187	BH	104291 - BH	SHaPrP71	107.396	3.223		WT	ASO 1	uninoculated	0.5266411563652887
+101	104291	hamster	CMR-2187	CSF	104291 - CSF	SHaPrP71	13.793	0.936		WT	ASO 1	uninoculated	0.7990460650182001
+101	104292	hamster	CMR-2187	BH	104292 - BH	SHaPrP71	115.732	5.114		WT	ASO 1	uninoculated	0.5675186627850907
+101	104292	hamster	CMR-2187	CSF	104292 - CSF	SHaPrP71	14.748	0.525		WT	ASO 1	uninoculated	0.8543704318776492
+101	104293	hamster	CMR-2187	BH	104293 - BH	SHaPrP71	87.177	0		WT	ASO 1	uninoculated	0.4274926076246488
+101	104293	hamster	CMR-2187	CSF	104293 - CSF	SHaPrP71	14.839	0.888		WT	ASO 1	uninoculated	0.8596421778297014
+101	104294	hamster	CMR-2187	BH	104294 - BH	SHaPrP71	219.332	7.219		WT	none	uninoculated	1.0755452540868515
+101	104294	hamster	CMR-2187	CSF	104294 - CSF	SHaPrP71	1.669			WT	none	uninoculated	0.09668729663708954
+101	104295	hamster	CMR-2187	BH	104295 - BH	SHaPrP71	181.166	4.276		WT	none	uninoculated	0.8883894347468612
+101	104295	hamster	CMR-2187	CSF	104295 - CSF	SHaPrP71	16.41	0.23		WT	none	uninoculated	0.9506522095953501
+101	104296	hamster	CMR-2187	BH	104296 - BH	SHaPrP71	209.088	6.641		WT	none	uninoculated	1.025311427819523
+101	104296	hamster	CMR-2187	CSF	104296 - CSF	SHaPrP71	27.301	2.117		WT	none	uninoculated	1.581581716889863
+101	104297	hamster	CMR-2187	BH	104297 - BH	SHaPrP71	107.396	3.223		WT	ASO 1	uninoculated	0.5266411563652887
+101	104297	hamster	CMR-2187	CSF	104297 - CSF	SHaPrP71	11.786	2.437		WT	ASO 1	uninoculated	0.6827779977020595
+101	104298	hamster	CMR-2187	BH	104298 - BH	SHaPrP71	91.789	0.657		WT	ASO 1	uninoculated	0.45010861765441446
+101	104298	hamster	CMR-2187	CSF	104298 - CSF	SHaPrP71	15.286	2.154		WT	ASO 1	uninoculated	0.8855374573963755
+101	104299	hamster	CMR-2187	BH	104299 - BH	SHaPrP71	139.77	2.505		WT	ASO 1	uninoculated	0.6853945624155129
+101	104299	hamster	CMR-2187	CSF	104299 - CSF	SHaPrP71	19.834	0.559		WT	ASO 1	uninoculated	1.1490088924505895

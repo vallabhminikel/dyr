@@ -1,15 +1,30 @@
-expt	animal	species	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
-RE	88543L	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-26	TRUE	TRUE	prion endpoint	included in all-cause	Saline	190
-RE	88543R	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-26	TRUE	TRUE	prion endpoint	included in all-cause	Saline	190
-RE	88544L	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-02-01	TRUE	TRUE	prion endpoint	included in all-cause	Saline	196
-RE	88544R	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-26	FALSE	TRUE	other	included in all-cause	Saline	190
-RE	88545L	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-04-20	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	274
-RE	88545R	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-05-25	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	309
-RE	88546L	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2021-12-02	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	135
-RE	88546R	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2021-11-25	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	128
-RE	88547L	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-13	TRUE	TRUE	prion endpoint	included in all-cause	Saline	177
-RE	88547R	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-01-03	FALSE	TRUE	other	included in all-cause	Saline	167
-RE	88548L	rat	WT		saline	2021-06-22	RRML	2021-07-20	2022-02-08	TRUE	TRUE	prion endpoint	included in all-cause	Saline	203
-RE	88549R	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-06-03	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	318
-RE	88550L	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-05-20	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	304
-RE	88550R	rat	WT	119	ASO 6	2021-06-22	RRML	2021-07-20	2022-05-20	TRUE	TRUE	prion endpoint	included in all-cause	ASO 6 1000ug	304
+cohort_disp	genotype	animal	peak_weight	peak_dpi
+Het KO	HE	107328L	648	203
+Het KO	HE	107330R	629	192
+Het KO	HE	107332L	665	192
+Het KO	HE	107335L	652	224
+Het KO	HE	107336L	613.5	183
+Het KO	HE	107337L	690	171
+Het KO	HE	107340R	665	199
+Het KO	HE	107346R	350	217
+Het KO	HE	107348L	378.5	227
+Hom KO	KO	107327R	653.5	241
+Hom KO	KO	107330L	661	491
+Hom KO	KO	107335R	704.5	339
+Hom KO	KO	107337R	807	406
+Hom KO	KO	107338R	700	394
+Hom KO	KO	107340L	738	241
+Hom KO	KO	107342L	410	392
+Hom KO	KO	107346L	410	406
+Hom KO	KO	107348R	389	493
+Hom KO	KO	107349R	437	458
+Hom KO	KO	107352R	376	458
+WT	WT	107327L	595	163
+WT	WT	107328R	540.5	129
+WT	WT	107331L	572	171
+WT	WT	107331R	571.5	183
+WT	WT	107332R	545	129
+WT	WT	107336R	670	150
+WT	WT	107338L	620.5	163
+WT	WT	107341R	413.5	150
+WT	WT	107349L	331	169

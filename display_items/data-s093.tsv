@@ -1,58 +1,36 @@
-expt	animal	species	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
-HH	HHA1	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-06-16	TRUE	TRUE	prion endpoint	included in all-cause	uninoculated (all genotypes)	233
-HH	HHA2	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-01-14	FALSE	TRUE	found dead	included in all-cause	uninoculated (all genotypes)	80
-HH	HHA3	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHA4	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHA5	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHB1	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHB2	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHB3	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHB4	mouse	Tg26372 het		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHC1	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-06-18	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	235
-HH	HHC2	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-06-11	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	228
-HH	HHC3	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-05-28	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	214
-HH	HHC4	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-06-18	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	235
-HH	HHD1	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-05-31	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	217
-HH	HHD2	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-06-02	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	219
-HH	HHD3	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2021-05-26	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 het (10 copies)	212
-HH	HHD4	mouse	Tg26372 het		none	2020-08-18	RES-03	2020-10-26	2020-10-26	FALSE	FALSE	found dead	within 24h of surgery	Tg26372 het (10 copies)	0
-HH	HHE1	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHE2	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHE3	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHE4	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHE5	mouse	Tg26372 hom		none	2020-08-18	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHF1	mouse	Tg26372 hom		none	2020-08-18	RES-03	2020-10-26	2021-07-21	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	268
-HH	HHF2	mouse	Tg26372 hom		none	2020-08-18	RES-03	2020-10-26	2021-05-03	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	189
-HH	HHF3	mouse	Tg26372 hom		none	2020-08-18	RES-03	2020-10-26	2021-05-17	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	203
-HH	HHF4	mouse	Tg26372 hom		none	2020-08-18	RES-03	2020-10-26	2021-05-12	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	198
-HH	HHG1	mouse	Tg26372 hom		none	2020-08-19	RES-03	2020-10-26	2021-05-03	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	189
-HH	HHG2	mouse	Tg26372 hom		none	2020-08-19	RES-03	2020-10-26	2021-05-19	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	205
-HH	HHG3	mouse	Tg26372 hom		none	2020-08-19	RES-03	2020-10-26	2021-05-19	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	205
-HH	HHG4	mouse	Tg26372 hom		none	2020-08-19	RES-03	2020-10-26	2021-05-11	TRUE	TRUE	prion endpoint	included in all-cause	Tg26372 hom (20 copies)	197
-HH	HHH1	mouse	Tg26372 hom		none	2020-08-19	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHH2	mouse	Tg26372 hom		none	2020-08-19	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHH3	mouse	Tg26372 hom		none	2020-08-19	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHI1	mouse	Tg25109 het		none	2020-09-01	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHI2	mouse	Tg25109 het		none	2020-09-01	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHI3	mouse	Tg25109 het		none	2020-09-01	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHJ2	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-23	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	301
-HH	HHJ3	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-20	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	298
-HH	HHJ4	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-30	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	308
-HH	HHJ5	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-30	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	308
-HH	HHK1	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-09-28	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	337
-HH	HHK2	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-08-09	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	287
-HH	HHK4	mouse	Tg25109 het		none	2020-08-16	RES-03	2020-10-26	2021-09-06	TRUE	TRUE	prion endpoint	included in all-cause	Tg25109 het (3 copies)	315
-HH	HHL1	mouse	Tg25109 het		none	2020-08-13	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHL2	mouse	Tg25109 het		none	2020-08-13	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHL3	mouse	Tg25109 het		none	2020-08-13	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHM1	mouse	Tg25109 het		none	2020-08-08	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHM3	mouse	Tg25109 het		none	2020-08-08	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HH	HHM4	mouse	Tg25109 het		none	2020-08-08	none	2020-10-26	2021-11-30	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated (all genotypes)	400
-HG	HGA1	mouse	ZH3 hom		none	2020-12-18	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
-HG	HGA3	mouse	ZH3 hom		none	2020-12-18	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
-HG	HGA4	mouse	ZH3 hom		none	2020-12-18	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
-HG	HGB1	mouse	ZH3 hom		none	2020-12-15	RES-03	2021-02-04	2022-02-23	FALSE	TRUE	dermatitis	included in all-cause	PrP KO	384
-HG	HGB2	mouse	ZH3 hom		none	2020-12-18	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
-HG	HGB3	mouse	ZH3 hom		none	2020-12-24	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
-HG	HGB6	mouse	ZH3 hom		none	2020-12-28	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
-HG	HGC1	mouse	ZH3 hom		none	2020-12-28	RES-03	2021-02-04	2022-03-11	FALSE	FALSE	timed sac	scheduled euthanasia	PrP KO	400
+source	expt	animal	cohort_disp	genotype	dob	death_date	treatment	dose_ug	treatment_start_dpi	uid	dilution	positive_replicates	total_replicates	mean_peak	overall_call
+00061	HA	HAA1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-25	none	0		HAA1_1e-03	0.001	4	4	1	+
+00061	HA	HAA1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-25	none	0		HAA1_1e-04	1e-4	4	4	0.806713759349574	+
+00061	HA	HAA1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-25	none	0		HAA1_1e-05	1e-5	4	4	0.827667918158589	+
+00061	HA	HAA1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-25	none	0		HAA1_1e-06	1e-6	4	4	0.908468424475168	+
+00061	HA	HAA1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-25	none	0		HAA1_1e-07	1e-7	4	4	0.625913838872573	+
+00061	HA	HAA1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-25	none	0		HAA1_1e-08	1e-8	2	4	0.233204782491939	+
+00061	HA	HAA1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-25	none	0		HAA1_1e-09	1e-9	0	4	0.00130009140987207	-
+00061	HA	HAF1	MM1 sCJD isolate 2	Tg26372 hom; ZH3 hom		2020-06-04	none	0		HAF1_1e-03	0.001	4	4	0.979989231890612	+
+00061	HA	HAF1	MM1 sCJD isolate 2	Tg26372 hom; ZH3 hom		2020-06-04	none	0		HAF1_1e-04	1e-4	4	4	0.750151137161864	+
+00061	HA	HAF1	MM1 sCJD isolate 2	Tg26372 hom; ZH3 hom		2020-06-04	none	0		HAF1_1e-05	1e-5	4	4	0.739669522225147	+
+00061	HA	HAF1	MM1 sCJD isolate 2	Tg26372 hom; ZH3 hom		2020-06-04	none	0		HAF1_1e-06	1e-6	4	4	0.617074086595783	+
+00061	HA	HAF1	MM1 sCJD isolate 2	Tg26372 hom; ZH3 hom		2020-06-04	none	0		HAF1_1e-07	1e-7	2	4	0.358923735214874	+
+00061	HA	HAF1	MM1 sCJD isolate 2	Tg26372 hom; ZH3 hom		2020-06-04	none	0		HAF1_1e-08	1e-8	0	4	0.00458981686087878	-
+00061	HA	HAF1	MM1 sCJD isolate 2	Tg26372 hom; ZH3 hom		2020-06-04	none	0		HAF1_1e-09	1e-9	0	4	0.00517182958266866	-
+00061	HA	HAG3	E200K MV	Tg26372 hom; ZH3 hom		2020-04-24	none	0		HAG3_1e-03	0.001	4	4	1	+
+00061	HA	HAG3	E200K MV	Tg26372 hom; ZH3 hom		2020-04-24	none	0		HAG3_1e-04	1e-4	4	4	1	+
+00061	HA	HAG3	E200K MV	Tg26372 hom; ZH3 hom		2020-04-24	none	0		HAG3_1e-05	1e-5	4	4	0.961860709648268	+
+00061	HA	HAG3	E200K MV	Tg26372 hom; ZH3 hom		2020-04-24	none	0		HAG3_1e-06	1e-6	4	4	1	+
+00061	HA	HAG3	E200K MV	Tg26372 hom; ZH3 hom		2020-04-24	none	0		HAG3_1e-07	1e-7	0	4	0.00981621456544592	-
+00061	HA	HAG3	E200K MV	Tg26372 hom; ZH3 hom		2020-04-24	none	0		HAG3_1e-08	1e-8	0	4	0.00411358597885572	-
+00061	HA	HAG3	E200K MV	Tg26372 hom; ZH3 hom		2020-04-24	none	0		HAG3_1e-09	1e-9	0	4	0.00633292582836298	-
+00062	HA	HAE1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAE1_1e-03	0.001	4	4	0.933403585710734	+
+00062	HA	HAE1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAE1_1e-04	1e-4	4	4	1	+
+00062	HA	HAE1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAE1_1e-05	1e-5	4	4	0.936981338410534	+
+00062	HA	HAE1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAE1_1e-06	1e-6	4	4	0.826541761650907	+
+00062	HA	HAE1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAE1_1e-07	1e-7	4	4	0.798117009624924	+
+00062	HA	HAE1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAE1_1e-08	1e-8	3	4	0.441153234931435	+
+00062	HA	HAE1	MM1 sCJD isolate 1	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAE1_1e-09	1e-9	1	4	0.156564976319245	-
+00062	HA	HAH1	E200K MM	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAH1_1e-03	0.001	4	4	0.891923174710041	+
+00062	HA	HAH1	E200K MM	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAH1_1e-04	1e-4	4	4	0.849532633636592	+
+00062	HA	HAH1	E200K MM	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAH1_1e-05	1e-5	4	4	0.814059977795965	+
+00062	HA	HAH1	E200K MM	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAH1_1e-06	1e-6	4	4	0.699993330943432	+
+00062	HA	HAH1	E200K MM	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAH1_1e-07	1e-7	4	4	0.631262818552531	+
+00062	HA	HAH1	E200K MM	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAH1_1e-08	1e-8	2	4	0.484319404096445	+
+00062	HA	HAH1	E200K MM	Tg26372 hom; ZH3 hom		2020-06-26	none	0		HAH1_1e-09	1e-9	0	4	0.0130379121855246	-

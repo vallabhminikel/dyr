@@ -1,5 +1,5 @@
-cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
-Untreated WT 263K	14	SE, SK	14	87.6	20.39	81.5	0	1
-Het KO 263K	12	SD	11	133.5	3.56	134	0.64	3.69e-5
-WT 263K ASO 1 at 43 dpi	13	SE, SK	13	116.1	43.15	111	0.36	0.0573
-WT 263K ASO 1 at 64 dpi	11	SE, SK	11	100.9	27.69	93	0.14	0.102
+cohort_disp	experiments	n	mean_peak_weight	mean_peak_pct	mean_peak_dpi	delta_dpi
+Untreated WT 263K	SH	8	118.45	130	59.88	0
+WT uninoculated	SH	8	134.32	142.84	148.75	1.48
+Hom KO 263K	SH	8	156.5	125.23	108.5	0.81
+Het KO 263K	SG	6	205.75	143.16	105.83	0.77

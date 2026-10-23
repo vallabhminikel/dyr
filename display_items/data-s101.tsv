@@ -1,22 +1,43 @@
-source	expt	animal	cohort_disp	genotype	dob	death_date	inoculum	treatment	dose_ug	treatment_start_dpi	color	uid	dilution	positive_replicates	total_replicates	mean_peak	overall_call
-00062	HK	HKF1	MM1 sCJD isolate 2	TacKI/TacKI		2020-06-04	RES-05	none	0		#FB9A99	HKF1_1e-03	0.001	4	4	0.945060424081011	+
-00062	HK	HKF1	MM1 sCJD isolate 2	TacKI/TacKI		2020-06-04	RES-05	none	0		#FB9A99	HKF1_1e-04	1e-4	4	4	0.922585143023242	+
-00062	HK	HKF1	MM1 sCJD isolate 2	TacKI/TacKI		2020-06-04	RES-05	none	0		#FB9A99	HKF1_1e-05	1e-5	4	4	1	+
-00062	HK	HKF1	MM1 sCJD isolate 2	TacKI/TacKI		2020-06-04	RES-05	none	0		#FB9A99	HKF1_1e-06	1e-6	4	4	1	+
-00062	HK	HKF1	MM1 sCJD isolate 2	TacKI/TacKI		2020-06-04	RES-05	none	0		#FB9A99	HKF1_1e-07	1e-7	4	4	0.997193391992387	+
-00062	HK	HKF1	MM1 sCJD isolate 2	TacKI/TacKI		2020-06-04	RES-05	none	0		#FB9A99	HKF1_1e-08	1e-8	2	4	0.324176861885707	+
-00062	HK	HKF1	MM1 sCJD isolate 2	TacKI/TacKI		2020-06-04	RES-05	none	0		#FB9A99	HKF1_1e-09	1e-9	1	4	0.259871464676137	-
-00063	HK	HKG4	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG4_1e-03	0.001	4	4	0.8687598640601	+
-00063	HK	HKG4	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG4_1e-04	1e-4	4	4	0.875963784432146	+
-00063	HK	HKG4	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG4_1e-05	1e-5	4	4	0.801330990509459	+
-00063	HK	HKG4	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG4_1e-06	1e-6	4	4	0.854647155994192	+
-00063	HK	HKG4	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG4_1e-07	1e-7	4	4	0.67042623261295	+
-00063	HK	HKG4	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG4_1e-08	1e-8	2	4	0.236894215189074	+
-00063	HK	HKG4	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG4_1e-09	1e-9	2	4	0.256708349992635	+
-00063	HK	HKG5	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG5_1e-03	0.001	4	4	0.987523936785842	+
-00063	HK	HKG5	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG5_1e-04	1e-4	4	4	0.934806980071968	+
-00063	HK	HKG5	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG5_1e-05	1e-5	4	4	0.909506060478525	+
-00063	HK	HKG5	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG5_1e-06	1e-6	4	4	0.818506818038341	+
-00063	HK	HKG5	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG5_1e-07	1e-7	4	4	0.885430388670272	+
-00063	HK	HKG5	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG5_1e-08	1e-8	2	4	0.361341827823489	+
-00063	HK	HKG5	VV2 sCJD isolate 1	TacKI/TacKI		2020-05-26	RES-06	none	0		#33A02C	HKG5_1e-09	1e-9	1	4	0.197042360219692	-
+expt	animal	species	cohort	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+HK	HKA2	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKA3	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKA4	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKA7	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKB9	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKB5	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKB6	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKB1	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKC3	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2020-12-08	FALSE	TRUE	intercurrent/other	included in all-cause	uninoculated	522
+HK	HKC1	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKC2	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKC5	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2020-01-22	FALSE	TRUE	found dead	included in all-cause	uninoculated	201
+HK	HKD2	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKD5	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-02	FALSE	TRUE	found dead	included in all-cause	uninoculated	578
+HK	HKD6	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKD3	mouse	HK-uninoculated-males	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKE2	mouse	HK-RES-03	TacKI/TacKI		none		RES-03	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	MM1 sCJD isolate 1	600
+HK	HKE3	mouse	HK-RES-03	TacKI/TacKI		none		RES-03	2019-07-05	2021-02-09	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 1	585
+HK	HKE5	mouse	HK-RES-03	TacKI/TacKI		none		RES-03	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	MM1 sCJD isolate 1	600
+HK	HKF3	mouse	HK-RES-05	TacKI/TacKI		none		RES-05	2019-07-05	2020-07-30	TRUE	TRUE	prion endpoint	included in all-cause	MM1 sCJD isolate 2	391
+HK	HKF1	mouse	HK-RES-05	TacKI/TacKI		none		RES-05	2019-07-05	2020-06-04	FALSE	TRUE	dermatitis	included in all-cause	MM1 sCJD isolate 2	335
+HK	HKF4	mouse	HK-RES-05	TacKI/TacKI		none		RES-05	2019-07-05	2020-05-11	FALSE	TRUE	dermatitis	included in all-cause	MM1 sCJD isolate 2	311
+HK	HKF5	mouse	HK-RES-05	TacKI/TacKI		none		RES-05	2019-07-05	2020-06-30	FALSE	TRUE	dermatitis	included in all-cause	MM1 sCJD isolate 2	361
+HK	HKG4	mouse	HK-RES-06	TacKI/TacKI		none		RES-06	2019-07-05	2020-05-26	FALSE	TRUE	found dead	included in all-cause	VV2 sCJD isolate 1	326
+HK	HKG5	mouse	HK-RES-06	TacKI/TacKI		none		RES-06	2019-07-05	2020-05-26	FALSE	TRUE	found dead	included in all-cause	VV2 sCJD isolate 1	326
+HK	HKG1	mouse	HK-RES-06	TacKI/TacKI		none		RES-06	2019-07-05	2019-07-05	FALSE	FALSE	found dead	within 24h of surgeries	VV2 sCJD isolate 1	0
+HK	HKG3	mouse	HK-RES-06	TacKI/TacKI		none		RES-06	2019-07-05	2019-07-05	FALSE	FALSE	found dead	within 24h of surgeries	VV2 sCJD isolate 1	0
+HK	HKH1	mouse	HK-RES-04	TacKI/TacKI		none		RES-04	2019-07-05	2019-07-05	FALSE	FALSE	found dead	within 24h of surgeries	VV2 sCJD isolate 2	0
+HK	HKH3	mouse	HK-RES-04	TacKI/TacKI		none		RES-04	2019-07-05	2021-02-15	FALSE	TRUE	dermatitis	included in all-cause	VV2 sCJD isolate 2	591
+HK	HKH5	mouse	HK-RES-04	TacKI/TacKI		none		RES-04	2019-07-05	2021-01-04	FALSE	TRUE	dermatitis	included in all-cause	VV2 sCJD isolate 2	549
+HK	HKI1	mouse	HK-RES-07	TacKI/TacKI		none		RES-07	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	E200K MM	600
+HK	HKI3	mouse	HK-RES-07	TacKI/TacKI		none		RES-07	2019-07-05	2020-11-25	FALSE	TRUE	intercurrent/other	included in all-cause	E200K MM	509
+HK	HKI7	mouse	HK-RES-07	TacKI/TacKI		none		RES-07	2019-07-05	2021-02-09	TRUE	TRUE	prion endpoint	included in all-cause	E200K MM	585
+HK	HKI4	mouse	HK-RES-07	TacKI/TacKI		none		RES-07	2019-07-05	2020-08-05	FALSE	TRUE	found dead	included in all-cause	E200K MM	397
+HK	HKJ1	mouse	HK-RES-09	TacKI/TacKI		none		RES-09	2019-07-05	2020-09-28	FALSE	TRUE	found dead	included in all-cause	E200K MV	451
+HK	HKJ3	mouse	HK-RES-09	TacKI/TacKI		none		RES-09	2019-07-05	2020-09-02	TRUE	TRUE	prion endpoint	included in all-cause	E200K MV	425
+HK	HKJ5	mouse	HK-RES-09	TacKI/TacKI		none		RES-09	2019-07-05	2020-09-30	TRUE	TRUE	prion endpoint	included in all-cause	E200K MV	453
+HK	HKJ7	mouse	HK-RES-09	TacKI/TacKI		none		RES-09	2019-07-05	2021-01-12	TRUE	TRUE	prion endpoint	included in all-cause	E200K MV	557
+HK	HKF7	mouse	HK-uninoculated-females	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKG6	mouse	HK-uninoculated-females	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-09	TRUE	TRUE	prion endpoint	included in all-cause	uninoculated	585
+HK	HKI5	mouse	HK-uninoculated-females	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600
+HK	HKJ11	mouse	HK-uninoculated-females	TacKI/TacKI		none		uninoculated	2019-07-05	2021-02-24	FALSE	FALSE	end of study	scheduled euthanasia	uninoculated	600

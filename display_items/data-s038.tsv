@@ -1,3 +1,51 @@
-group	N	observed	expected	chisq	df	p_value
-ASO 1	24	24	29.249373350744026	4.758570760205152	1	0.029152746033255905
-none	14	14	8.750626649255976	4.758570760205152	1	0.029152746033255905
+expt	animal	species	genotype	txdpi	treatment	dob	inoculum	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
+SE	107822	hamster	WT		none	2022-10-28	263K	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	83
+SE	107823	hamster	WT	64	ASO 1	2022-10-28	263K	2022-12-06	2023-03-06	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	90
+SE	107824	hamster	WT	43	ASO 1	2022-10-28	263K	2022-12-06	2023-03-29	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	113
+SE	107825	hamster	WT		none	2022-10-28	263K	2022-12-06	2023-03-02	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	86
+SE	107826	hamster	WT		none	2022-10-28	263K	2022-12-06	2023-02-06	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	62
+SE	107827	hamster	WT	43	ASO 1	2022-10-28	263K	2022-12-06	2023-05-30	FALSE	TRUE	found dead	included in all-cause	WT 263K ASO 1 at 43 dpi	175
+SE	107828	hamster	WT		none	2022-10-28	263K	2022-12-06	2023-04-19	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	134
+SE	107829	hamster	WT	64	ASO 1	2022-10-28	263K	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	83
+SE	107830	hamster	WT	43	ASO 1	2022-10-28	263K	2022-12-06	2023-06-02	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	178
+SE	107831	hamster	WT		none	2022-10-28	263K	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	83
+SE	107832	hamster	WT	64	ASO 1	2022-10-28	263K	2022-12-06	2023-03-02	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	86
+SE	107833	hamster	WT	43	ASO 1	2022-10-28	263K	2022-12-06	2023-04-15	FALSE	TRUE	found dead	included in all-cause	WT 263K ASO 1 at 43 dpi	130
+SE	107834	hamster	WT		none	2022-10-28	263K	2022-12-06	2023-04-02	FALSE	TRUE	found dead	included in all-cause	Untreated WT 263K	117
+SE	107835	hamster	WT	64	ASO 1	2022-10-28	263K	2022-12-06	2023-03-22	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	106
+SE	107836	hamster	WT	43	ASO 1	2022-10-28	263K	2022-12-06	2023-03-27	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	111
+SE	107837	hamster	WT		none	2022-10-28	263K	2022-12-06	2023-02-22	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	78
+SE	107838	hamster	WT	64	ASO 1	2022-10-28	263K	2022-12-06	2023-03-06	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	90
+SE	107839	hamster	WT	43	ASO 1	2022-10-28	263K	2022-12-06	2023-05-31	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	176
+SE	107840	hamster	WT		none	2022-10-28	263K	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	83
+SE	107841	hamster	WT	64	ASO 1	2022-10-28	263K	2022-12-06	2023-06-02	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	178
+SE	107842	hamster	WT	43	ASO 1	2022-10-28	263K	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	83
+SE	107843	hamster	WT		none	2022-10-28	263K	2022-12-06	2023-02-22	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	78
+SE	107844	hamster	WT	64	ASO 1	2022-10-28	263K	2022-12-06	2023-04-03	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	118
+SE	107845	hamster	WT	43	ASO 1	2022-10-28	263K	2022-12-06	2023-02-27	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	83
+SD	117289	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	134
+SD	117290	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	134
+SD	117291	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-11-06	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	139
+SD	117293	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-11-06	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	139
+SD	117296	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	134
+SD	117299	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	134
+SD	117302	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-06-22	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	2
+SD	117305	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-10-30	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	132
+SD	117306	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-10-30	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	132
+SD	117307	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-10-30	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	132
+SD	117308	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-10-30	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	132
+SD	117309	hamster	HE		none	2023-05-25	263K	2023-06-20	2023-10-24	TRUE	TRUE	prion endpoint	included in all-cause	Het KO 263K	126
+SK	120863	hamster	WT	64	ASO 1		263K	2023-09-12	2023-12-14	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	93
+SK	120864	hamster	WT	43	ASO 1		263K	2023-09-12	2023-11-24	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	73
+SK	120866	hamster	WT		none		263K	2023-09-12	2023-11-24	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	73
+SK	120868	hamster	WT	43	ASO 1		263K	2023-09-12	2023-11-27	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	76
+SK	120870	hamster	WT	43	ASO 1		263K	2023-09-12	2024-02-21	FALSE	TRUE	found dead	included in all-cause	WT 263K ASO 1 at 43 dpi	162
+SK	120871	hamster	WT	64	ASO 1		263K	2023-09-12	2023-12-14	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	93
+SK	120873	hamster	WT		none		263K	2023-09-12	2023-11-24	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	73
+SK	120874	hamster	WT	64	ASO 1		263K	2023-09-12	2023-12-14	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	93
+SK	120876	hamster	WT		none		263K	2023-09-12	2023-12-01	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	80
+SK	120877	hamster	WT	43	ASO 1		263K	2023-09-12	2023-11-24	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	73
+SK	120879	hamster	WT		none		263K	2023-09-12	2024-01-08	FALSE	TRUE	found dead	included in all-cause	Untreated WT 263K	118
+SK	120880	hamster	WT	64	ASO 1		263K	2023-09-12	2023-12-01	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 64 dpi	80
+SK	120881	hamster	WT	43	ASO 1		263K	2023-09-12	2023-11-27	TRUE	TRUE	prion endpoint	included in all-cause	WT 263K ASO 1 at 43 dpi	76
+SK	120883	hamster	WT		none		263K	2023-09-12	2023-11-30	TRUE	TRUE	prion endpoint	included in all-cause	Untreated WT 263K	79

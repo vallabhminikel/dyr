@@ -1,0 +1,42 @@
+experiment	control_group	time_axis	n	events	species	genotype	prion_strain	treatment	dose_ug	treatment_start_dpi	group	figure_panel	event_rate	median_survival	p_vs_control
+HH	Tg26372 hom (20 copies)	dpi	8	8	mouse	Tg26372 hom	RES-03	none	0		Tg26372 hom (20 copies)	Figure 4C	8/8	200.5	—
+HG	Tg26372 hom (20 copies)	dpi	8	1	mouse	ZH3 hom	RES-03	none	0		PrP KO	Figure 4C	1/8	—	4.6e-05
+HH	Tg26372 hom (20 copies)	dpi	7	7	mouse	Tg25109 het	RES-03	none	0		Tg25109 het (3 copies)	Figure 4C	7/7	308	0.00012
+HH	Tg26372 hom (20 copies)	dpi	8	7	mouse	Tg26372 het	RES-03	none	0		Tg26372 het (10 copies)	Figure 4C	7/8	219	0.108
+HH	Tg26372 hom (20 copies)	dpi	26	2	mouse	Tg25109 het; Tg26372 het; Tg26372 hom	none	none	0		uninoculated (all genotypes)	Figure 4C	2/26	—	3.62e-09
+HJ	Ki817 / Ki817 VV2 sCJD	dpi	8	8	mouse	TacKI/TacKI	RES-05	none	0		Ki817 / Ki817 VV2 sCJD	Figure 4F	8/8	375.5	—
+HJ	Ki817 / Ki817 VV2 sCJD	dpi	8	8	mouse	TacKI/ZH3	RES-05	none	0		Ki817 / KO VV2 sCJD	Figure 4F	8/8	516.5	0.0223
+HJ	Ki817 / Ki817 VV2 sCJD	dpi	15	2	mouse	TacKI/TacKI; TacKI/ZH3	none	none	0		uninoculated (all genotypes)	Figure 4F	2/15	—	1.43e-06
+HU2	uninoculated	dpi	6	0	mouse	Ki817 hom	none	none			uninoculated	Figure S5E	0/6	—	—
+HU2	uninoculated	dpi	24	7	mouse	Ki817 hom	RES-09	none			E200K MV	Figure S5E	7/24	—	0.0933
+HU2	uninoculated	dpi	30	21	mouse	Ki817 hom	RES-05	none			sCJD VV2 isolate 1	Figure S5E	21/30	421	0.000288
+RE	Saline	dpi	7	7	rat	WT	RRML	saline	0		Saline	Figure S2G	7/7	190	—
+RE	Saline	dpi	7	7	rat	WT	RRML	ASO 6	1000	119	ASO 6 1000ug	Figure S2G	7/7	304	0.0374
+RG	WT	dpi	9	9	rat	WT	RRML	none	0		WT	Figure 1F	9/9	213	—
+RG	WT	dpi	9	8	rat	HET	RRML	none	0		Het KO	Figure 1F	8/9	413	0.00019
+RG	WT	dpi	11	2	rat	HOM	RRML	none	0		Hom KO	Figure 1F	2/11	—	2.16e-06
+RP	Vehicle	dpi	16	16	rat	WT	RRML	vehicle	0	127	Vehicle	Figure 1H	16/16	188.5	—
+RP	Vehicle	dpi	16	15	rat	WT	RRML	ASO 6	1000	127	ASO 6 1000ug	Figure 1H	15/16	269	9.03e-09
+RP	Vehicle	dpi	6	6	rat	WT	RRML	ASO 6	300	127	ASO 6 300ug	Figure 1H	6/6	230.5	0.000766
+RP	Vehicle	dpi	7	7	rat	WT	RRML	ASO 6	600	127	ASO 6 600ug	Figure 1H	7/7	255	2.17e-05
+RR	NBH	dpi	7	0	rat	WT	NBH	none	0		NBH	Figure 1A	0/7	—	—
+RR	NBH	dpi	8	8	rat	WT	RRML	none	0		RRML	Figure 1A	8/8	182	0.000102
+SE; SK	Untreated WT 263K	dpi	14	14	hamster	WT	263K	none	0		Untreated WT 263K	Figure 2C	14/14	81.5	—
+SD	Untreated WT 263K	dpi	12	12	hamster	HET	263K	none	0		Het KO 263K	Figure 2C	12/12	133	0.00022
+SE; SK	Untreated WT 263K	dpi	13	13	hamster	WT	263K	ASO 1	300	43	WT 263K ASO 1 at 43 dpi	Figure 2C	13/13	111	0.0573
+SE; SK	Untreated WT 263K	dpi	11	11	hamster	WT	263K	ASO 1	300	64	WT 263K ASO 1 at 64 dpi	Figure 2C	11/11	93	0.102
+SH	Untreated WT 263K	dpi	8	7	hamster	WT	263K	none	0		Untreated WT 263K	Figure S3B	7/8	80	—
+SG	Untreated WT 263K	dpi	6	6	hamster	HET	263K	none	0		Het KO 263K	Figure S3B	6/6	128.5	0.000371
+SH	Untreated WT 263K	dpi	8	5	hamster	HOM	263K	none	0		Hom KO 263K	Figure S3B	5/8	144.5	5.39e-05
+SH	Untreated WT 263K	dpi	8	3	hamster	WT	none	none	0		WT uninoculated	Figure S3B	3/8	—	5.39e-05
+VOAG	F	age (days)	30	30	mouse	Tg(Vole)	none	none			F	Figure 3D	30/30	207	—
+VOAG	F	age (days)	38	37	mouse	Tg(Vole)	none	none			M	Figure 3D	37/38	232	0.000821
+VOE1	PBS	age (days)	12	12	mouse	Tg(Vole)	none	PBS			PBS	Figure 3F	12/12	214	—
+VOE1	PBS	age (days)	12	12	mouse	Tg(Vole)	none	ASO 6			ASO 6 300 µg	Figure 3F	12/12	273.5	0.000173
+VOE2	PBS	age (days)	11	11	mouse	Tg(Vole)	none	PBS			PBS	Figure 3G	11/11	221	—
+VOE2	PBS	age (days)	12	11	mouse	Tg(Vole)	none	ASO 6			ASO 6 100 µg	Figure 3G	11/12	271	0.0496
+VOE2	PBS	age (days)	12	12	mouse	Tg(Vole)	none	ASO 6			ASO 6 300 µg	Figure 3G	12/12	272	0.0112
+VOE2	PBS	age (days)	12	11	mouse	Tg(Vole)	none	ASO 6			ASO 6 500 µg	Figure 3G	11/12	314.5	2.26e-05
+VOE2	PBS	age (days)	12	2	mouse	PrP KO	none	none			PrP KO	Figure 3G	2/12	—	1.72e-05
+VONH	PrP KO	age (days)	12	2	mouse	PrP KO	none	none			PrP KO	Figure 3A	2/12	—	—
+VONH	PrP KO	age (days)	12	12	mouse	Tg(Vole)	none	none			Tg(Vole)	Figure 3A	12/12	199.5	0.000156

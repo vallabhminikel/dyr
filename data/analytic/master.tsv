@@ -111,7 +111,7 @@ animal	sex	cage	dob	inoculation_date	death_date	prion_endpoint	acm	endpoint_comm
 117299	F	117299	2023-05-25	2023-06-20	2023-11-01	TRUE	TRUE	prion endpoint	included in all-cause	SD
 117300	F	117300	2023-05-25	2023-06-20	2023-10-18	FALSE	FALSE	timed sac	scheduled euthanasia	SD
 117301	F	117301	2023-05-25	2023-06-20	2023-08-04	FALSE	FALSE	timed sac	scheduled euthanasia	SD
-117302	F	117302	2023-05-25	2023-06-20	2023-06-22	FALSE	FALSE	timed sac	scheduled euthanasia	SD
+117302	F	117302	2023-05-25	2023-06-20	2023-06-22	TRUE	TRUE	prion endpoint	included in all-cause	SD
 117303	F	117303	2023-05-25	2023-06-20	2023-07-06	FALSE	FALSE	timed sac	scheduled euthanasia	SD
 117304	F	117304	2023-05-25	2023-06-20	2023-12-07	FALSE	FALSE	timed sac	scheduled euthanasia	SD
 117305	F	117305	2023-05-25	2023-06-20	2023-10-30	TRUE	TRUE	prion endpoint	included in all-cause	SD

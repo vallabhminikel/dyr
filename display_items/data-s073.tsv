@@ -1,25 +1,4 @@
-expt	sex	animal	txdpi	treatment	dob	inoculation_date	death_date	prion_endpoint	acm	endpoint_comments	acm_comments	cohort_disp	dpi
-VOE1	F	411		PBS	2022-05-27		2022-12-27	TRUE	TRUE	prion endpoint	counted in all-cause	PBS	214
-VOE1	F	412		PBS	2022-05-27		2022-10-19	TRUE	TRUE	prion endpoint	counted in all-cause	PBS	145
-VOE1	F	413		PBS	2022-05-27		2022-12-27	TRUE	TRUE	prion endpoint	counted in all-cause	PBS	214
-VOE1	M	414		PBS	2022-05-27		2022-11-01	FALSE	TRUE	found dead	counted in all-cause	PBS	158
-VOE1	M	416		PBS	2022-05-27		2023-01-08	FALSE	TRUE	found dead	counted in all-cause	PBS	226
-VOE1	M	436		PBS	2022-05-28		2023-02-06	FALSE	TRUE	found dead	counted in all-cause	PBS	254
-VOE1	F	421		PBS	2022-05-28		2022-12-27	FALSE	TRUE	found dead	counted in all-cause	PBS	213
-VOE1	F	422		PBS	2022-05-28		2022-11-10	TRUE	TRUE	prion endpoint	counted in all-cause	PBS	166
-VOE1	F	423		PBS	2022-05-28		2022-12-30	TRUE	TRUE	prion endpoint	counted in all-cause	PBS	216
-VOE1	M	419		PBS	2022-05-31		2022-11-01	FALSE	TRUE	found dead	counted in all-cause	PBS	154
-VOE1	M	420		PBS	2022-05-31		2022-12-31	TRUE	TRUE	prion endpoint	counted in all-cause	PBS	214
-VOE1	M	443		PBS	2022-05-26		2022-12-30	TRUE	TRUE	prion endpoint	counted in all-cause	PBS	218
-VOE1	F	429		ASO 6	2022-05-26		2023-03-02	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	280
-VOE1	F	439		ASO 6	2022-05-26		2023-03-29	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	307
-VOE1	F	442		ASO 6	2022-05-26		2022-10-12	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	139
-VOE1	M	426		ASO 6	2022-05-28		2023-03-14	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	290
-VOE1	M	427		ASO 6	2022-05-28		2023-02-11	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	259
-VOE1	M	428		ASO 6	2022-05-28		2023-03-02	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	278
-VOE1	F	452		ASO 6	2022-05-31		2022-11-21	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	174
-VOE1	F	457		ASO 6	2022-05-31		2023-02-11	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	256
-VOE1	F	453		ASO 6	2022-05-31		2023-03-16	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	289
-VOE1	M	448		ASO 6	2022-05-31		2023-02-24	FALSE	TRUE	found dead	counted in all-cause	ASO 6 300 µg	269
-VOE1	M	454		ASO 6	2022-05-31		2023-05-12	FALSE	TRUE	found dead	counted in all-cause	ASO 6 300 µg	346
-VOE1	M	456		ASO 6	2022-05-31		2023-01-27	TRUE	TRUE	prion endpoint	counted in all-cause	ASO 6 300 µg	241
+cohort_disp	mean	mean_fold	se	l95	u95
+ASO 6 300 µg	0.33856009477763843	2.0867656399745926	0.010187588979235702	0.31859242037833646	0.3585277691769404
+ASO 6 500 µg	0.27928388786636227	1.7214078977051823	0.00908058514710868	0.26148594097802924	0.2970818347546953
+None	1	6.163649148743154	0.09813511694640432	0.8076551707850476	1.1923448292149526

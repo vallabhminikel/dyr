@@ -1,3 +1,4 @@
-cohort_disp	N	experiments	events	mean_acm	sd_acm	median	delta	p_vs_ref
-PrP KO	12	VONH	2	84	15.56	>262		1
-Tg(Vole)	12	VONH	12	191.9	41.32	199.5		1.56e-4
+Species	Daily CV	Day 25
+Hamster	3.4%	38.0% (≤ 64.9%)
+Mouse	1.3%	2.6% (≤ 10.1%)
+Rat	1.0%	0.3% (≤ 5.5%)
