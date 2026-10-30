@@ -238,7 +238,7 @@ plot_wts = function(weights_indiv, anno_dpi=NULL, xlims,ylims=c(-.22, 0.6),leg=T
 
 
 
-plot_weights_max<- function(rel_weights, xlims=c(0, 500),ylims=c(-1,0.5)){
+plot_weights_max<- function(rel_weights, xlims=c(0, 500),ylims=c(-1,0.5), euth_level=-0.2, ylab='weight to max', legend_pos='bottomright'){
   
   xlims = xlims
   ylims = ylims
@@ -254,16 +254,16 @@ plot_weights_max<- function(rel_weights, xlims=c(0, 500),ylims=c(-1,0.5)){
   axis(side=2, at=seq(-2,15,.2), labels=percent(seq(-2,15,.2), signed=T), lwd=0, las=2, line=-0.5)
   axis(side=2, at=seq(-2,15,.1), labels=NA, las=2, tck=-0.025)
   abline(h=0)
-  abline(h=-.2, col='red', lty=3)
+  abline(h=euth_level, col='red', lty=3)
   text(
     x = xlims[2]-10,     
-    y = -0.15,
+    y = euth_level+0.05,
     labels = "endpoint",
     col = "red",
     adj = c(1, 1),
     cex = 0.8
   )
-  mtext(side=2, line=2.75, text='weight to max',cex=0.8)
+  mtext(side=2, line=2.75, text=ylab,cex=0.8)
   for (this_cohort in unique(rel_weights$cohort_disp)) {
     subs = rel_weights %>% filter(cohort_disp==this_cohort) 
     points(subs$wtdpi, subs$mean, type='l', lwd=2, col=subs$color)
@@ -277,7 +277,7 @@ plot_weights_max<- function(rel_weights, xlims=c(0, 500),ylims=c(-1,0.5)){
   legend <- legend[order(legend$cohort_disp), ]  
   
   
-  legend(x='bottomright', y=1, bty='n', cex=.8, lwd=2, legend=legend$cohort_disp,
+  legend(x=legend_pos, y=1, bty='n', cex=.8, lwd=2, legend=legend$cohort_disp,
          col=legend$color,
          text.col=legend$color)
   par(xpd=F)
@@ -797,7 +797,7 @@ ana_168<- smry_168%>%
 
 
 
-plot_csELISA <- function(df, species,cex_a=0.8) {
+plot_csELISA <- function(df, species,cex_a=0.8, ref_lines=FALSE, geno_labels=c("WT","HET","HOM")) {
   
   
   
@@ -817,7 +817,7 @@ plot_csELISA <- function(df, species,cex_a=0.8) {
   
   n_by_group <- df %>% count(genotype, name = "n")
   x_label <- setNames(
-    paste0(levels(factor(df$genotype, levels = c("WT", "HET", "HOM"))),
+    paste0(geno_labels,
            "\n(n=", n_by_group$n[match(c("WT","HET","HOM"), n_by_group$genotype)], ")"),
     c("WT","HET","HOM")
   )
@@ -836,7 +836,7 @@ plot_csELISA <- function(df, species,cex_a=0.8) {
   )
   
   
-  axis(1, at = 1:3, labels = x_label[c("WT","HET","HOM")], line = 0, col = NA,  tick = FALSE,cex.axis=cex_a )
+  for (i in 1:3) axis(1, at = i, labels = x_label[c("WT","HET","HOM")][i], line = 0, col = NA,  tick = FALSE,cex.axis=cex_a )
   axis(1, at=0:4, labels=NA, tck=FALSE)
   
   axis(side=2, at=0:6/4, labels=percent(0:6/4), las=2)
@@ -880,8 +880,10 @@ plot_csELISA <- function(df, species,cex_a=0.8) {
   par(xpd=F)
   
   
-  abline(h = 100, lty = 2, col = "gray50")
-  abline(h = 50,  lty = 2, col = "gray80")
+  if (ref_lines) {
+    abline(h = 1,   lty = 2, col = "gray50")
+    abline(h = 0.5, lty = 2, col = "gray80")
+  }
   
   abline(h = LLQ, lty = 2, col = "red")
   
@@ -897,7 +899,7 @@ plot_csELISA <- function(df, species,cex_a=0.8) {
 rat_elisa <- function(){ 
   par(mar = c(4,5,2,0))
   
-  plot_csELISA(ana_168, "Rat",cex_a=1)
+  plot_csELISA(ana_168, "Rat",cex_a=1, ref_lines=TRUE, geno_labels=c("WT","Het KO","Hom KO"))
   
   mtext(side=2, line=3.2, text='residual PrP (%)',cex=0.8)
   
@@ -1825,9 +1827,10 @@ RP_weight<-function(){
 hamster_elisa <- function(){ 
   par(mar = c(3,4,2,2))
   
-  leg<- plot_csELISA(ana_132, "Hamster")
+  geno_labels = c("WT","Het KO","Hom KO")
+  leg<- plot_csELISA(ana_132, "Hamster", cex_a=0.65, geno_labels=geno_labels)
   
-  legend(x='topright', y=1, bty='n', cex=.5, lwd=2, legend=leg$genotype,
+  legend(x='topright', y=1, bty='n', cex=.5, lwd=2, legend=geno_labels[match(leg$genotype, c("WT","HET","HOM"))],
          col=leg$col,
          text.col=leg$col)
   
@@ -2149,22 +2152,31 @@ dat_ex<- weight_plot %>%
   select(cohort, animal, wtdpi, color, weight, peak, cohort_disp,offpeak) %>%
   ungroup()
 
+# Figure S3C normalizes to each animal's weight at ~50 dpi (the weighing nearest
+# 50 dpi, within 5 days; animals with none are dropped) rather than to peak weight.
+dat_ex <- dat_ex %>%
+  group_by(animal) %>%
+  mutate(baseline50_dpi = wtdpi[which.min(abs(wtdpi - 50))],
+         baseline50_dpi = ifelse(abs(baseline50_dpi - 50) <= 5, baseline50_dpi, NA_integer_),
+         baseline50 = weight[match(baseline50_dpi[1], wtdpi)],
+         rel50 = (weight - baseline50) / baseline50) %>%
+  ungroup()
 
-
-write_supp_table(dat_ex%>%select(-color,-cohort) , 'SC/SD/SE/SK weights individual')
+write_supp_table(dat_ex%>%select(-color,-cohort,-baseline50_dpi) , 'SC/SD/SE/SK weights individual')
 
 
 
 
 
 rel_weights_smry_SC_SD_SE_SK <- dat_ex %>%
+  filter(!is.na(rel50), wtdpi >= baseline50_dpi) %>%
   group_by(wtdpi, color,cohort_disp) %>%
   summarize(.groups='keep',
-            mean = mean(offpeak),
-            sd = sd(offpeak),
+            mean = mean(rel50),
+            sd = sd(rel50),
             n = n(),
-            l95 = mean(offpeak) - 1.96*sd(offpeak)/sqrt(n()),
-            u95 = mean(offpeak) + 1.96*sd(offpeak)/sqrt(n())) %>% ungroup()%>%
+            l95 = mean(rel50) - 1.96*sd(rel50)/sqrt(n()),
+            u95 = mean(rel50) + 1.96*sd(rel50)/sqrt(n())) %>% ungroup()%>%
   filter(n > 1) %>%   select(wtdpi,cohort_disp,n,mean,l95,u95,color)
 
 
@@ -2193,7 +2205,8 @@ SC_SD_SE_SK_weight<-function(){
   
   par(mar=c(4,4,2,2))
   
-  plot_weights_max(rel_weights_smry_SC_SD_SE_SK,xlims=c(0, 200),ylims = c(-0.75,0.2))
+  plot_weights_max(rel_weights_smry_SC_SD_SE_SK,xlims=c(50, 200),ylims = c(-0.4,0.8), euth_level=-0.15, ylab='weight vs. 50 dpi', legend_pos='topleft')
+  axis(side=1, at=50, lwd=0, labels=50, line=-0.5)
   
 }
 
@@ -2628,9 +2641,9 @@ plot_rt_quic <-  rt_quic_sz %>%
            dpi == "73" &treatment=='ASO 1'~  '73dpi ASO 1',
          ),
          color = case_when(
-           group == "43dpi none" ~ "#adc178",
-           group == "73dpi none" ~ "#588157",
-           group == "73dpi ASO 1" ~ "#283618",
+           group == "43dpi none" ~ "#0001CD",
+           group == "73dpi none" ~ "#fb8500",
+           group == "73dpi ASO 1" ~ "#CFB53B",
            TRUE ~ color))%>%
   filter(!is.na(group))
 
@@ -2822,9 +2835,9 @@ nfl_sz = ellas %>%
       sample_dpi == 73 & treatment == 'ASO 1' ~ '73dpi ASO 1',
     ),
     color = case_when(
-      group == '43dpi none'  ~ '#adc178',
-      group == '73dpi none'  ~ '#588157',
-      group == '73dpi ASO 1' ~ '#283618',
+      group == '43dpi none'  ~ '#0001CD',
+      group == '73dpi none'  ~ '#fb8500',
+      group == '73dpi ASO 1' ~ '#CFB53B',
     )
   ) %>%
   filter(!is.na(group))
@@ -3302,7 +3315,7 @@ VONH_NFL<- function(){
   
   
   legend(90,50000,
-         legend = c( "Tg(Vole)","RML", "uninoculated") ,
+         legend = c( "Tg(Vole)", "WT RML", "WT uninoculated") ,
          col    = c( "#f18701","#FF2017","#5f6289"),
          text.col = c( "#f18701","#FF2017","#5f6289"),
          pch    = 20,
@@ -4192,7 +4205,7 @@ VOE2_weight<-function(){
   legend <- unique(dat_ex[c("cohort_disp","color")])
   legend <- legend[order(legend$cohort_disp), ]  
   
-  legend(x='topleft', y=1, bty='n', cex=.7, lwd=2, legend=legend$cohort_disp,
+  legend(x=100, y=0.56, xpd=NA, ncol=2, bty='n', cex=.7, lwd=2, legend=legend$cohort_disp,
          col=legend$color,
          text.col=legend$color)
   
@@ -4774,7 +4787,7 @@ HG_HH_weight<- function(){
     filter(n > 1) 
   
   xlims = c(120, 400)
-  ylims = c(-0.2,0.24)
+  ylims = c(-0.25,0.24)
   
   plot(NA, NA, xlim=xlims, ylim=ylims, axes=F, ann=F, xaxs='i', yaxs='i')
   axis(side=1, at=seq(0,1000,50), labels=NA, tck=-0.05)
@@ -5791,10 +5804,12 @@ if ('figure-4'=='figure-4') {
   mtext("B", side=3, cex=1.5, adj = 0, line = 0)
 
   HG_HH_survival()
-  mtext(side=3, line=0.5, cex=0.7, text='Tg PRNP 129M genetic dose-response')
+  mtext(side=3, line=0.75, cex=0.7, text='Tg PRNP 129M genetic dose-response')
+  mtext(side=3, line=-0.25, cex=0.6, text='sCJD MM1 isolate 1')
   mtext("C", side=3, cex=1.5, adj = 0, line = 0)
   HG_HH_weight()
-  mtext(side=3, line=0.5, cex=0.7, text='Tg PRNP 129M genetic dose-response')
+  mtext(side=3, line=0.75, cex=0.7, text='Tg PRNP 129M genetic dose-response')
+  mtext(side=3, line=-0.25, cex=0.6, text='sCJD MM1 isolate 1')
   mtext("D", side=3, cex=1.5, adj = 0, line = 0)
 
   HK_survival()
@@ -5803,7 +5818,8 @@ if ('figure-4'=='figure-4') {
   mtext("E", side=3, cex=1.5, adj = 0, line = 0)
 
   HJ_survival()
-  mtext(side=3, line=0.5, cex=0.7, text='Ki817 PRNP 129V genetic dose-response')
+  mtext(side=3, line=0.75, cex=0.7, text='Ki817 PRNP 129V genetic dose-response')
+  mtext(side=3, line=-0.25, cex=0.6, text='sCJD VV2 isolate 1')
   mtext("F", side=3, cex=1.5, adj = 0, line = 0)
   
   HA_HB_legend()
