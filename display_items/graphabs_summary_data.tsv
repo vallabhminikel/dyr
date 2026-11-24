@@ -1,0 +1,15 @@
+figure_panel	species	inoculum	condition	control_group	control_n	control_median_survival	test_n	test_median_survival	pct_survival_increase	pct_increase_unrounded_medians	p_vs_control	median_units
+Figure 1F	rat	RRML	Het KO	WT	9	213	9	413	94	93.9	0.00019	dpi
+Figure 1H	rat	RRML	ASO 6, 300 ug, single dose at 127 dpi	Vehicle	16	188.5	6	230.5	22	22.3	0.000766	dpi
+Figure 1H	rat	RRML	ASO 6, 600 ug, single dose at 127 dpi	Vehicle	16	188.5	7	255	36	35.3	2.17e-05	dpi
+Figure 1H	rat	RRML	ASO 6, 1000 ug, single dose at 127 dpi	Vehicle	16	188.5	16	269	43	42.7	9.03e-09	dpi
+Figure 2C	hamster	263K	Het KO	Untreated WT 263K	14	81.5	12	133	62	63.2	0.00022	dpi
+Figure 2C	hamster	263K	ASO 1, 300 ug, single dose at 43 dpi	Untreated WT 263K	14	81.5	13	111	35	36.2	0.0573	dpi
+Figure 2C	hamster	263K	ASO 1, 300 ug, single dose at 64 dpi	Untreated WT 263K	14	81.5	11	93	13	14.1	0.102	dpi
+Figure 3F	Tg(Vole) mouse	none (spontaneous disease)	ASO 6, 300 ug, 2 doses at 60 and 150 days of age	PBS	12	214	12	273.5	28	27.8	0.000173	age (days)
+Figure 3G	Tg(Vole) mouse	none (spontaneous disease)	ASO 6, 100 ug, 2 doses at 30 and 120 days of age	PBS	11	221	12	271	23	22.6	0.0496	age (days)
+Figure 3G	Tg(Vole) mouse	none (spontaneous disease)	ASO 6, 300 ug, 2 doses at 30 and 120 days of age	PBS	11	221	12	272	23	23.1	0.0112	age (days)
+Figure 3G	Tg(Vole) mouse	none (spontaneous disease)	ASO 6, 500 ug, 2 doses at 30 and 120 days of age	PBS	11	221	12	314.5	42	42.3	2.26e-05	age (days)
+Figure 4C	humanized mouse (Tg26372, PRNP 129M)	sCJD MM1 (RES-03)	Hemizygous transgene (half PrP dose; not a KO allele)	Tg26372 hom (20 copies)	8	200.5	8	219	10	9.2	0.108	dpi
+Figure 4C	humanized mouse (Tg25109, PRNP 129M)	sCJD MM1 (RES-03)	Hemizygous transgene, different line (Tg25109, 3 copies; not a KO allele)	Tg26372 hom (20 copies)	8	200.5	7	308	54	53.6	0.00012	dpi
+Figure 4F	humanized mouse (Ki817, PRNP 129V)	sCJD VV2 (RES-05)	Het KO (Ki817/KO)	Ki817 / Ki817 VV2 sCJD	8	375.5	8	516.5	37	37.5	0.0223	dpi
